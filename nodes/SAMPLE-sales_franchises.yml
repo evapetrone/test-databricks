@@ -1,0 +1,20 @@
+fileVersion: 1
+id: d6708a36-3fb6-4923-bab3-c4e5edfa41dd
+name: sales_franchises
+operation:
+  database: ""
+  dataset: ""
+  deployEnabled: true
+  description: ""
+  locationName: SAMPLE
+  metadata:
+    columns: []
+    join:
+      joinCondition: FROM {{ ref('SAMPLE', 'sales_franchises') }}
+  name: sales_franchises
+  schema: ""
+  sqlType: Source
+  table: sales_franchises
+  type: sourceInput
+  version: 1
+type: Node

@@ -1,0 +1,79 @@
+fileVersion: 1
+id: bd44469e-92cf-40cc-86c9-8b4d5a12678c
+name: fct_media_gold_reviews_chunked
+operation:
+  config:
+    groupByAll: false
+    insertStrategy: UNION ALL
+    orderby: false
+    orderbycolumn:
+      items:
+        - {}
+    postSQL: ""
+    preSQL: ""
+    selectDistinct: false
+    testsEnabled: false
+    truncateBefore: false
+  database: ""
+  deployEnabled: true
+  description: ""
+  isMultisource: false
+  locationName: SAMPLE
+  materializationType: table
+  metadata:
+    appliedNodeTests: []
+    columns:
+      - acceptedValues:
+          strictMatch: true
+          values: []
+        appliedColumnTests: {}
+        columnReference:
+          columnCounter: 90de3c76-1385-4554-a1c1-40f3e17cf18d
+          stepCounter: bd44469e-92cf-40cc-86c9-8b4d5a12678c
+        config: {}
+        dataType: TIMESTAMP
+        defaultValue: ""
+        description: ""
+        isSystemCreateDate: true
+        name: SYSTEM_CREATE_DATE
+        nullable: true
+        sourceColumnReferences:
+          - columnReferences: []
+            transform: CAST(CURRENT_TIMESTAMP AS TIMESTAMP)
+      - acceptedValues:
+          strictMatch: true
+          values: []
+        appliedColumnTests: {}
+        columnReference:
+          columnCounter: 1dbf5d81-01e4-4ef1-a479-f29cb1da29b9
+          stepCounter: bd44469e-92cf-40cc-86c9-8b4d5a12678c
+        config: {}
+        dataType: TIMESTAMP
+        defaultValue: ""
+        description: ""
+        isSystemUpdateDate: true
+        name: SYSTEM_UPDATE_DATE
+        nullable: true
+        sourceColumnReferences:
+          - columnReferences: []
+            transform: CAST(CURRENT_TIMESTAMP AS TIMESTAMP)
+    cteString: ""
+    enabledColumnTestIDs: []
+    sourceMapping:
+      - aliases: {}
+        customSQL:
+          customSQL: ""
+        dependencies:
+          - locationName: SAMPLE
+            nodeName: media_gold_reviews_chunked
+        join:
+          joinCondition: FROM {{ ref('SAMPLE', 'media_gold_reviews_chunked') }} `media_gold_reviews_chunked`
+        name: fct_media_gold_reviews_chunked
+        noLinkRefs: []
+  name: fct_media_gold_reviews_chunked
+  overrideSQL: false
+  schema: ""
+  sqlType: Fact
+  type: sql
+  version: 1
+type: Node

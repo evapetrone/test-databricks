@@ -1,0 +1,20 @@
+fileVersion: 1
+id: 94d10321-679f-4951-9d02-e8409166bbec
+name: media_gold_reviews_chunked
+operation:
+  database: ""
+  dataset: ""
+  deployEnabled: true
+  description: ""
+  locationName: SAMPLE
+  metadata:
+    columns: []
+    join:
+      joinCondition: FROM {{ ref('SAMPLE', 'media_gold_reviews_chunked') }}
+  name: media_gold_reviews_chunked
+  schema: ""
+  sqlType: Source
+  table: media_gold_reviews_chunked
+  type: sourceInput
+  version: 1
+type: Node

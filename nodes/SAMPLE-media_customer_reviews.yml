@@ -1,0 +1,88 @@
+fileVersion: 1
+id: c6a0b165-4a44-42e3-b277-9aa35a54194f
+name: media_customer_reviews
+operation:
+  database: ""
+  dataset: ""
+  deployEnabled: true
+  description: ""
+  locationName: SAMPLE
+  metadata:
+    columns:
+      - acceptedValues:
+          strictMatch: true
+          values: []
+        appliedColumnTests: {}
+        columnReference:
+          columnCounter: f2d9075a-f82a-4930-b19a-34fda50b4b20
+          stepCounter: c6a0b165-4a44-42e3-b277-9aa35a54194f
+        config: {}
+        dataType: STRING
+        defaultValue: ""
+        description: ""
+        name: review
+        nullable: true
+        sourceColumnReferences:
+          - columnReferences: []
+            transform: ""
+        transform: ""
+      - acceptedValues:
+          strictMatch: true
+          values: []
+        appliedColumnTests: {}
+        columnReference:
+          columnCounter: 7c15f952-a99d-445e-80a7-2472ff3de545
+          stepCounter: c6a0b165-4a44-42e3-b277-9aa35a54194f
+        config: {}
+        dataType: LONG
+        defaultValue: ""
+        description: ""
+        name: franchiseID
+        nullable: true
+        sourceColumnReferences:
+          - columnReferences: []
+            transform: ""
+        transform: ""
+      - acceptedValues:
+          strictMatch: true
+          values: []
+        appliedColumnTests: {}
+        columnReference:
+          columnCounter: 679f46c8-aaaf-4913-b66d-af462206a5d6
+          stepCounter: c6a0b165-4a44-42e3-b277-9aa35a54194f
+        config: {}
+        dataType: TIMESTAMP
+        defaultValue: ""
+        description: ""
+        name: review_date
+        nullable: true
+        sourceColumnReferences:
+          - columnReferences: []
+            transform: ""
+        transform: ""
+      - acceptedValues:
+          strictMatch: true
+          values: []
+        appliedColumnTests: {}
+        columnReference:
+          columnCounter: 207baab0-2539-4f45-af19-47c9da48c9d6
+          stepCounter: c6a0b165-4a44-42e3-b277-9aa35a54194f
+        config: {}
+        dataType: INT
+        defaultValue: ""
+        description: ""
+        name: new_id
+        nullable: true
+        sourceColumnReferences:
+          - columnReferences: []
+            transform: ""
+        transform: ""
+    join:
+      joinCondition: FROM {{ ref('SAMPLE', 'media_customer_reviews') }}
+  name: media_customer_reviews
+  schema: ""
+  sqlType: Source
+  table: media_customer_reviews
+  type: sourceInput
+  version: 1
+type: Node

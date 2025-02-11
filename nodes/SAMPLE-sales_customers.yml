@@ -1,0 +1,224 @@
+fileVersion: 1
+id: 0cb2a04b-05c7-4120-92f3-333fd49adbcc
+name: sales_customers
+operation:
+  database: ""
+  dataset: ""
+  deployEnabled: true
+  description: ""
+  locationName: SAMPLE
+  metadata:
+    columns:
+      - acceptedValues:
+          strictMatch: true
+          values: []
+        appliedColumnTests: {}
+        columnReference:
+          columnCounter: 104221b8-7669-41a5-9844-bd87526ae7b5
+          stepCounter: 0cb2a04b-05c7-4120-92f3-333fd49adbcc
+        config: {}
+        dataType: LONG
+        defaultValue: ""
+        description: ""
+        name: customerID
+        nullable: true
+        sourceColumnReferences:
+          - columnReferences: []
+            transform: ""
+        transform: ""
+      - acceptedValues:
+          strictMatch: true
+          values: []
+        appliedColumnTests: {}
+        columnReference:
+          columnCounter: ce0875c1-a7ae-48ab-8c4f-8c14e5e214a4
+          stepCounter: 0cb2a04b-05c7-4120-92f3-333fd49adbcc
+        config: {}
+        dataType: STRING
+        defaultValue: ""
+        description: ""
+        name: first_name
+        nullable: true
+        sourceColumnReferences:
+          - columnReferences: []
+            transform: ""
+        transform: ""
+      - acceptedValues:
+          strictMatch: true
+          values: []
+        appliedColumnTests: {}
+        columnReference:
+          columnCounter: b68b6a6c-d572-4421-a5cd-716361a95317
+          stepCounter: 0cb2a04b-05c7-4120-92f3-333fd49adbcc
+        config: {}
+        dataType: STRING
+        defaultValue: ""
+        description: ""
+        name: last_name
+        nullable: true
+        sourceColumnReferences:
+          - columnReferences: []
+            transform: ""
+        transform: ""
+      - acceptedValues:
+          strictMatch: true
+          values: []
+        appliedColumnTests: {}
+        columnReference:
+          columnCounter: e5b515ad-b8a6-4fd8-9d08-901f88319bc2
+          stepCounter: 0cb2a04b-05c7-4120-92f3-333fd49adbcc
+        config: {}
+        dataType: STRING
+        defaultValue: ""
+        description: ""
+        name: email_address
+        nullable: true
+        sourceColumnReferences:
+          - columnReferences: []
+            transform: ""
+        transform: ""
+      - acceptedValues:
+          strictMatch: true
+          values: []
+        appliedColumnTests: {}
+        columnReference:
+          columnCounter: 1b319ea6-0805-4f77-b988-95a38124b7ca
+          stepCounter: 0cb2a04b-05c7-4120-92f3-333fd49adbcc
+        config: {}
+        dataType: STRING
+        defaultValue: ""
+        description: ""
+        name: phone_number
+        nullable: true
+        sourceColumnReferences:
+          - columnReferences: []
+            transform: ""
+        transform: ""
+      - acceptedValues:
+          strictMatch: true
+          values: []
+        appliedColumnTests: {}
+        columnReference:
+          columnCounter: ed4ed432-bd31-40e4-a49b-7c2966b9b22f
+          stepCounter: 0cb2a04b-05c7-4120-92f3-333fd49adbcc
+        config: {}
+        dataType: STRING
+        defaultValue: ""
+        description: ""
+        name: address
+        nullable: true
+        sourceColumnReferences:
+          - columnReferences: []
+            transform: ""
+        transform: ""
+      - acceptedValues:
+          strictMatch: true
+          values: []
+        appliedColumnTests: {}
+        columnReference:
+          columnCounter: 58ed5f43-7264-4fd1-9733-c28209026fa7
+          stepCounter: 0cb2a04b-05c7-4120-92f3-333fd49adbcc
+        config: {}
+        dataType: STRING
+        defaultValue: ""
+        description: ""
+        name: city
+        nullable: true
+        sourceColumnReferences:
+          - columnReferences: []
+            transform: ""
+        transform: ""
+      - acceptedValues:
+          strictMatch: true
+          values: []
+        appliedColumnTests: {}
+        columnReference:
+          columnCounter: 8657052e-10f3-4c11-9f11-1a18da6cf386
+          stepCounter: 0cb2a04b-05c7-4120-92f3-333fd49adbcc
+        config: {}
+        dataType: STRING
+        defaultValue: ""
+        description: ""
+        name: state
+        nullable: true
+        sourceColumnReferences:
+          - columnReferences: []
+            transform: ""
+        transform: ""
+      - acceptedValues:
+          strictMatch: true
+          values: []
+        appliedColumnTests: {}
+        columnReference:
+          columnCounter: 50455924-98a6-49e7-a2c8-cdf938897730
+          stepCounter: 0cb2a04b-05c7-4120-92f3-333fd49adbcc
+        config: {}
+        dataType: STRING
+        defaultValue: ""
+        description: ""
+        name: country
+        nullable: true
+        sourceColumnReferences:
+          - columnReferences: []
+            transform: ""
+        transform: ""
+      - acceptedValues:
+          strictMatch: true
+          values: []
+        appliedColumnTests: {}
+        columnReference:
+          columnCounter: dc0880bf-34a3-4520-9145-0f105cf5618f
+          stepCounter: 0cb2a04b-05c7-4120-92f3-333fd49adbcc
+        config: {}
+        dataType: STRING
+        defaultValue: ""
+        description: ""
+        name: continent
+        nullable: true
+        sourceColumnReferences:
+          - columnReferences: []
+            transform: ""
+        transform: ""
+      - acceptedValues:
+          strictMatch: true
+          values: []
+        appliedColumnTests: {}
+        columnReference:
+          columnCounter: c066e75a-c977-4d90-afb0-5ba3d0dece9f
+          stepCounter: 0cb2a04b-05c7-4120-92f3-333fd49adbcc
+        config: {}
+        dataType: LONG
+        defaultValue: ""
+        description: ""
+        name: postal_zip_code
+        nullable: true
+        sourceColumnReferences:
+          - columnReferences: []
+            transform: ""
+        transform: ""
+      - acceptedValues:
+          strictMatch: true
+          values: []
+        appliedColumnTests: {}
+        columnReference:
+          columnCounter: a6a1817b-d6f3-47fc-b6c3-fb0603a01e94
+          stepCounter: 0cb2a04b-05c7-4120-92f3-333fd49adbcc
+        config: {}
+        dataType: STRING
+        defaultValue: ""
+        description: ""
+        name: gender
+        nullable: true
+        sourceColumnReferences:
+          - columnReferences: []
+            transform: ""
+        transform: ""
+    join:
+      joinCondition: FROM {{ ref('SAMPLE', 'sales_customers') }}
+  name: sales_customers
+  schema: ""
+  sqlType: Source
+  table: sales_customers
+  type: sourceInput
+  version: 1
+type: Node
