@@ -1,0 +1,33 @@
+fileVersion: 1
+id: 95bd7a2f-764b-496d-a794-d15514b7c809
+name: stg_note_json
+operation:
+  database: ""
+  deployEnabled: true
+  description: ""
+  locationName: SAMPLE
+  metadata:
+    columns:
+      - acceptedValues:
+          strictMatch: true
+          values: []
+        appliedColumnTests: {}
+        columnReference:
+          columnCounter: 2eb5d160-1bda-47ab-be23-32b62710cf28
+          stepCounter: 95bd7a2f-764b-496d-a794-d15514b7c809
+        config: {}
+        dataType: VARIANT
+        defaultValue: ""
+        description: ""
+        name: SRC
+        nullable: true
+        sourceColumnReferences:
+          - columnReferences: []
+            transform: ""
+        transform: ""
+  name: stg_note_json
+  schema: ""
+  sqlType: Source
+  type: sourceInput
+  version: 1
+type: Node

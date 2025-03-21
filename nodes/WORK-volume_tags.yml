@@ -1,0 +1,101 @@
+fileVersion: 1
+id: f36cc53f-1455-449a-8d4b-67cd8396496a
+name: volume_tags
+operation:
+  database: ""
+  deployEnabled: true
+  description: ""
+  locationName: WORK
+  metadata:
+    columns:
+      - acceptedValues:
+          strictMatch: true
+          values: []
+        appliedColumnTests: {}
+        columnReference:
+          columnCounter: f04324cf-c80d-40b7-b827-9e4f351ec9b5
+          stepCounter: f36cc53f-1455-449a-8d4b-67cd8396496a
+        config: {}
+        dataType: STRING
+        defaultValue: ""
+        description: ""
+        name: catalog_name
+        nullable: false
+        sourceColumnReferences:
+          - columnReferences: []
+            transform: ""
+        transform: ""
+      - acceptedValues:
+          strictMatch: true
+          values: []
+        appliedColumnTests: {}
+        columnReference:
+          columnCounter: 98207da2-223c-4f73-8d45-1bb2611d9e7b
+          stepCounter: f36cc53f-1455-449a-8d4b-67cd8396496a
+        config: {}
+        dataType: STRING
+        defaultValue: ""
+        description: ""
+        name: schema_name
+        nullable: false
+        sourceColumnReferences:
+          - columnReferences: []
+            transform: ""
+        transform: ""
+      - acceptedValues:
+          strictMatch: true
+          values: []
+        appliedColumnTests: {}
+        columnReference:
+          columnCounter: 94cafc06-39fd-4749-8a57-6162ccc3f331
+          stepCounter: f36cc53f-1455-449a-8d4b-67cd8396496a
+        config: {}
+        dataType: STRING
+        defaultValue: ""
+        description: ""
+        name: volume_name
+        nullable: false
+        sourceColumnReferences:
+          - columnReferences: []
+            transform: ""
+        transform: ""
+      - acceptedValues:
+          strictMatch: true
+          values: []
+        appliedColumnTests: {}
+        columnReference:
+          columnCounter: dbe5bc9b-e83d-4832-934b-29a0a3824510
+          stepCounter: f36cc53f-1455-449a-8d4b-67cd8396496a
+        config: {}
+        dataType: STRING
+        defaultValue: ""
+        description: ""
+        name: tag_name
+        nullable: false
+        sourceColumnReferences:
+          - columnReferences: []
+            transform: ""
+        transform: ""
+      - acceptedValues:
+          strictMatch: true
+          values: []
+        appliedColumnTests: {}
+        columnReference:
+          columnCounter: 49789466-c26a-4a9a-a876-14c0b4b84cb6
+          stepCounter: f36cc53f-1455-449a-8d4b-67cd8396496a
+        config: {}
+        dataType: STRING
+        defaultValue: ""
+        description: ""
+        name: tag_value
+        nullable: false
+        sourceColumnReferences:
+          - columnReferences: []
+            transform: ""
+        transform: ""
+  name: volume_tags
+  schema: ""
+  sqlType: Source
+  type: sourceInput
+  version: 1
+type: Node

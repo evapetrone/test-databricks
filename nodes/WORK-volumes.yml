@@ -1,0 +1,203 @@
+fileVersion: 1
+id: 542cd2b0-3ec3-4b6f-bb20-caf221d17d79
+name: volumes
+operation:
+  database: ""
+  deployEnabled: true
+  description: ""
+  locationName: WORK
+  metadata:
+    columns:
+      - acceptedValues:
+          strictMatch: true
+          values: []
+        appliedColumnTests: {}
+        columnReference:
+          columnCounter: da96d2fb-36d9-44df-875b-8f2bf2468d66
+          stepCounter: 542cd2b0-3ec3-4b6f-bb20-caf221d17d79
+        config: {}
+        dataType: STRING
+        defaultValue: ""
+        description: ""
+        name: volume_catalog
+        nullable: false
+        sourceColumnReferences:
+          - columnReferences: []
+            transform: ""
+        transform: ""
+      - acceptedValues:
+          strictMatch: true
+          values: []
+        appliedColumnTests: {}
+        columnReference:
+          columnCounter: 570c0b94-532f-4a00-b035-caa74c1e0e71
+          stepCounter: 542cd2b0-3ec3-4b6f-bb20-caf221d17d79
+        config: {}
+        dataType: STRING
+        defaultValue: ""
+        description: ""
+        name: volume_schema
+        nullable: false
+        sourceColumnReferences:
+          - columnReferences: []
+            transform: ""
+        transform: ""
+      - acceptedValues:
+          strictMatch: true
+          values: []
+        appliedColumnTests: {}
+        columnReference:
+          columnCounter: e1cdbce4-7a52-4a31-808d-4d441b0f4d58
+          stepCounter: 542cd2b0-3ec3-4b6f-bb20-caf221d17d79
+        config: {}
+        dataType: STRING
+        defaultValue: ""
+        description: ""
+        name: volume_name
+        nullable: false
+        sourceColumnReferences:
+          - columnReferences: []
+            transform: ""
+        transform: ""
+      - acceptedValues:
+          strictMatch: true
+          values: []
+        appliedColumnTests: {}
+        columnReference:
+          columnCounter: 9815dc46-1001-4708-8198-31e154ea663a
+          stepCounter: 542cd2b0-3ec3-4b6f-bb20-caf221d17d79
+        config: {}
+        dataType: STRING
+        defaultValue: ""
+        description: ""
+        name: volume_type
+        nullable: false
+        sourceColumnReferences:
+          - columnReferences: []
+            transform: ""
+        transform: ""
+      - acceptedValues:
+          strictMatch: true
+          values: []
+        appliedColumnTests: {}
+        columnReference:
+          columnCounter: 9a57c2a2-c36c-4c11-8f65-88338abba51c
+          stepCounter: 542cd2b0-3ec3-4b6f-bb20-caf221d17d79
+        config: {}
+        dataType: STRING
+        defaultValue: ""
+        description: ""
+        name: volume_owner
+        nullable: false
+        sourceColumnReferences:
+          - columnReferences: []
+            transform: ""
+        transform: ""
+      - acceptedValues:
+          strictMatch: true
+          values: []
+        appliedColumnTests: {}
+        columnReference:
+          columnCounter: fe263778-2955-4cce-828b-5b871a21e318
+          stepCounter: 542cd2b0-3ec3-4b6f-bb20-caf221d17d79
+        config: {}
+        dataType: STRING
+        defaultValue: ""
+        description: ""
+        name: comment
+        nullable: true
+        sourceColumnReferences:
+          - columnReferences: []
+            transform: ""
+        transform: ""
+      - acceptedValues:
+          strictMatch: true
+          values: []
+        appliedColumnTests: {}
+        columnReference:
+          columnCounter: fc393884-cad1-47a0-b098-3359d1e4fe08
+          stepCounter: 542cd2b0-3ec3-4b6f-bb20-caf221d17d79
+        config: {}
+        dataType: STRING
+        defaultValue: ""
+        description: ""
+        name: storage_location
+        nullable: true
+        sourceColumnReferences:
+          - columnReferences: []
+            transform: ""
+        transform: ""
+      - acceptedValues:
+          strictMatch: true
+          values: []
+        appliedColumnTests: {}
+        columnReference:
+          columnCounter: 8dd4022a-7f7e-4e20-929c-a6715f42532a
+          stepCounter: 542cd2b0-3ec3-4b6f-bb20-caf221d17d79
+        config: {}
+        dataType: TIMESTAMP
+        defaultValue: ""
+        description: ""
+        name: created
+        nullable: false
+        sourceColumnReferences:
+          - columnReferences: []
+            transform: ""
+        transform: ""
+      - acceptedValues:
+          strictMatch: true
+          values: []
+        appliedColumnTests: {}
+        columnReference:
+          columnCounter: 2d59b712-53be-490e-8e47-526c4aeebff8
+          stepCounter: 542cd2b0-3ec3-4b6f-bb20-caf221d17d79
+        config: {}
+        dataType: STRING
+        defaultValue: ""
+        description: ""
+        name: created_by
+        nullable: false
+        sourceColumnReferences:
+          - columnReferences: []
+            transform: ""
+        transform: ""
+      - acceptedValues:
+          strictMatch: true
+          values: []
+        appliedColumnTests: {}
+        columnReference:
+          columnCounter: caf75cbf-9ef4-4b4a-99af-0f8cec4464d7
+          stepCounter: 542cd2b0-3ec3-4b6f-bb20-caf221d17d79
+        config: {}
+        dataType: TIMESTAMP
+        defaultValue: ""
+        description: ""
+        name: last_altered
+        nullable: false
+        sourceColumnReferences:
+          - columnReferences: []
+            transform: ""
+        transform: ""
+      - acceptedValues:
+          strictMatch: true
+          values: []
+        appliedColumnTests: {}
+        columnReference:
+          columnCounter: 08acc6d9-c9dd-4c1e-98d8-ea534fe0cafb
+          stepCounter: 542cd2b0-3ec3-4b6f-bb20-caf221d17d79
+        config: {}
+        dataType: STRING
+        defaultValue: ""
+        description: ""
+        name: last_altered_by
+        nullable: false
+        sourceColumnReferences:
+          - columnReferences: []
+            transform: ""
+        transform: ""
+  name: volumes
+  schema: ""
+  sqlType: Source
+  type: sourceInput
+  version: 1
+type: Node

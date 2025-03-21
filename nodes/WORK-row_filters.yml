@@ -1,12 +1,11 @@
 fileVersion: 1
-id: c6a0b165-4a44-42e3-b277-9aa35a54194f
-name: media_customer_reviews
+id: 789f4341-e084-4228-acf3-34d067d8af95
+name: row_filters
 operation:
   database: ""
-  dataset: ""
   deployEnabled: true
   description: ""
-  locationName: SAMPLE
+  locationName: WORK
   metadata:
     columns:
       - acceptedValues:
@@ -14,13 +13,64 @@ operation:
           values: []
         appliedColumnTests: {}
         columnReference:
-          columnCounter: f2d9075a-f82a-4930-b19a-34fda50b4b20
-          stepCounter: c6a0b165-4a44-42e3-b277-9aa35a54194f
+          columnCounter: 72f25654-400f-45ac-8a51-b7bc0c84a564
+          stepCounter: 789f4341-e084-4228-acf3-34d067d8af95
         config: {}
         dataType: STRING
         defaultValue: ""
         description: ""
-        name: review
+        name: table_catalog
+        nullable: false
+        sourceColumnReferences:
+          - columnReferences: []
+            transform: ""
+        transform: ""
+      - acceptedValues:
+          strictMatch: true
+          values: []
+        appliedColumnTests: {}
+        columnReference:
+          columnCounter: 015977e9-ce65-4467-98eb-f701b6565e39
+          stepCounter: 789f4341-e084-4228-acf3-34d067d8af95
+        config: {}
+        dataType: STRING
+        defaultValue: ""
+        description: ""
+        name: table_schema
+        nullable: false
+        sourceColumnReferences:
+          - columnReferences: []
+            transform: ""
+        transform: ""
+      - acceptedValues:
+          strictMatch: true
+          values: []
+        appliedColumnTests: {}
+        columnReference:
+          columnCounter: 6c879cad-c3d6-446d-9d02-9bf03f451a7c
+          stepCounter: 789f4341-e084-4228-acf3-34d067d8af95
+        config: {}
+        dataType: STRING
+        defaultValue: ""
+        description: ""
+        name: table_name
+        nullable: false
+        sourceColumnReferences:
+          - columnReferences: []
+            transform: ""
+        transform: ""
+      - acceptedValues:
+          strictMatch: true
+          values: []
+        appliedColumnTests: {}
+        columnReference:
+          columnCounter: 49b2691f-89b9-4361-a4cc-d672f315b26b
+          stepCounter: 789f4341-e084-4228-acf3-34d067d8af95
+        config: {}
+        dataType: STRING
+        defaultValue: ""
+        description: ""
+        name: filter_name
         nullable: true
         sourceColumnReferences:
           - columnReferences: []
@@ -31,58 +81,21 @@ operation:
           values: []
         appliedColumnTests: {}
         columnReference:
-          columnCounter: 7c15f952-a99d-445e-80a7-2472ff3de545
-          stepCounter: c6a0b165-4a44-42e3-b277-9aa35a54194f
+          columnCounter: 0c6ce941-8769-4379-95d3-e3a6d961cbbd
+          stepCounter: 789f4341-e084-4228-acf3-34d067d8af95
         config: {}
-        dataType: LONG
+        dataType: STRING
         defaultValue: ""
         description: ""
-        name: franchiseID
+        name: target_columns
         nullable: true
         sourceColumnReferences:
           - columnReferences: []
             transform: ""
         transform: ""
-      - acceptedValues:
-          strictMatch: true
-          values: []
-        appliedColumnTests: {}
-        columnReference:
-          columnCounter: 679f46c8-aaaf-4913-b66d-af462206a5d6
-          stepCounter: c6a0b165-4a44-42e3-b277-9aa35a54194f
-        config: {}
-        dataType: TIMESTAMP
-        defaultValue: ""
-        description: ""
-        name: review_date
-        nullable: true
-        sourceColumnReferences:
-          - columnReferences: []
-            transform: ""
-        transform: ""
-      - acceptedValues:
-          strictMatch: true
-          values: []
-        appliedColumnTests: {}
-        columnReference:
-          columnCounter: 207baab0-2539-4f45-af19-47c9da48c9d6
-          stepCounter: c6a0b165-4a44-42e3-b277-9aa35a54194f
-        config: {}
-        dataType: INT
-        defaultValue: ""
-        description: ""
-        name: new_id
-        nullable: true
-        sourceColumnReferences:
-          - columnReferences: []
-            transform: ""
-        transform: ""
-    join:
-      joinCondition: FROM {{ ref('SAMPLE', 'media_customer_reviews') }}
-  name: media_customer_reviews
+  name: row_filters
   schema: ""
   sqlType: Source
-  table: media_customer_reviews
   type: sourceInput
   version: 1
 type: Node

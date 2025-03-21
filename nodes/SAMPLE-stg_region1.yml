@@ -1,0 +1,84 @@
+fileVersion: 1
+id: aa0ff88e-a985-4c79-8c11-181eb8b7de1a
+name: stg_region1
+operation:
+  database: ""
+  deployEnabled: true
+  description: ""
+  locationName: SAMPLE
+  metadata:
+    columns:
+      - acceptedValues:
+          strictMatch: true
+          values: []
+        appliedColumnTests: {}
+        columnReference:
+          columnCounter: b27adac5-ab88-4c42-9e05-c3addaeea9c4
+          stepCounter: aa0ff88e-a985-4c79-8c11-181eb8b7de1a
+        config: {}
+        dataType: LONG
+        defaultValue: ""
+        description: ""
+        name: r_regionkey
+        nullable: true
+        sourceColumnReferences:
+          - columnReferences: []
+            transform: ""
+        transform: ""
+      - acceptedValues:
+          strictMatch: true
+          values: []
+        appliedColumnTests: {}
+        columnReference:
+          columnCounter: 37fadba5-64aa-40f2-b1c9-9fff3601a500
+          stepCounter: aa0ff88e-a985-4c79-8c11-181eb8b7de1a
+        config: {}
+        dataType: STRING
+        defaultValue: ""
+        description: ""
+        name: r_name
+        nullable: true
+        sourceColumnReferences:
+          - columnReferences: []
+            transform: ""
+        transform: ""
+      - acceptedValues:
+          strictMatch: true
+          values: []
+        appliedColumnTests: {}
+        columnReference:
+          columnCounter: dbb9f501-04ad-4f66-b1a5-1488adc1a221
+          stepCounter: aa0ff88e-a985-4c79-8c11-181eb8b7de1a
+        config: {}
+        dataType: STRING
+        defaultValue: ""
+        description: ""
+        name: r_comment
+        nullable: true
+        sourceColumnReferences:
+          - columnReferences: []
+            transform: ""
+        transform: ""
+      - acceptedValues:
+          strictMatch: true
+          values: []
+        appliedColumnTests: {}
+        columnReference:
+          columnCounter: 60cc353a-9106-43cb-b1fb-58a565c03808
+          stepCounter: aa0ff88e-a985-4c79-8c11-181eb8b7de1a
+        config: {}
+        dataType: STRING
+        defaultValue: ""
+        description: ""
+        name: GH
+        nullable: true
+        sourceColumnReferences:
+          - columnReferences: []
+            transform: ""
+        transform: ""
+  name: stg_region1
+  schema: ""
+  sqlType: Source
+  type: sourceInput
+  version: 1
+type: Node

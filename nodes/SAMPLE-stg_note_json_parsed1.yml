@@ -1,0 +1,101 @@
+fileVersion: 1
+id: 201daf4c-71ea-4365-99f3-fd209cee482f
+name: stg_note_json_parsed1
+operation:
+  database: ""
+  deployEnabled: true
+  description: ""
+  locationName: SAMPLE
+  metadata:
+    columns:
+      - acceptedValues:
+          strictMatch: true
+          values: []
+        appliedColumnTests: {}
+        columnReference:
+          columnCounter: b5c3776c-ab78-411f-9874-28621f44dbcd
+          stepCounter: 201daf4c-71ea-4365-99f3-fd209cee482f
+        config: {}
+        dataType: STRING
+        defaultValue: ""
+        description: ""
+        name: SRC
+        nullable: true
+        sourceColumnReferences:
+          - columnReferences: []
+            transform: ""
+        transform: ""
+      - acceptedValues:
+          strictMatch: true
+          values: []
+        appliedColumnTests: {}
+        columnReference:
+          columnCounter: 99fe10ed-a073-4716-9753-749dd04c2587
+          stepCounter: 201daf4c-71ea-4365-99f3-fd209cee482f
+        config: {}
+        dataType: STRING
+        defaultValue: ""
+        description: ""
+        name: note_body
+        nullable: true
+        sourceColumnReferences:
+          - columnReferences: []
+            transform: ""
+        transform: ""
+      - acceptedValues:
+          strictMatch: true
+          values: []
+        appliedColumnTests: {}
+        columnReference:
+          columnCounter: 168b1c1b-90a3-4dcf-a8fd-c0d0d9b00f2c
+          stepCounter: 201daf4c-71ea-4365-99f3-fd209cee482f
+        config: {}
+        dataType: STRING
+        defaultValue: ""
+        description: ""
+        name: note_from
+        nullable: true
+        sourceColumnReferences:
+          - columnReferences: []
+            transform: ""
+        transform: ""
+      - acceptedValues:
+          strictMatch: true
+          values: []
+        appliedColumnTests: {}
+        columnReference:
+          columnCounter: 06efff31-4386-4c35-b8ba-a4ac69d011a6
+          stepCounter: 201daf4c-71ea-4365-99f3-fd209cee482f
+        config: {}
+        dataType: STRING
+        defaultValue: ""
+        description: ""
+        name: note_heading
+        nullable: true
+        sourceColumnReferences:
+          - columnReferences: []
+            transform: ""
+        transform: ""
+      - acceptedValues:
+          strictMatch: true
+          values: []
+        appliedColumnTests: {}
+        columnReference:
+          columnCounter: 6564a8ff-e720-493c-b634-feebda094ef6
+          stepCounter: 201daf4c-71ea-4365-99f3-fd209cee482f
+        config: {}
+        dataType: STRING
+        defaultValue: ""
+        description: ""
+        name: note_to
+        nullable: true
+        sourceColumnReferences:
+          - columnReferences: []
+            transform: ""
+        transform: ""
+  name: stg_note_json_parsed1
+  schema: ""
+  sqlType: Source
+  type: sourceInput
+  version: 1
+type: Node

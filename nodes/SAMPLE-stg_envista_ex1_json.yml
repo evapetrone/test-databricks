@@ -1,0 +1,33 @@
+fileVersion: 1
+id: f39583cc-bbe5-4d64-b86d-ea8f037ecef1
+name: stg_envista_ex1_json
+operation:
+  database: ""
+  deployEnabled: true
+  description: ""
+  locationName: SAMPLE
+  metadata:
+    columns:
+      - acceptedValues:
+          strictMatch: true
+          values: []
+        appliedColumnTests: {}
+        columnReference:
+          columnCounter: f18784f3-d7fc-4430-a9d0-abfd96f815ba
+          stepCounter: f39583cc-bbe5-4d64-b86d-ea8f037ecef1
+        config: {}
+        dataType: VARIANT
+        defaultValue: ""
+        description: ""
+        name: SRC
+        nullable: true
+        sourceColumnReferences:
+          - columnReferences: []
+            transform: ""
+        transform: ""
+  name: stg_envista_ex1_json
+  schema: ""
+  sqlType: Source
+  type: sourceInput
+  version: 1
+type: Node

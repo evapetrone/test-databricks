@@ -1,0 +1,135 @@
+fileVersion: 1
+id: 35331eeb-c578-467c-878a-e8d892a6d2a4
+name: schema_privileges
+operation:
+  database: ""
+  deployEnabled: true
+  description: ""
+  locationName: WORK
+  metadata:
+    columns:
+      - acceptedValues:
+          strictMatch: true
+          values: []
+        appliedColumnTests: {}
+        columnReference:
+          columnCounter: b2064eb2-ed83-4eb8-99bf-3775104daa1f
+          stepCounter: 35331eeb-c578-467c-878a-e8d892a6d2a4
+        config: {}
+        dataType: STRING
+        defaultValue: ""
+        description: Principal that granted the privilege.
+        name: grantor
+        nullable: false
+        sourceColumnReferences:
+          - columnReferences: []
+            transform: ""
+        transform: ""
+      - acceptedValues:
+          strictMatch: true
+          values: []
+        appliedColumnTests: {}
+        columnReference:
+          columnCounter: 5c11e9ca-6e30-4f20-ae6c-19bc869682c0
+          stepCounter: 35331eeb-c578-467c-878a-e8d892a6d2a4
+        config: {}
+        dataType: STRING
+        defaultValue: ""
+        description: Principal to which the privilege is granted.
+        name: grantee
+        nullable: false
+        sourceColumnReferences:
+          - columnReferences: []
+            transform: ""
+        transform: ""
+      - acceptedValues:
+          strictMatch: true
+          values: []
+        appliedColumnTests: {}
+        columnReference:
+          columnCounter: 358773b0-d44f-41de-b228-04db7f7f3c4d
+          stepCounter: 35331eeb-c578-467c-878a-e8d892a6d2a4
+        config: {}
+        dataType: STRING
+        defaultValue: ""
+        description: Catalog of schema on which the privilege is granted.
+        name: catalog_name
+        nullable: false
+        sourceColumnReferences:
+          - columnReferences: []
+            transform: ""
+        transform: ""
+      - acceptedValues:
+          strictMatch: true
+          values: []
+        appliedColumnTests: {}
+        columnReference:
+          columnCounter: 4119eb80-b58c-4b83-968f-80e737b7ec93
+          stepCounter: 35331eeb-c578-467c-878a-e8d892a6d2a4
+        config: {}
+        dataType: STRING
+        defaultValue: ""
+        description: Schema on which the privilege is granted.
+        name: schema_name
+        nullable: false
+        sourceColumnReferences:
+          - columnReferences: []
+            transform: ""
+        transform: ""
+      - acceptedValues:
+          strictMatch: true
+          values: []
+        appliedColumnTests: {}
+        columnReference:
+          columnCounter: 33f6a7d8-4e4b-4b83-9058-a3209df189c1
+          stepCounter: 35331eeb-c578-467c-878a-e8d892a6d2a4
+        config: {}
+        dataType: STRING
+        defaultValue: ""
+        description: Privilege being granted.
+        name: privilege_type
+        nullable: false
+        sourceColumnReferences:
+          - columnReferences: []
+            transform: ""
+        transform: ""
+      - acceptedValues:
+          strictMatch: true
+          values: []
+        appliedColumnTests: {}
+        columnReference:
+          columnCounter: ae055b28-5f7c-4048-8dd2-57c5b03ce56a
+          stepCounter: 35331eeb-c578-467c-878a-e8d892a6d2a4
+        config: {}
+        dataType: STRING
+        defaultValue: ""
+        description: Always NO. Reserved for future use.
+        name: is_grantable
+        nullable: false
+        sourceColumnReferences:
+          - columnReferences: []
+            transform: ""
+        transform: ""
+      - acceptedValues:
+          strictMatch: true
+          values: []
+        appliedColumnTests: {}
+        columnReference:
+          columnCounter: 808eaf2a-51fc-4775-a7d0-db5b06b8f2b4
+          stepCounter: 35331eeb-c578-467c-878a-e8d892a6d2a4
+        config: {}
+        dataType: STRING
+        defaultValue: ""
+        description: The ancestor relation that the privilege is inherited from.
+        name: inherited_from
+        nullable: false
+        sourceColumnReferences:
+          - columnReferences: []
+            transform: ""
+        transform: ""
+  name: schema_privileges
+  schema: ""
+  sqlType: Source
+  type: sourceInput
+  version: 1
+type: Node

@@ -3,18 +3,14 @@ id: 25a52dd6-cc36-4dc5-b91e-539ecc577a0c
 name: sales_suppliers
 operation:
   database: ""
-  dataset: ""
   deployEnabled: true
   description: ""
   locationName: SAMPLE
   metadata:
     columns: []
-    join:
-      joinCondition: FROM {{ ref('SAMPLE', 'sales_suppliers') }}
   name: sales_suppliers
   schema: ""
   sqlType: Source
-  table: sales_suppliers
   type: sourceInput
   version: 1
 type: Node

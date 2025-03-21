@@ -1,0 +1,169 @@
+fileVersion: 1
+id: eedb59be-041d-4f8a-9166-43e8dd12f2a2
+name: schemata
+operation:
+  database: ""
+  deployEnabled: true
+  description: ""
+  locationName: WORK
+  metadata:
+    columns:
+      - acceptedValues:
+          strictMatch: true
+          values: []
+        appliedColumnTests: {}
+        columnReference:
+          columnCounter: 0c0e54ab-17c6-43ed-92e8-3db1795f18b9
+          stepCounter: eedb59be-041d-4f8a-9166-43e8dd12f2a2
+        config: {}
+        dataType: STRING
+        defaultValue: ""
+        description: Catalog containing the schema.
+        name: catalog_name
+        nullable: false
+        sourceColumnReferences:
+          - columnReferences: []
+            transform: ""
+        transform: ""
+      - acceptedValues:
+          strictMatch: true
+          values: []
+        appliedColumnTests: {}
+        columnReference:
+          columnCounter: 68906459-e002-42a1-b7e9-a1e7ed3186c9
+          stepCounter: eedb59be-041d-4f8a-9166-43e8dd12f2a2
+        config: {}
+        dataType: STRING
+        defaultValue: ""
+        description: Name of the schema.
+        name: schema_name
+        nullable: false
+        sourceColumnReferences:
+          - columnReferences: []
+            transform: ""
+        transform: ""
+      - acceptedValues:
+          strictMatch: true
+          values: []
+        appliedColumnTests: {}
+        columnReference:
+          columnCounter: 7a79d33e-102e-400d-a03e-79b3136d7e59
+          stepCounter: eedb59be-041d-4f8a-9166-43e8dd12f2a2
+        config: {}
+        dataType: STRING
+        defaultValue: ""
+        description: User or group (principal) that currently owns the schema.
+        name: schema_owner
+        nullable: false
+        sourceColumnReferences:
+          - columnReferences: []
+            transform: ""
+        transform: ""
+      - acceptedValues:
+          strictMatch: true
+          values: []
+        appliedColumnTests: {}
+        columnReference:
+          columnCounter: 18243569-dc64-4a97-901c-0c1d572b4453
+          stepCounter: eedb59be-041d-4f8a-9166-43e8dd12f2a2
+        config: {}
+        dataType: STRING
+        defaultValue: ""
+        description: An optional comment that describes the relation.
+        name: comment
+        nullable: true
+        sourceColumnReferences:
+          - columnReferences: []
+            transform: ""
+        transform: ""
+      - acceptedValues:
+          strictMatch: true
+          values: []
+        appliedColumnTests: {}
+        columnReference:
+          columnCounter: 7565a503-3ab2-4fa2-85ba-4b1f8a69ef46
+          stepCounter: eedb59be-041d-4f8a-9166-43e8dd12f2a2
+        config: {}
+        dataType: TIMESTAMP
+        defaultValue: ""
+        description: Timestamp when the relation was created.
+        name: created
+        nullable: false
+        sourceColumnReferences:
+          - columnReferences: []
+            transform: ""
+        transform: ""
+      - acceptedValues:
+          strictMatch: true
+          values: []
+        appliedColumnTests: {}
+        columnReference:
+          columnCounter: 866e2742-6bb6-4c31-9001-0c7d5e3527a9
+          stepCounter: eedb59be-041d-4f8a-9166-43e8dd12f2a2
+        config: {}
+        dataType: STRING
+        defaultValue: ""
+        description: Principal which created the relation.
+        name: created_by
+        nullable: false
+        sourceColumnReferences:
+          - columnReferences: []
+            transform: ""
+        transform: ""
+      - acceptedValues:
+          strictMatch: true
+          values: []
+        appliedColumnTests: {}
+        columnReference:
+          columnCounter: 5bc6b922-5fba-47f0-9352-74ecc8180e59
+          stepCounter: eedb59be-041d-4f8a-9166-43e8dd12f2a2
+        config: {}
+        dataType: TIMESTAMP
+        defaultValue: ""
+        description: Timestamp when the relation definition was last altered in any way.
+        name: last_altered
+        nullable: false
+        sourceColumnReferences:
+          - columnReferences: []
+            transform: ""
+        transform: ""
+      - acceptedValues:
+          strictMatch: true
+          values: []
+        appliedColumnTests: {}
+        columnReference:
+          columnCounter: a5a36fd1-ccdf-4228-b028-95077d454333
+          stepCounter: eedb59be-041d-4f8a-9166-43e8dd12f2a2
+        config: {}
+        dataType: STRING
+        defaultValue: ""
+        description: Principal which last altered the relation.
+        name: last_altered_by
+        nullable: false
+        sourceColumnReferences:
+          - columnReferences: []
+            transform: ""
+        transform: ""
+      - acceptedValues:
+          strictMatch: true
+          values: []
+        appliedColumnTests: {}
+        columnReference:
+          columnCounter: 43e42738-a8ff-4eca-8412-9ed620eb5100
+          stepCounter: eedb59be-041d-4f8a-9166-43e8dd12f2a2
+        config: {}
+        dataType: STRING
+        defaultValue: ""
+        description: The external location where the schema was stored
+        name: url
+        nullable: true
+        sourceColumnReferences:
+          - columnReferences: []
+            transform: ""
+        transform: ""
+  name: schemata
+  schema: ""
+  sqlType: Source
+  type: sourceInput
+  version: 1
+type: Node

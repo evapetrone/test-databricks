@@ -1,0 +1,118 @@
+fileVersion: 1
+id: 3e51da3c-d710-4e42-841f-b19a00808bb1
+name: check_constraints
+operation:
+  database: ""
+  deployEnabled: true
+  description: ""
+  locationName: WORK
+  metadata:
+    columns:
+      - acceptedValues:
+          strictMatch: true
+          values: []
+        appliedColumnTests: {}
+        columnReference:
+          columnCounter: 4fd0ba3c-1521-4423-b5e9-91798d02bc15
+          stepCounter: 3e51da3c-d710-4e42-841f-b19a00808bb1
+        config: {}
+        dataType: STRING
+        defaultValue: ""
+        description: Catalog containing the check constraint.
+        name: constraint_catalog
+        nullable: false
+        sourceColumnReferences:
+          - columnReferences: []
+            transform: ""
+        transform: ""
+      - acceptedValues:
+          strictMatch: true
+          values: []
+        appliedColumnTests: {}
+        columnReference:
+          columnCounter: 90920fe4-7074-4ce9-b80c-91aa9a2b3bb4
+          stepCounter: 3e51da3c-d710-4e42-841f-b19a00808bb1
+        config: {}
+        dataType: STRING
+        defaultValue: ""
+        description: Schema containing the check constraint.
+        name: constraint_schema
+        nullable: false
+        sourceColumnReferences:
+          - columnReferences: []
+            transform: ""
+        transform: ""
+      - acceptedValues:
+          strictMatch: true
+          values: []
+        appliedColumnTests: {}
+        columnReference:
+          columnCounter: ec4cabdc-da4d-4d38-8e41-9ab29c40a7e0
+          stepCounter: 3e51da3c-d710-4e42-841f-b19a00808bb1
+        config: {}
+        dataType: STRING
+        defaultValue: ""
+        description: Name of the check constraint.
+        name: constraint_name
+        nullable: false
+        sourceColumnReferences:
+          - columnReferences: []
+            transform: ""
+        transform: ""
+      - acceptedValues:
+          strictMatch: true
+          values: []
+        appliedColumnTests: {}
+        columnReference:
+          columnCounter: 52af5531-a5e9-4535-ae87-817d779a5810
+          stepCounter: 3e51da3c-d710-4e42-841f-b19a00808bb1
+        config: {}
+        dataType: STRING
+        defaultValue: ""
+        description: The text of the check constraint condition.
+        name: check_clause
+        nullable: false
+        sourceColumnReferences:
+          - columnReferences: []
+            transform: ""
+        transform: ""
+      - acceptedValues:
+          strictMatch: true
+          values: []
+        appliedColumnTests: {}
+        columnReference:
+          columnCounter: 15796969-89c5-44e9-b256-e8cf8af083c8
+          stepCounter: 3e51da3c-d710-4e42-841f-b19a00808bb1
+        config: {}
+        dataType: STRING
+        defaultValue: ""
+        description: Always NULL, reserved for future use.
+        name: sql_path
+        nullable: true
+        sourceColumnReferences:
+          - columnReferences: []
+            transform: ""
+        transform: ""
+      - acceptedValues:
+          strictMatch: true
+          values: []
+        appliedColumnTests: {}
+        columnReference:
+          columnCounter: 7f8d82cc-678a-433e-82ef-2770ddc0f6a3
+          stepCounter: 3e51da3c-d710-4e42-841f-b19a00808bb1
+        config: {}
+        dataType: STRING
+        defaultValue: ""
+        description: ""
+        name: comment
+        nullable: true
+        sourceColumnReferences:
+          - columnReferences: []
+            transform: ""
+        transform: ""
+  name: check_constraints
+  schema: ""
+  sqlType: Source
+  type: sourceInput
+  version: 1
+type: Node

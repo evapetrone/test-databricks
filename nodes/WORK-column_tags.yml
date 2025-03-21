@@ -1,0 +1,118 @@
+fileVersion: 1
+id: 602392d3-4f1a-4c80-b4e4-facc80b4093d
+name: column_tags
+operation:
+  database: ""
+  deployEnabled: true
+  description: ""
+  locationName: WORK
+  metadata:
+    columns:
+      - acceptedValues:
+          strictMatch: true
+          values: []
+        appliedColumnTests: {}
+        columnReference:
+          columnCounter: 3c740048-e67a-46dd-a318-fb0745fad674
+          stepCounter: 602392d3-4f1a-4c80-b4e4-facc80b4093d
+        config: {}
+        dataType: STRING
+        defaultValue: ""
+        description: ""
+        name: catalog_name
+        nullable: false
+        sourceColumnReferences:
+          - columnReferences: []
+            transform: ""
+        transform: ""
+      - acceptedValues:
+          strictMatch: true
+          values: []
+        appliedColumnTests: {}
+        columnReference:
+          columnCounter: bc5fd74b-bd2a-4f42-ae7a-1757bbc4e7bb
+          stepCounter: 602392d3-4f1a-4c80-b4e4-facc80b4093d
+        config: {}
+        dataType: STRING
+        defaultValue: ""
+        description: ""
+        name: schema_name
+        nullable: false
+        sourceColumnReferences:
+          - columnReferences: []
+            transform: ""
+        transform: ""
+      - acceptedValues:
+          strictMatch: true
+          values: []
+        appliedColumnTests: {}
+        columnReference:
+          columnCounter: cbc532ef-dbc4-4285-ac8f-f4d0fbb975fe
+          stepCounter: 602392d3-4f1a-4c80-b4e4-facc80b4093d
+        config: {}
+        dataType: STRING
+        defaultValue: ""
+        description: ""
+        name: table_name
+        nullable: false
+        sourceColumnReferences:
+          - columnReferences: []
+            transform: ""
+        transform: ""
+      - acceptedValues:
+          strictMatch: true
+          values: []
+        appliedColumnTests: {}
+        columnReference:
+          columnCounter: b96baa2c-46c9-41ee-8621-c93b96309445
+          stepCounter: 602392d3-4f1a-4c80-b4e4-facc80b4093d
+        config: {}
+        dataType: STRING
+        defaultValue: ""
+        description: ""
+        name: column_name
+        nullable: false
+        sourceColumnReferences:
+          - columnReferences: []
+            transform: ""
+        transform: ""
+      - acceptedValues:
+          strictMatch: true
+          values: []
+        appliedColumnTests: {}
+        columnReference:
+          columnCounter: 59a2dd49-b2cf-452f-9994-e871aaae615a
+          stepCounter: 602392d3-4f1a-4c80-b4e4-facc80b4093d
+        config: {}
+        dataType: STRING
+        defaultValue: ""
+        description: ""
+        name: tag_name
+        nullable: false
+        sourceColumnReferences:
+          - columnReferences: []
+            transform: ""
+        transform: ""
+      - acceptedValues:
+          strictMatch: true
+          values: []
+        appliedColumnTests: {}
+        columnReference:
+          columnCounter: 9c5494e5-f270-47d1-8927-db185136a961
+          stepCounter: 602392d3-4f1a-4c80-b4e4-facc80b4093d
+        config: {}
+        dataType: STRING
+        defaultValue: ""
+        description: ""
+        name: tag_value
+        nullable: false
+        sourceColumnReferences:
+          - columnReferences: []
+            transform: ""
+        transform: ""
+  name: column_tags
+  schema: ""
+  sqlType: Source
+  type: sourceInput
+  version: 1
+type: Node

@@ -1,0 +1,152 @@
+fileVersion: 1
+id: 2585d028-0817-4605-b738-f3a508a8abe7
+name: volume_privileges
+operation:
+  database: ""
+  deployEnabled: true
+  description: ""
+  locationName: WORK
+  metadata:
+    columns:
+      - acceptedValues:
+          strictMatch: true
+          values: []
+        appliedColumnTests: {}
+        columnReference:
+          columnCounter: 23836a64-b07d-4297-ab33-6aa4378d7117
+          stepCounter: 2585d028-0817-4605-b738-f3a508a8abe7
+        config: {}
+        dataType: STRING
+        defaultValue: ""
+        description: ""
+        name: grantor
+        nullable: false
+        sourceColumnReferences:
+          - columnReferences: []
+            transform: ""
+        transform: ""
+      - acceptedValues:
+          strictMatch: true
+          values: []
+        appliedColumnTests: {}
+        columnReference:
+          columnCounter: 6b3c5bdb-b8e4-4fc1-9bdc-537893680eea
+          stepCounter: 2585d028-0817-4605-b738-f3a508a8abe7
+        config: {}
+        dataType: STRING
+        defaultValue: ""
+        description: ""
+        name: grantee
+        nullable: false
+        sourceColumnReferences:
+          - columnReferences: []
+            transform: ""
+        transform: ""
+      - acceptedValues:
+          strictMatch: true
+          values: []
+        appliedColumnTests: {}
+        columnReference:
+          columnCounter: 5fe64042-09cd-485f-870d-eac42dd9b2e5
+          stepCounter: 2585d028-0817-4605-b738-f3a508a8abe7
+        config: {}
+        dataType: STRING
+        defaultValue: ""
+        description: ""
+        name: volume_catalog
+        nullable: false
+        sourceColumnReferences:
+          - columnReferences: []
+            transform: ""
+        transform: ""
+      - acceptedValues:
+          strictMatch: true
+          values: []
+        appliedColumnTests: {}
+        columnReference:
+          columnCounter: e05c8922-728f-481c-9aa0-1afe5c4dc8d9
+          stepCounter: 2585d028-0817-4605-b738-f3a508a8abe7
+        config: {}
+        dataType: STRING
+        defaultValue: ""
+        description: ""
+        name: volume_schema
+        nullable: false
+        sourceColumnReferences:
+          - columnReferences: []
+            transform: ""
+        transform: ""
+      - acceptedValues:
+          strictMatch: true
+          values: []
+        appliedColumnTests: {}
+        columnReference:
+          columnCounter: 198e9644-7276-4661-9bd3-c01bcd61cb72
+          stepCounter: 2585d028-0817-4605-b738-f3a508a8abe7
+        config: {}
+        dataType: STRING
+        defaultValue: ""
+        description: ""
+        name: volume_name
+        nullable: false
+        sourceColumnReferences:
+          - columnReferences: []
+            transform: ""
+        transform: ""
+      - acceptedValues:
+          strictMatch: true
+          values: []
+        appliedColumnTests: {}
+        columnReference:
+          columnCounter: 6cdea1a7-cc85-4df5-aad7-bf0df075a557
+          stepCounter: 2585d028-0817-4605-b738-f3a508a8abe7
+        config: {}
+        dataType: STRING
+        defaultValue: ""
+        description: ""
+        name: privilege_type
+        nullable: false
+        sourceColumnReferences:
+          - columnReferences: []
+            transform: ""
+        transform: ""
+      - acceptedValues:
+          strictMatch: true
+          values: []
+        appliedColumnTests: {}
+        columnReference:
+          columnCounter: 32d32601-bece-42fa-979e-9383c1783fe1
+          stepCounter: 2585d028-0817-4605-b738-f3a508a8abe7
+        config: {}
+        dataType: STRING
+        defaultValue: ""
+        description: ""
+        name: is_grantable
+        nullable: false
+        sourceColumnReferences:
+          - columnReferences: []
+            transform: ""
+        transform: ""
+      - acceptedValues:
+          strictMatch: true
+          values: []
+        appliedColumnTests: {}
+        columnReference:
+          columnCounter: 71523e0e-579b-417f-98c8-b73b1892c135
+          stepCounter: 2585d028-0817-4605-b738-f3a508a8abe7
+        config: {}
+        dataType: STRING
+        defaultValue: ""
+        description: ""
+        name: inherited_from
+        nullable: false
+        sourceColumnReferences:
+          - columnReferences: []
+            transform: ""
+        transform: ""
+  name: volume_privileges
+  schema: ""
+  sqlType: Source
+  type: sourceInput
+  version: 1
+type: Node

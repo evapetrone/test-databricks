@@ -1,0 +1,118 @@
+fileVersion: 1
+id: fdd131bd-0290-4a1a-82f9-0aaabb814e2e
+name: catalog_privileges
+operation:
+  database: ""
+  deployEnabled: true
+  description: ""
+  locationName: WORK
+  metadata:
+    columns:
+      - acceptedValues:
+          strictMatch: true
+          values: []
+        appliedColumnTests: {}
+        columnReference:
+          columnCounter: 9f7dc4d3-cfee-446e-89bf-8acba291021e
+          stepCounter: fdd131bd-0290-4a1a-82f9-0aaabb814e2e
+        config: {}
+        dataType: STRING
+        defaultValue: ""
+        description: Principal that granted the privilege.
+        name: grantor
+        nullable: false
+        sourceColumnReferences:
+          - columnReferences: []
+            transform: ""
+        transform: ""
+      - acceptedValues:
+          strictMatch: true
+          values: []
+        appliedColumnTests: {}
+        columnReference:
+          columnCounter: c4a24614-b6e4-4686-a3ec-361eac53c434
+          stepCounter: fdd131bd-0290-4a1a-82f9-0aaabb814e2e
+        config: {}
+        dataType: STRING
+        defaultValue: ""
+        description: Principal to which the privilege is granted.
+        name: grantee
+        nullable: false
+        sourceColumnReferences:
+          - columnReferences: []
+            transform: ""
+        transform: ""
+      - acceptedValues:
+          strictMatch: true
+          values: []
+        appliedColumnTests: {}
+        columnReference:
+          columnCounter: 0d64c875-8a5b-4bd5-ab69-bd05a74e8a0e
+          stepCounter: fdd131bd-0290-4a1a-82f9-0aaabb814e2e
+        config: {}
+        dataType: STRING
+        defaultValue: ""
+        description: Catalog on which the privilege is granted.
+        name: catalog_name
+        nullable: false
+        sourceColumnReferences:
+          - columnReferences: []
+            transform: ""
+        transform: ""
+      - acceptedValues:
+          strictMatch: true
+          values: []
+        appliedColumnTests: {}
+        columnReference:
+          columnCounter: ce9b1761-8243-4346-be9c-8197ba5790d8
+          stepCounter: fdd131bd-0290-4a1a-82f9-0aaabb814e2e
+        config: {}
+        dataType: STRING
+        defaultValue: ""
+        description: Privilege being granted.
+        name: privilege_type
+        nullable: false
+        sourceColumnReferences:
+          - columnReferences: []
+            transform: ""
+        transform: ""
+      - acceptedValues:
+          strictMatch: true
+          values: []
+        appliedColumnTests: {}
+        columnReference:
+          columnCounter: eb385c65-f33a-404d-9109-2894b3bf35c7
+          stepCounter: fdd131bd-0290-4a1a-82f9-0aaabb814e2e
+        config: {}
+        dataType: STRING
+        defaultValue: ""
+        description: Always NO. Reserved for future use.
+        name: is_grantable
+        nullable: false
+        sourceColumnReferences:
+          - columnReferences: []
+            transform: ""
+        transform: ""
+      - acceptedValues:
+          strictMatch: true
+          values: []
+        appliedColumnTests: {}
+        columnReference:
+          columnCounter: 2c740c01-f0ee-424f-95ac-4b833fb9d7b5
+          stepCounter: fdd131bd-0290-4a1a-82f9-0aaabb814e2e
+        config: {}
+        dataType: STRING
+        defaultValue: ""
+        description: The ancestor relation that the privilege is inherited from.
+        name: inherited_from
+        nullable: false
+        sourceColumnReferences:
+          - columnReferences: []
+            transform: ""
+        transform: ""
+  name: catalog_privileges
+  schema: ""
+  sqlType: Source
+  type: sourceInput
+  version: 1
+type: Node

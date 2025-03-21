@@ -1,0 +1,33 @@
+fileVersion: 1
+id: 8f683a6f-0ab4-4cec-bc63-e150acf5147f
+name: stg_note_json_parsed
+operation:
+  database: ""
+  deployEnabled: true
+  description: ""
+  locationName: SAMPLE
+  metadata:
+    columns:
+      - acceptedValues:
+          strictMatch: true
+          values: []
+        appliedColumnTests: {}
+        columnReference:
+          columnCounter: 6ef79409-a18a-4974-b355-5d1694f23f54
+          stepCounter: 8f683a6f-0ab4-4cec-bc63-e150acf5147f
+        config: {}
+        dataType: VARIANT
+        defaultValue: ""
+        description: ""
+        name: SRC
+        nullable: true
+        sourceColumnReferences:
+          - columnReferences: []
+            transform: ""
+        transform: ""
+  name: stg_note_json_parsed
+  schema: ""
+  sqlType: Source
+  type: sourceInput
+  version: 1
+type: Node

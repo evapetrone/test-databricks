@@ -1,0 +1,203 @@
+fileVersion: 1
+id: e59f9319-2a7d-46e3-ac84-542e82a36b6d
+name: routine_privileges
+operation:
+  database: ""
+  deployEnabled: true
+  description: ""
+  locationName: WORK
+  metadata:
+    columns:
+      - acceptedValues:
+          strictMatch: true
+          values: []
+        appliedColumnTests: {}
+        columnReference:
+          columnCounter: e9144c82-0fa1-423b-b92b-7afd660d7715
+          stepCounter: e59f9319-2a7d-46e3-ac84-542e82a36b6d
+        config: {}
+        dataType: STRING
+        defaultValue: ""
+        description: Principal who granted the privilege.
+        name: grantor
+        nullable: false
+        sourceColumnReferences:
+          - columnReferences: []
+            transform: ""
+        transform: ""
+      - acceptedValues:
+          strictMatch: true
+          values: []
+        appliedColumnTests: {}
+        columnReference:
+          columnCounter: 24cf1403-afae-488d-90f2-939ba6245dfd
+          stepCounter: e59f9319-2a7d-46e3-ac84-542e82a36b6d
+        config: {}
+        dataType: STRING
+        defaultValue: ""
+        description: Principal to which the privilege is granted.
+        name: grantee
+        nullable: false
+        sourceColumnReferences:
+          - columnReferences: []
+            transform: ""
+        transform: ""
+      - acceptedValues:
+          strictMatch: true
+          values: []
+        appliedColumnTests: {}
+        columnReference:
+          columnCounter: 6a51270b-bf0e-4767-81c3-a53a06d9d888
+          stepCounter: e59f9319-2a7d-46e3-ac84-542e82a36b6d
+        config: {}
+        dataType: STRING
+        defaultValue: ""
+        description: Catalog of routine on which the privilege is granted.
+        name: specific_catalog
+        nullable: false
+        sourceColumnReferences:
+          - columnReferences: []
+            transform: ""
+        transform: ""
+      - acceptedValues:
+          strictMatch: true
+          values: []
+        appliedColumnTests: {}
+        columnReference:
+          columnCounter: 9b7cbad5-603f-45a2-9550-8c4fc9ba7e8b
+          stepCounter: e59f9319-2a7d-46e3-ac84-542e82a36b6d
+        config: {}
+        dataType: STRING
+        defaultValue: ""
+        description: Database of routine on which the privilege is granted.
+        name: specific_schema
+        nullable: false
+        sourceColumnReferences:
+          - columnReferences: []
+            transform: ""
+        transform: ""
+      - acceptedValues:
+          strictMatch: true
+          values: []
+        appliedColumnTests: {}
+        columnReference:
+          columnCounter: 09e0d6d1-8957-4ff2-8265-d45d5012e5c9
+          stepCounter: e59f9319-2a7d-46e3-ac84-542e82a36b6d
+        config: {}
+        dataType: STRING
+        defaultValue: ""
+        description: Schema unique (specific) name of routine on which the privilege is granted.
+        name: specific_name
+        nullable: false
+        sourceColumnReferences:
+          - columnReferences: []
+            transform: ""
+        transform: ""
+      - acceptedValues:
+          strictMatch: true
+          values: []
+        appliedColumnTests: {}
+        columnReference:
+          columnCounter: 0dda1a6c-6b46-4e36-9f2b-2366a7c177c1
+          stepCounter: e59f9319-2a7d-46e3-ac84-542e82a36b6d
+        config: {}
+        dataType: STRING
+        defaultValue: ""
+        description: Matches SPECIFIC_CATALOG.
+        name: routine_catalog
+        nullable: false
+        sourceColumnReferences:
+          - columnReferences: []
+            transform: ""
+        transform: ""
+      - acceptedValues:
+          strictMatch: true
+          values: []
+        appliedColumnTests: {}
+        columnReference:
+          columnCounter: a370c963-9ef0-4bbd-ae42-3e6910f6db57
+          stepCounter: e59f9319-2a7d-46e3-ac84-542e82a36b6d
+        config: {}
+        dataType: STRING
+        defaultValue: ""
+        description: Matches SPECIFIC_SCHEMA.
+        name: routine_schema
+        nullable: false
+        sourceColumnReferences:
+          - columnReferences: []
+            transform: ""
+        transform: ""
+      - acceptedValues:
+          strictMatch: true
+          values: []
+        appliedColumnTests: {}
+        columnReference:
+          columnCounter: 2c54a33c-26e5-4280-a485-f58dc27266bd
+          stepCounter: e59f9319-2a7d-46e3-ac84-542e82a36b6d
+        config: {}
+        dataType: STRING
+        defaultValue: ""
+        description: Name of routine on which the privilege is granted.
+        name: routine_name
+        nullable: false
+        sourceColumnReferences:
+          - columnReferences: []
+            transform: ""
+        transform: ""
+      - acceptedValues:
+          strictMatch: true
+          values: []
+        appliedColumnTests: {}
+        columnReference:
+          columnCounter: 8264240a-6197-4ca1-b216-8cc8ba1d1317
+          stepCounter: e59f9319-2a7d-46e3-ac84-542e82a36b6d
+        config: {}
+        dataType: STRING
+        defaultValue: ""
+        description: Privilege being granted.
+        name: privilege_type
+        nullable: false
+        sourceColumnReferences:
+          - columnReferences: []
+            transform: ""
+        transform: ""
+      - acceptedValues:
+          strictMatch: true
+          values: []
+        appliedColumnTests: {}
+        columnReference:
+          columnCounter: 82bc4d34-1bab-49f4-b62e-83554ed92468
+          stepCounter: e59f9319-2a7d-46e3-ac84-542e82a36b6d
+        config: {}
+        dataType: STRING
+        defaultValue: ""
+        description: Always NO. Reserved for future use.
+        name: is_grantable
+        nullable: false
+        sourceColumnReferences:
+          - columnReferences: []
+            transform: ""
+        transform: ""
+      - acceptedValues:
+          strictMatch: true
+          values: []
+        appliedColumnTests: {}
+        columnReference:
+          columnCounter: 77d3e299-2daa-4629-8ff4-ecc6ac831def
+          stepCounter: e59f9319-2a7d-46e3-ac84-542e82a36b6d
+        config: {}
+        dataType: STRING
+        defaultValue: ""
+        description: The ancestor relation that the privilege is inherited from.
+        name: inherited_from
+        nullable: false
+        sourceColumnReferences:
+          - columnReferences: []
+            transform: ""
+        transform: ""
+  name: routine_privileges
+  schema: ""
+  sqlType: Source
+  type: sourceInput
+  version: 1
+type: Node

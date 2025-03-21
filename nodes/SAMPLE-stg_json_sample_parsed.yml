@@ -1,0 +1,33 @@
+fileVersion: 1
+id: ce1da3be-7b11-43ec-a957-caa90b6c6700
+name: stg_json_sample_parsed
+operation:
+  database: ""
+  deployEnabled: true
+  description: ""
+  locationName: SAMPLE
+  metadata:
+    columns:
+      - acceptedValues:
+          strictMatch: true
+          values: []
+        appliedColumnTests: {}
+        columnReference:
+          columnCounter: 956f1185-7ec9-4c0a-ae04-7b11bade2316
+          stepCounter: ce1da3be-7b11-43ec-a957-caa90b6c6700
+        config: {}
+        dataType: VARIANT
+        defaultValue: ""
+        description: ""
+        name: SRC
+        nullable: true
+        sourceColumnReferences:
+          - columnReferences: []
+            transform: ""
+        transform: ""
+  name: stg_json_sample_parsed
+  schema: ""
+  sqlType: Source
+  type: sourceInput
+  version: 1
+type: Node

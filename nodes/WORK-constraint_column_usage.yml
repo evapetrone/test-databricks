@@ -1,0 +1,135 @@
+fileVersion: 1
+id: 9b9102cd-4a0e-403d-922c-045518244e2b
+name: constraint_column_usage
+operation:
+  database: ""
+  deployEnabled: true
+  description: ""
+  locationName: WORK
+  metadata:
+    columns:
+      - acceptedValues:
+          strictMatch: true
+          values: []
+        appliedColumnTests: {}
+        columnReference:
+          columnCounter: afffb4ac-643d-4a9c-8f1d-fa0d53b1b1b4
+          stepCounter: 9b9102cd-4a0e-403d-922c-045518244e2b
+        config: {}
+        dataType: STRING
+        defaultValue: ""
+        description: Catalog containing the relation.
+        name: table_catalog
+        nullable: false
+        sourceColumnReferences:
+          - columnReferences: []
+            transform: ""
+        transform: ""
+      - acceptedValues:
+          strictMatch: true
+          values: []
+        appliedColumnTests: {}
+        columnReference:
+          columnCounter: 1ff64ea1-d211-4995-96cd-fa4c2d7c4cef
+          stepCounter: 9b9102cd-4a0e-403d-922c-045518244e2b
+        config: {}
+        dataType: STRING
+        defaultValue: ""
+        description: Schema containing the relation.
+        name: table_schema
+        nullable: false
+        sourceColumnReferences:
+          - columnReferences: []
+            transform: ""
+        transform: ""
+      - acceptedValues:
+          strictMatch: true
+          values: []
+        appliedColumnTests: {}
+        columnReference:
+          columnCounter: 59ee23da-ab87-4c4c-8f75-f7d216da7c7b
+          stepCounter: 9b9102cd-4a0e-403d-922c-045518244e2b
+        config: {}
+        dataType: STRING
+        defaultValue: ""
+        description: Name of the relation.
+        name: table_name
+        nullable: false
+        sourceColumnReferences:
+          - columnReferences: []
+            transform: ""
+        transform: ""
+      - acceptedValues:
+          strictMatch: true
+          values: []
+        appliedColumnTests: {}
+        columnReference:
+          columnCounter: 2ee801cd-8427-4baf-a4a1-50ff887c0eca
+          stepCounter: 9b9102cd-4a0e-403d-922c-045518244e2b
+        config: {}
+        dataType: STRING
+        defaultValue: ""
+        description: Name of the column.
+        name: column_name
+        nullable: false
+        sourceColumnReferences:
+          - columnReferences: []
+            transform: ""
+        transform: ""
+      - acceptedValues:
+          strictMatch: true
+          values: []
+        appliedColumnTests: {}
+        columnReference:
+          columnCounter: e1f793eb-db43-475b-b833-308272a531ee
+          stepCounter: 9b9102cd-4a0e-403d-922c-045518244e2b
+        config: {}
+        dataType: STRING
+        defaultValue: ""
+        description: Catalog containing the constraint.
+        name: constraint_catalog
+        nullable: false
+        sourceColumnReferences:
+          - columnReferences: []
+            transform: ""
+        transform: ""
+      - acceptedValues:
+          strictMatch: true
+          values: []
+        appliedColumnTests: {}
+        columnReference:
+          columnCounter: e74b6f87-9f77-435f-b926-b48153afed58
+          stepCounter: 9b9102cd-4a0e-403d-922c-045518244e2b
+        config: {}
+        dataType: STRING
+        defaultValue: ""
+        description: Schema containing the constraint.
+        name: constraint_schema
+        nullable: false
+        sourceColumnReferences:
+          - columnReferences: []
+            transform: ""
+        transform: ""
+      - acceptedValues:
+          strictMatch: true
+          values: []
+        appliedColumnTests: {}
+        columnReference:
+          columnCounter: 49756f45-61ca-4e73-b0c6-15c5a5b74ff6
+          stepCounter: 9b9102cd-4a0e-403d-922c-045518244e2b
+        config: {}
+        dataType: STRING
+        defaultValue: ""
+        description: Name of the constraint.
+        name: constraint_name
+        nullable: false
+        sourceColumnReferences:
+          - columnReferences: []
+            transform: ""
+        transform: ""
+  name: constraint_column_usage
+  schema: ""
+  sqlType: Source
+  type: sourceInput
+  version: 1
+type: Node

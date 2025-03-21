@@ -1,0 +1,186 @@
+fileVersion: 1
+id: 9ed05d01-9cb9-4b01-a1f4-12404a5d2bc4
+name: fct_catalogs1
+operation:
+  database: ""
+  deployEnabled: true
+  description: ""
+  locationName: SAMPLE
+  metadata:
+    columns:
+      - acceptedValues:
+          strictMatch: true
+          values: []
+        appliedColumnTests: {}
+        columnReference:
+          columnCounter: 22d7d4f6-9f72-42aa-91a0-a8a3d46855fe
+          stepCounter: 9ed05d01-9cb9-4b01-a1f4-12404a5d2bc4
+        config: {}
+        dataType: STRING
+        defaultValue: ""
+        description: Name of the catalog.
+        name: catalog_name
+        nullable: false
+        sourceColumnReferences:
+          - columnReferences: []
+            transform: ""
+        transform: ""
+      - acceptedValues:
+          strictMatch: true
+          values: []
+        appliedColumnTests: {}
+        columnReference:
+          columnCounter: 3e1ad538-49bf-4df0-881d-0df5949cf1ed
+          stepCounter: 9ed05d01-9cb9-4b01-a1f4-12404a5d2bc4
+        config: {}
+        dataType: STRING
+        defaultValue: ""
+        description: Owner of the catalog.
+        name: catalog_owner
+        nullable: false
+        sourceColumnReferences:
+          - columnReferences: []
+            transform: ""
+        transform: ""
+      - acceptedValues:
+          strictMatch: true
+          values: []
+        appliedColumnTests: {}
+        columnReference:
+          columnCounter: a8ed8fd2-fa43-4d5c-ae09-8ae93a0f5100
+          stepCounter: 9ed05d01-9cb9-4b01-a1f4-12404a5d2bc4
+        config: {}
+        dataType: STRING
+        defaultValue: ""
+        description: An optional comment that describes the catalog.
+        name: comment
+        nullable: true
+        sourceColumnReferences:
+          - columnReferences: []
+            transform: ""
+        transform: ""
+      - acceptedValues:
+          strictMatch: true
+          values: []
+        appliedColumnTests: {}
+        columnReference:
+          columnCounter: 593d74b8-896a-46ed-a3b4-a0363ba3e74a
+          stepCounter: 9ed05d01-9cb9-4b01-a1f4-12404a5d2bc4
+        config: {}
+        dataType: TIMESTAMP
+        defaultValue: ""
+        description: Timestamp when the catalog was created.
+        name: created
+        nullable: false
+        sourceColumnReferences:
+          - columnReferences: []
+            transform: ""
+        transform: ""
+      - acceptedValues:
+          strictMatch: true
+          values: []
+        appliedColumnTests: {}
+        columnReference:
+          columnCounter: 1bdee5a7-1f12-4754-9b79-a5c16caa4267
+          stepCounter: 9ed05d01-9cb9-4b01-a1f4-12404a5d2bc4
+        config: {}
+        dataType: STRING
+        defaultValue: ""
+        description: Principal who created the catalog.
+        name: created_by
+        nullable: false
+        sourceColumnReferences:
+          - columnReferences: []
+            transform: ""
+        transform: ""
+      - acceptedValues:
+          strictMatch: true
+          values: []
+        appliedColumnTests: {}
+        columnReference:
+          columnCounter: 8428c575-8abd-4387-badd-694ff942aab4
+          stepCounter: 9ed05d01-9cb9-4b01-a1f4-12404a5d2bc4
+        config: {}
+        dataType: TIMESTAMP
+        defaultValue: ""
+        description: Timestamp when the catalog was last altered in any way.
+        name: last_altered
+        nullable: false
+        sourceColumnReferences:
+          - columnReferences: []
+            transform: ""
+        transform: ""
+      - acceptedValues:
+          strictMatch: true
+          values: []
+        appliedColumnTests: {}
+        columnReference:
+          columnCounter: 345ae837-83c2-4fce-b263-ff68d91f60df
+          stepCounter: 9ed05d01-9cb9-4b01-a1f4-12404a5d2bc4
+        config: {}
+        dataType: STRING
+        defaultValue: ""
+        description: Principal who last altered the catalog.
+        name: last_altered_by
+        nullable: false
+        sourceColumnReferences:
+          - columnReferences: []
+            transform: ""
+        transform: ""
+      - acceptedValues:
+          strictMatch: true
+          values: []
+        appliedColumnTests: {}
+        columnReference:
+          columnCounter: 74c56b89-4aee-47e5-9a1f-f91ab5057dda
+          stepCounter: 9ed05d01-9cb9-4b01-a1f4-12404a5d2bc4
+        config: {}
+        dataType: STRING
+        defaultValue: ""
+        description: The external location where the catalog was stored
+        name: url
+        nullable: true
+        sourceColumnReferences:
+          - columnReferences: []
+            transform: ""
+        transform: ""
+      - acceptedValues:
+          strictMatch: true
+          values: []
+        appliedColumnTests: {}
+        columnReference:
+          columnCounter: d3ca1113-acbc-43f2-b098-308b8a6cb75a
+          stepCounter: 9ed05d01-9cb9-4b01-a1f4-12404a5d2bc4
+        config: {}
+        dataType: TIMESTAMP
+        defaultValue: ""
+        description: ""
+        name: SYSTEM_CREATE_DATE
+        nullable: true
+        sourceColumnReferences:
+          - columnReferences: []
+            transform: ""
+        transform: ""
+      - acceptedValues:
+          strictMatch: true
+          values: []
+        appliedColumnTests: {}
+        columnReference:
+          columnCounter: 88c8ebc5-3936-4fc0-8bc1-8d437409e9a7
+          stepCounter: 9ed05d01-9cb9-4b01-a1f4-12404a5d2bc4
+        config: {}
+        dataType: TIMESTAMP
+        defaultValue: ""
+        description: ""
+        name: SYSTEM_UPDATE_DATE
+        nullable: true
+        sourceColumnReferences:
+          - columnReferences: []
+            transform: ""
+        transform: ""
+  name: fct_catalogs1
+  schema: ""
+  sqlType: Source
+  type: sourceInput
+  version: 1
+type: Node

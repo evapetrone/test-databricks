@@ -1,0 +1,152 @@
+fileVersion: 1
+id: 0a2c441a-1c96-49dc-b14c-1b369905c3f2
+name: table_privileges
+operation:
+  database: ""
+  deployEnabled: true
+  description: ""
+  locationName: WORK
+  metadata:
+    columns:
+      - acceptedValues:
+          strictMatch: true
+          values: []
+        appliedColumnTests: {}
+        columnReference:
+          columnCounter: 1bd9a31a-f99d-4175-8d80-2926926228c0
+          stepCounter: 0a2c441a-1c96-49dc-b14c-1b369905c3f2
+        config: {}
+        dataType: STRING
+        defaultValue: ""
+        description: Principal that granted the privilege.
+        name: grantor
+        nullable: false
+        sourceColumnReferences:
+          - columnReferences: []
+            transform: ""
+        transform: ""
+      - acceptedValues:
+          strictMatch: true
+          values: []
+        appliedColumnTests: {}
+        columnReference:
+          columnCounter: 089a832c-1158-4c33-b840-3446ec15ecdf
+          stepCounter: 0a2c441a-1c96-49dc-b14c-1b369905c3f2
+        config: {}
+        dataType: STRING
+        defaultValue: ""
+        description: Principal to which the privilege is granted.
+        name: grantee
+        nullable: false
+        sourceColumnReferences:
+          - columnReferences: []
+            transform: ""
+        transform: ""
+      - acceptedValues:
+          strictMatch: true
+          values: []
+        appliedColumnTests: {}
+        columnReference:
+          columnCounter: 18229c89-d327-4278-a3b2-5d3f5f1d50dd
+          stepCounter: 0a2c441a-1c96-49dc-b14c-1b369905c3f2
+        config: {}
+        dataType: STRING
+        defaultValue: ""
+        description: Catalog of relation on which the privilege is granted.
+        name: table_catalog
+        nullable: false
+        sourceColumnReferences:
+          - columnReferences: []
+            transform: ""
+        transform: ""
+      - acceptedValues:
+          strictMatch: true
+          values: []
+        appliedColumnTests: {}
+        columnReference:
+          columnCounter: 11d8f469-1ee7-4b2d-b8cd-7a0f906feada
+          stepCounter: 0a2c441a-1c96-49dc-b14c-1b369905c3f2
+        config: {}
+        dataType: STRING
+        defaultValue: ""
+        description: Schema of relation on which the privilege is granted.
+        name: table_schema
+        nullable: false
+        sourceColumnReferences:
+          - columnReferences: []
+            transform: ""
+        transform: ""
+      - acceptedValues:
+          strictMatch: true
+          values: []
+        appliedColumnTests: {}
+        columnReference:
+          columnCounter: 78f0186f-69e3-40be-bf1b-3108bfe4b7a3
+          stepCounter: 0a2c441a-1c96-49dc-b14c-1b369905c3f2
+        config: {}
+        dataType: STRING
+        defaultValue: ""
+        description: Relation on which the privilege is granted.
+        name: table_name
+        nullable: false
+        sourceColumnReferences:
+          - columnReferences: []
+            transform: ""
+        transform: ""
+      - acceptedValues:
+          strictMatch: true
+          values: []
+        appliedColumnTests: {}
+        columnReference:
+          columnCounter: daded035-4469-48a5-9757-4807ccbe2c2b
+          stepCounter: 0a2c441a-1c96-49dc-b14c-1b369905c3f2
+        config: {}
+        dataType: STRING
+        defaultValue: ""
+        description: Privilege being granted.
+        name: privilege_type
+        nullable: false
+        sourceColumnReferences:
+          - columnReferences: []
+            transform: ""
+        transform: ""
+      - acceptedValues:
+          strictMatch: true
+          values: []
+        appliedColumnTests: {}
+        columnReference:
+          columnCounter: 148cb120-d66d-4bf8-8681-f0a284e00dfc
+          stepCounter: 0a2c441a-1c96-49dc-b14c-1b369905c3f2
+        config: {}
+        dataType: STRING
+        defaultValue: ""
+        description: Always NO. Reserved for future use.
+        name: is_grantable
+        nullable: false
+        sourceColumnReferences:
+          - columnReferences: []
+            transform: ""
+        transform: ""
+      - acceptedValues:
+          strictMatch: true
+          values: []
+        appliedColumnTests: {}
+        columnReference:
+          columnCounter: 188ec9eb-c527-4fc5-8694-3700ff7c2dbf
+          stepCounter: 0a2c441a-1c96-49dc-b14c-1b369905c3f2
+        config: {}
+        dataType: STRING
+        defaultValue: ""
+        description: The ancestor relation that the privilege is inherited from.
+        name: inherited_from
+        nullable: false
+        sourceColumnReferences:
+          - columnReferences: []
+            transform: ""
+        transform: ""
+  name: table_privileges
+  schema: ""
+  sqlType: Source
+  type: sourceInput
+  version: 1
+type: Node

@@ -3,18 +3,14 @@ id: bbd6f788-266a-4115-ad9f-7ab8843af507
 name: sales_transactions
 operation:
   database: ""
-  dataset: ""
   deployEnabled: true
   description: ""
   locationName: SAMPLE
   metadata:
     columns: []
-    join:
-      joinCondition: FROM {{ ref('SAMPLE', 'sales_transactions') }}
   name: sales_transactions
   schema: ""
   sqlType: Source
-  table: sales_transactions
   type: sourceInput
   version: 1
 type: Node

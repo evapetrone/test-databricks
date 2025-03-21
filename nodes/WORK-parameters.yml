@@ -1,0 +1,373 @@
+fileVersion: 1
+id: 6f3bcf6b-b8e8-4058-a357-5ae06b92a4d7
+name: parameters
+operation:
+  database: ""
+  deployEnabled: true
+  description: ""
+  locationName: WORK
+  metadata:
+    columns:
+      - acceptedValues:
+          strictMatch: true
+          values: []
+        appliedColumnTests: {}
+        columnReference:
+          columnCounter: 405b540e-3ac8-4893-86f9-83fd74e6325d
+          stepCounter: 6f3bcf6b-b8e8-4058-a357-5ae06b92a4d7
+        config: {}
+        dataType: STRING
+        defaultValue: ""
+        description: Catalog containing the routine.
+        name: specific_catalog
+        nullable: false
+        sourceColumnReferences:
+          - columnReferences: []
+            transform: ""
+        transform: ""
+      - acceptedValues:
+          strictMatch: true
+          values: []
+        appliedColumnTests: {}
+        columnReference:
+          columnCounter: 04926c24-c13f-4818-a2ff-c94a083dd615
+          stepCounter: 6f3bcf6b-b8e8-4058-a357-5ae06b92a4d7
+        config: {}
+        dataType: STRING
+        defaultValue: ""
+        description: Database (schema) containing the routine.
+        name: specific_schema
+        nullable: false
+        sourceColumnReferences:
+          - columnReferences: []
+            transform: ""
+        transform: ""
+      - acceptedValues:
+          strictMatch: true
+          values: []
+        appliedColumnTests: {}
+        columnReference:
+          columnCounter: 06cf22d9-1cd4-4c10-bbf6-924676b04548
+          stepCounter: 6f3bcf6b-b8e8-4058-a357-5ae06b92a4d7
+        config: {}
+        dataType: STRING
+        defaultValue: ""
+        description: Schema unique (specific) name of the routine.
+        name: specific_name
+        nullable: false
+        sourceColumnReferences:
+          - columnReferences: []
+            transform: ""
+        transform: ""
+      - acceptedValues:
+          strictMatch: true
+          values: []
+        appliedColumnTests: {}
+        columnReference:
+          columnCounter: 31523119-3217-4b55-bbab-01d6d195d323
+          stepCounter: 6f3bcf6b-b8e8-4058-a357-5ae06b92a4d7
+        config: {}
+        dataType: INT
+        defaultValue: ""
+        description: The position (1-based) of the parameter in the routine parameter list.
+        name: ordinal_position
+        nullable: false
+        sourceColumnReferences:
+          - columnReferences: []
+            transform: ""
+        transform: ""
+      - acceptedValues:
+          strictMatch: true
+          values: []
+        appliedColumnTests: {}
+        columnReference:
+          columnCounter: 9d23c6e7-3916-4508-9fc6-ffd0e9f70788
+          stepCounter: 6f3bcf6b-b8e8-4058-a357-5ae06b92a4d7
+        config: {}
+        dataType: STRING
+        defaultValue: ""
+        description: Always 'IN'. Reserved for future use.
+        name: parameter_mode
+        nullable: false
+        sourceColumnReferences:
+          - columnReferences: []
+            transform: ""
+        transform: ""
+      - acceptedValues:
+          strictMatch: true
+          values: []
+        appliedColumnTests: {}
+        columnReference:
+          columnCounter: d0775f28-204d-4ce0-8656-18e4ad15f98f
+          stepCounter: 6f3bcf6b-b8e8-4058-a357-5ae06b92a4d7
+        config: {}
+        dataType: STRING
+        defaultValue: ""
+        description: Always 'NO'. Reserved for future use.
+        name: is_result
+        nullable: false
+        sourceColumnReferences:
+          - columnReferences: []
+            transform: ""
+        transform: ""
+      - acceptedValues:
+          strictMatch: true
+          values: []
+        appliedColumnTests: {}
+        columnReference:
+          columnCounter: 7fbb4410-18bb-43a2-ada6-53b796cd5120
+          stepCounter: 6f3bcf6b-b8e8-4058-a357-5ae06b92a4d7
+        config: {}
+        dataType: STRING
+        defaultValue: ""
+        description: Always 'NO'. Reserved for future use.
+        name: as_locator
+        nullable: false
+        sourceColumnReferences:
+          - columnReferences: []
+            transform: ""
+        transform: ""
+      - acceptedValues:
+          strictMatch: true
+          values: []
+        appliedColumnTests: {}
+        columnReference:
+          columnCounter: 05e56d69-0568-4075-928a-89597905ac9a
+          stepCounter: 6f3bcf6b-b8e8-4058-a357-5ae06b92a4d7
+        config: {}
+        dataType: STRING
+        defaultValue: ""
+        description: Name of the parameters, NULL if unnamed.
+        name: parameter_name
+        nullable: true
+        sourceColumnReferences:
+          - columnReferences: []
+            transform: ""
+        transform: ""
+      - acceptedValues:
+          strictMatch: true
+          values: []
+        appliedColumnTests: {}
+        columnReference:
+          columnCounter: 96e45988-4abc-4cee-834e-e12696cccd5b
+          stepCounter: 6f3bcf6b-b8e8-4058-a357-5ae06b92a4d7
+        config: {}
+        dataType: STRING
+        defaultValue: ""
+        description: The parameter data type name.
+        name: data_type
+        nullable: false
+        sourceColumnReferences:
+          - columnReferences: []
+            transform: ""
+        transform: ""
+      - acceptedValues:
+          strictMatch: true
+          values: []
+        appliedColumnTests: {}
+        columnReference:
+          columnCounter: f3750f06-1c3f-4080-9545-34c9cb1c39b1
+          stepCounter: 6f3bcf6b-b8e8-4058-a357-5ae06b92a4d7
+        config: {}
+        dataType: STRING
+        defaultValue: ""
+        description: The parameter data type definition, for example 'DECIMAL(10, 4)'.
+        name: full_data_type
+        nullable: false
+        sourceColumnReferences:
+          - columnReferences: []
+            transform: ""
+        transform: ""
+      - acceptedValues:
+          strictMatch: true
+          values: []
+        appliedColumnTests: {}
+        columnReference:
+          columnCounter: bfb396ad-c22c-4ff4-bcda-178ceb1af817
+          stepCounter: 6f3bcf6b-b8e8-4058-a357-5ae06b92a4d7
+        config: {}
+        dataType: LONG
+        defaultValue: ""
+        description: Always NULL, reserved for future use.
+        name: character_maximum_length
+        nullable: true
+        sourceColumnReferences:
+          - columnReferences: []
+            transform: ""
+        transform: ""
+      - acceptedValues:
+          strictMatch: true
+          values: []
+        appliedColumnTests: {}
+        columnReference:
+          columnCounter: b50ceab2-4dde-4b5f-a1fa-08710c2983a9
+          stepCounter: 6f3bcf6b-b8e8-4058-a357-5ae06b92a4d7
+        config: {}
+        dataType: LONG
+        defaultValue: ""
+        description: Always NULL, reserved for future use.
+        name: character_octet_length
+        nullable: true
+        sourceColumnReferences:
+          - columnReferences: []
+            transform: ""
+        transform: ""
+      - acceptedValues:
+          strictMatch: true
+          values: []
+        appliedColumnTests: {}
+        columnReference:
+          columnCounter: ec45a887-4a80-4208-9224-0878df3cd122
+          stepCounter: 6f3bcf6b-b8e8-4058-a357-5ae06b92a4d7
+        config: {}
+        dataType: INT
+        defaultValue: ""
+        description: For base-2 integral numeric types, FLOAT, and DOUBLE, the number of supported bits. For DECIMAL the number of digits, NULL otherwise.
+        name: numeric_precision
+        nullable: true
+        sourceColumnReferences:
+          - columnReferences: []
+            transform: ""
+        transform: ""
+      - acceptedValues:
+          strictMatch: true
+          values: []
+        appliedColumnTests: {}
+        columnReference:
+          columnCounter: 0b2f452b-84e2-4d68-93dc-eeddaf5fbf54
+          stepCounter: 6f3bcf6b-b8e8-4058-a357-5ae06b92a4d7
+        config: {}
+        dataType: INT
+        defaultValue: ""
+        description: For DECIMAL 10, for all other numeric types 2, NULL otherwise.
+        name: numeric_precision_radix
+        nullable: true
+        sourceColumnReferences:
+          - columnReferences: []
+            transform: ""
+        transform: ""
+      - acceptedValues:
+          strictMatch: true
+          values: []
+        appliedColumnTests: {}
+        columnReference:
+          columnCounter: 7688ab89-1ae2-4678-afb3-f2347b166691
+          stepCounter: 6f3bcf6b-b8e8-4058-a357-5ae06b92a4d7
+        config: {}
+        dataType: INT
+        defaultValue: ""
+        description: For integral numeric types 0, for DECIMAL the number of digits to the right of the decimal point, NULL otherwise.
+        name: numeric_scale
+        nullable: true
+        sourceColumnReferences:
+          - columnReferences: []
+            transform: ""
+        transform: ""
+      - acceptedValues:
+          strictMatch: true
+          values: []
+        appliedColumnTests: {}
+        columnReference:
+          columnCounter: bd3fa248-2741-4bf8-bbfc-dd202fc07533
+          stepCounter: 6f3bcf6b-b8e8-4058-a357-5ae06b92a4d7
+        config: {}
+        dataType: INT
+        defaultValue: ""
+        description: For DATE 0, for TIMESTAMP, and INTERVAL … SECOND 3, any other INTERVAL 0, NULL otherwise.
+        name: datetime_precision
+        nullable: true
+        sourceColumnReferences:
+          - columnReferences: []
+            transform: ""
+        transform: ""
+      - acceptedValues:
+          strictMatch: true
+          values: []
+        appliedColumnTests: {}
+        columnReference:
+          columnCounter: bdad5e2e-2130-4c37-acf8-52ddd6edc79c
+          stepCounter: 6f3bcf6b-b8e8-4058-a357-5ae06b92a4d7
+        config: {}
+        dataType: STRING
+        defaultValue: ""
+        description: For INTERVAL the unit portion of the interval, e.g. 'YEAR TO MONTH', NULL otherwise.
+        name: interval_type
+        nullable: true
+        sourceColumnReferences:
+          - columnReferences: []
+            transform: ""
+        transform: ""
+      - acceptedValues:
+          strictMatch: true
+          values: []
+        appliedColumnTests: {}
+        columnReference:
+          columnCounter: 9aa507b5-9c96-494e-b70a-67537aa2f313
+          stepCounter: 6f3bcf6b-b8e8-4058-a357-5ae06b92a4d7
+        config: {}
+        dataType: INT
+        defaultValue: ""
+        description: Always NULL, reserved for future use.
+        name: interval_precision
+        nullable: true
+        sourceColumnReferences:
+          - columnReferences: []
+            transform: ""
+        transform: ""
+      - acceptedValues:
+          strictMatch: true
+          values: []
+        appliedColumnTests: {}
+        columnReference:
+          columnCounter: 0778afc9-70bd-4e41-a06f-d6c030eba167
+          stepCounter: 6f3bcf6b-b8e8-4058-a357-5ae06b92a4d7
+        config: {}
+        dataType: LONG
+        defaultValue: ""
+        description: Always NULL, reserved for future use.
+        name: maximum_cardinality
+        nullable: true
+        sourceColumnReferences:
+          - columnReferences: []
+            transform: ""
+        transform: ""
+      - acceptedValues:
+          strictMatch: true
+          values: []
+        appliedColumnTests: {}
+        columnReference:
+          columnCounter: 92110009-4027-4358-8547-cef6acc35227
+          stepCounter: 6f3bcf6b-b8e8-4058-a357-5ae06b92a4d7
+        config: {}
+        dataType: STRING
+        defaultValue: ""
+        description: Always NULL, reserved for future use.
+        name: parameter_default
+        nullable: true
+        sourceColumnReferences:
+          - columnReferences: []
+            transform: ""
+        transform: ""
+      - acceptedValues:
+          strictMatch: true
+          values: []
+        appliedColumnTests: {}
+        columnReference:
+          columnCounter: 746800e1-242b-48bf-87f5-bcce79f2073c
+          stepCounter: 6f3bcf6b-b8e8-4058-a357-5ae06b92a4d7
+        config: {}
+        dataType: STRING
+        defaultValue: ""
+        description: An optional comment describing the parameter.
+        name: comment
+        nullable: true
+        sourceColumnReferences:
+          - columnReferences: []
+            transform: ""
+        transform: ""
+  name: parameters
+  schema: ""
+  sqlType: Source
+  type: sourceInput
+  version: 1
+type: Node

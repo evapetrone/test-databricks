@@ -1,0 +1,1223 @@
+fileVersion: 1
+id: 4cecb761-1732-46a8-a30a-0f8458159cdc
+name: stg_envista_ex1_json1
+operation:
+  database: ""
+  deployEnabled: true
+  description: ""
+  locationName: SAMPLE
+  metadata:
+    columns:
+      - acceptedValues:
+          strictMatch: true
+          values: []
+        appliedColumnTests: {}
+        columnReference:
+          columnCounter: d073805d-e4b4-4624-a97d-0edeaf9155ae
+          stepCounter: 4cecb761-1732-46a8-a30a-0f8458159cdc
+        config: {}
+        dataType: VARIANT
+        defaultValue: ""
+        description: ""
+        name: SRC
+        nullable: true
+        sourceColumnReferences:
+          - columnReferences: []
+            transform: ""
+        transform: ""
+      - acceptedValues:
+          strictMatch: true
+          values: []
+        appliedColumnTests: {}
+        columnReference:
+          columnCounter: 94025a03-46c1-4d84-85a9-0ba4361e7fdd
+          stepCounter: 4cecb761-1732-46a8-a30a-0f8458159cdc
+        config: {}
+        dataType: STRING
+        defaultValue: ""
+        description: ""
+        name: log_acceptrequest__datetime
+        nullable: true
+        sourceColumnReferences:
+          - columnReferences: []
+            transform: ""
+        transform: ""
+      - acceptedValues:
+          strictMatch: true
+          values: []
+        appliedColumnTests: {}
+        columnReference:
+          columnCounter: 43a2ec46-81e6-4f6c-b8a1-07c54e3fede7
+          stepCounter: 4cecb761-1732-46a8-a30a-0f8458159cdc
+        config: {}
+        dataType: STRING
+        defaultValue: ""
+        description: ""
+        name: log_acceptrequest__requesttype
+        nullable: true
+        sourceColumnReferences:
+          - columnReferences: []
+            transform: ""
+        transform: ""
+      - acceptedValues:
+          strictMatch: true
+          values: []
+        appliedColumnTests: {}
+        columnReference:
+          columnCounter: 67138888-8c77-4503-9163-8ac52661159b
+          stepCounter: 4cecb761-1732-46a8-a30a-0f8458159cdc
+        config: {}
+        dataType: STRING
+        defaultValue: ""
+        description: ""
+        name: log_case__datetime
+        nullable: true
+        sourceColumnReferences:
+          - columnReferences: []
+            transform: ""
+        transform: ""
+      - acceptedValues:
+          strictMatch: true
+          values: []
+        appliedColumnTests: {}
+        columnReference:
+          columnCounter: f0d69543-deec-41ec-948b-ab551fdf7137
+          stepCounter: 4cecb761-1732-46a8-a30a-0f8458159cdc
+        config: {}
+        dataType: STRING
+        defaultValue: ""
+        description: ""
+        name: log_case__patient
+        nullable: true
+        sourceColumnReferences:
+          - columnReferences: []
+            transform: ""
+        transform: ""
+      - acceptedValues:
+          strictMatch: true
+          values: []
+        appliedColumnTests: {}
+        columnReference:
+          columnCounter: 23febf43-2f14-408d-85c1-1644484cba10
+          stepCounter: 4cecb761-1732-46a8-a30a-0f8458159cdc
+        config: {}
+        dataType: STRING
+        defaultValue: ""
+        description: ""
+        name: log_case__reference
+        nullable: true
+        sourceColumnReferences:
+          - columnReferences: []
+            transform: ""
+        transform: ""
+      - acceptedValues:
+          strictMatch: true
+          values: []
+        appliedColumnTests: {}
+        columnReference:
+          columnCounter: db865750-e70c-4ba2-a3ea-7ed4fe218596
+          stepCounter: 4cecb761-1732-46a8-a30a-0f8458159cdc
+        config: {}
+        dataType: STRING
+        defaultValue: ""
+        description: ""
+        name: log_closesoftware__datetime
+        nullable: true
+        sourceColumnReferences:
+          - columnReferences: []
+            transform: ""
+        transform: ""
+      - acceptedValues:
+          strictMatch: true
+          values: []
+        appliedColumnTests: {}
+        columnReference:
+          columnCounter: 1a1073ad-b9da-407f-9705-d9b19f5d24b0
+          stepCounter: 4cecb761-1732-46a8-a30a-0f8458159cdc
+        config: {}
+        dataType: STRING
+        defaultValue: ""
+        description: ""
+        name: log_graphics_gpu__driver
+        nullable: true
+        sourceColumnReferences:
+          - columnReferences: []
+            transform: ""
+        transform: ""
+      - acceptedValues:
+          strictMatch: true
+          values: []
+        appliedColumnTests: {}
+        columnReference:
+          columnCounter: 0d362648-1381-46b1-b879-68c73a69998c
+          stepCounter: 4cecb761-1732-46a8-a30a-0f8458159cdc
+        config: {}
+        dataType: STRING
+        defaultValue: ""
+        description: ""
+        name: log_graphics_gpu__driver_date
+        nullable: true
+        sourceColumnReferences:
+          - columnReferences: []
+            transform: ""
+        transform: ""
+      - acceptedValues:
+          strictMatch: true
+          values: []
+        appliedColumnTests: {}
+        columnReference:
+          columnCounter: 5329ab56-4f61-42dd-be75-08dc5f83e76a
+          stepCounter: 4cecb761-1732-46a8-a30a-0f8458159cdc
+        config: {}
+        dataType: STRING
+        defaultValue: ""
+        description: ""
+        name: log_graphics_gpu__memory
+        nullable: true
+        sourceColumnReferences:
+          - columnReferences: []
+            transform: ""
+        transform: ""
+      - acceptedValues:
+          strictMatch: true
+          values: []
+        appliedColumnTests: {}
+        columnReference:
+          columnCounter: 83688f92-ee6a-47bf-b2c3-5b7482fc45cb
+          stepCounter: 4cecb761-1732-46a8-a30a-0f8458159cdc
+        config: {}
+        dataType: STRING
+        defaultValue: ""
+        description: ""
+        name: log_graphics_gpu__type
+        nullable: true
+        sourceColumnReferences:
+          - columnReferences: []
+            transform: ""
+        transform: ""
+      - acceptedValues:
+          strictMatch: true
+          values: []
+        appliedColumnTests: {}
+        columnReference:
+          columnCounter: c2b2da0b-3c49-48f9-a81f-3e965f049a6d
+          stepCounter: 4cecb761-1732-46a8-a30a-0f8458159cdc
+        config: {}
+        dataType: STRING
+        defaultValue: ""
+        description: ""
+        name: log_graphics_opengl_extension__name
+        nullable: true
+        sourceColumnReferences:
+          - columnReferences: []
+            transform: ""
+        transform: ""
+      - acceptedValues:
+          strictMatch: true
+          values: []
+        appliedColumnTests: {}
+        columnReference:
+          columnCounter: d53d10b2-173a-4b28-9216-fe1c2757e1c1
+          stepCounter: 4cecb761-1732-46a8-a30a-0f8458159cdc
+        config: {}
+        dataType: STRING
+        defaultValue: ""
+        description: ""
+        name: log_graphics_opengl__shading_language_version
+        nullable: true
+        sourceColumnReferences:
+          - columnReferences: []
+            transform: ""
+        transform: ""
+      - acceptedValues:
+          strictMatch: true
+          values: []
+        appliedColumnTests: {}
+        columnReference:
+          columnCounter: 53c421ac-1b50-42f3-aecc-c4a9525b8983
+          stepCounter: 4cecb761-1732-46a8-a30a-0f8458159cdc
+        config: {}
+        dataType: STRING
+        defaultValue: ""
+        description: ""
+        name: log_graphics_opengl__version
+        nullable: true
+        sourceColumnReferences:
+          - columnReferences: []
+            transform: ""
+        transform: ""
+      - acceptedValues:
+          strictMatch: true
+          values: []
+        appliedColumnTests: {}
+        columnReference:
+          columnCounter: 0d5eb563-5df1-4936-8595-e97288747847
+          stepCounter: 4cecb761-1732-46a8-a30a-0f8458159cdc
+        config: {}
+        dataType: STRING
+        defaultValue: ""
+        description: ""
+        name: log_hardware_cpu__architecture
+        nullable: true
+        sourceColumnReferences:
+          - columnReferences: []
+            transform: ""
+        transform: ""
+      - acceptedValues:
+          strictMatch: true
+          values: []
+        appliedColumnTests: {}
+        columnReference:
+          columnCounter: cc9740be-92a1-4169-8399-eeac1884e9a2
+          stepCounter: 4cecb761-1732-46a8-a30a-0f8458159cdc
+        config: {}
+        dataType: STRING
+        defaultValue: ""
+        description: ""
+        name: log_hardware_cpu__core_count
+        nullable: true
+        sourceColumnReferences:
+          - columnReferences: []
+            transform: ""
+        transform: ""
+      - acceptedValues:
+          strictMatch: true
+          values: []
+        appliedColumnTests: {}
+        columnReference:
+          columnCounter: 63d157be-64e8-4caa-907b-75ad195e002b
+          stepCounter: 4cecb761-1732-46a8-a30a-0f8458159cdc
+        config: {}
+        dataType: STRING
+        defaultValue: ""
+        description: ""
+        name: log_hardware_cpu__type
+        nullable: true
+        sourceColumnReferences:
+          - columnReferences: []
+            transform: ""
+        transform: ""
+      - acceptedValues:
+          strictMatch: true
+          values: []
+        appliedColumnTests: {}
+        columnReference:
+          columnCounter: 9b2e88a5-d4de-4200-a046-96215a1670ad
+          stepCounter: 4cecb761-1732-46a8-a30a-0f8458159cdc
+        config: {}
+        dataType: STRING
+        defaultValue: ""
+        description: ""
+        name: log_hardware_monitor__height
+        nullable: true
+        sourceColumnReferences:
+          - columnReferences: []
+            transform: ""
+        transform: ""
+      - acceptedValues:
+          strictMatch: true
+          values: []
+        appliedColumnTests: {}
+        columnReference:
+          columnCounter: b92483e1-060c-4502-a66a-629f091b8b34
+          stepCounter: 4cecb761-1732-46a8-a30a-0f8458159cdc
+        config: {}
+        dataType: STRING
+        defaultValue: ""
+        description: ""
+        name: log_hardware_monitor__is_primary_screen
+        nullable: true
+        sourceColumnReferences:
+          - columnReferences: []
+            transform: ""
+        transform: ""
+      - acceptedValues:
+          strictMatch: true
+          values: []
+        appliedColumnTests: {}
+        columnReference:
+          columnCounter: 2ea0250b-0cc6-45f7-bf26-bd2490c0eba9
+          stepCounter: 4cecb761-1732-46a8-a30a-0f8458159cdc
+        config: {}
+        dataType: STRING
+        defaultValue: ""
+        description: ""
+        name: log_hardware_monitor__logical_dpi_x
+        nullable: true
+        sourceColumnReferences:
+          - columnReferences: []
+            transform: ""
+        transform: ""
+      - acceptedValues:
+          strictMatch: true
+          values: []
+        appliedColumnTests: {}
+        columnReference:
+          columnCounter: 706b0a0d-8314-41f3-b3b6-c27e8d77a657
+          stepCounter: 4cecb761-1732-46a8-a30a-0f8458159cdc
+        config: {}
+        dataType: STRING
+        defaultValue: ""
+        description: ""
+        name: log_hardware_monitor__logical_dpi_y
+        nullable: true
+        sourceColumnReferences:
+          - columnReferences: []
+            transform: ""
+        transform: ""
+      - acceptedValues:
+          strictMatch: true
+          values: []
+        appliedColumnTests: {}
+        columnReference:
+          columnCounter: 42af4bac-0e74-4357-8e21-c910e8e4585a
+          stepCounter: 4cecb761-1732-46a8-a30a-0f8458159cdc
+        config: {}
+        dataType: STRING
+        defaultValue: ""
+        description: ""
+        name: log_hardware_monitor__physical_dpi_x
+        nullable: true
+        sourceColumnReferences:
+          - columnReferences: []
+            transform: ""
+        transform: ""
+      - acceptedValues:
+          strictMatch: true
+          values: []
+        appliedColumnTests: {}
+        columnReference:
+          columnCounter: a46848b1-9eb6-41fd-b513-da26884f9f70
+          stepCounter: 4cecb761-1732-46a8-a30a-0f8458159cdc
+        config: {}
+        dataType: STRING
+        defaultValue: ""
+        description: ""
+        name: log_hardware_monitor__physical_dpi_y
+        nullable: true
+        sourceColumnReferences:
+          - columnReferences: []
+            transform: ""
+        transform: ""
+      - acceptedValues:
+          strictMatch: true
+          values: []
+        appliedColumnTests: {}
+        columnReference:
+          columnCounter: 9a46ba72-aead-449d-b1a4-b663dad69624
+          stepCounter: 4cecb761-1732-46a8-a30a-0f8458159cdc
+        config: {}
+        dataType: STRING
+        defaultValue: ""
+        description: ""
+        name: log_hardware_monitor__physical_size_heigth
+        nullable: true
+        sourceColumnReferences:
+          - columnReferences: []
+            transform: ""
+        transform: ""
+      - acceptedValues:
+          strictMatch: true
+          values: []
+        appliedColumnTests: {}
+        columnReference:
+          columnCounter: 034f7f16-e53d-4492-adac-4f1275339c8a
+          stepCounter: 4cecb761-1732-46a8-a30a-0f8458159cdc
+        config: {}
+        dataType: STRING
+        defaultValue: ""
+        description: ""
+        name: log_hardware_monitor__physical_size_width
+        nullable: true
+        sourceColumnReferences:
+          - columnReferences: []
+            transform: ""
+        transform: ""
+      - acceptedValues:
+          strictMatch: true
+          values: []
+        appliedColumnTests: {}
+        columnReference:
+          columnCounter: f4532173-ebe0-49d9-b573-86be5e24af08
+          stepCounter: 4cecb761-1732-46a8-a30a-0f8458159cdc
+        config: {}
+        dataType: STRING
+        defaultValue: ""
+        description: ""
+        name: log_hardware_monitor__width
+        nullable: true
+        sourceColumnReferences:
+          - columnReferences: []
+            transform: ""
+        transform: ""
+      - acceptedValues:
+          strictMatch: true
+          values: []
+        appliedColumnTests: {}
+        columnReference:
+          columnCounter: e7ae5e38-3973-4d9e-9b1f-9927fe61fb79
+          stepCounter: 4cecb761-1732-46a8-a30a-0f8458159cdc
+        config: {}
+        dataType: STRING
+        defaultValue: ""
+        description: ""
+        name: log_hardware_ram__installed_size
+        nullable: true
+        sourceColumnReferences:
+          - columnReferences: []
+            transform: ""
+        transform: ""
+      - acceptedValues:
+          strictMatch: true
+          values: []
+        appliedColumnTests: {}
+        columnReference:
+          columnCounter: 4cd3aa58-d504-4dd5-9a20-8c637923a6d9
+          stepCounter: 4cecb761-1732-46a8-a30a-0f8458159cdc
+        config: {}
+        dataType: STRING
+        defaultValue: ""
+        description: ""
+        name: log_hardware_ram__usable_size
+        nullable: true
+        sourceColumnReferences:
+          - columnReferences: []
+            transform: ""
+        transform: ""
+      - acceptedValues:
+          strictMatch: true
+          values: []
+        appliedColumnTests: {}
+        columnReference:
+          columnCounter: e4886dbd-42d0-4bea-9f98-6eb5c5a5cf47
+          stepCounter: 4cecb761-1732-46a8-a30a-0f8458159cdc
+        config: {}
+        dataType: STRING
+        defaultValue: ""
+        description: ""
+        name: log_hardware__identifier
+        nullable: true
+        sourceColumnReferences:
+          - columnReferences: []
+            transform: ""
+        transform: ""
+      - acceptedValues:
+          strictMatch: true
+          values: []
+        appliedColumnTests: {}
+        columnReference:
+          columnCounter: 4014f6da-f6f4-4ff0-814a-ef873531ed29
+          stepCounter: 4cecb761-1732-46a8-a30a-0f8458159cdc
+        config: {}
+        dataType: STRING
+        defaultValue: ""
+        description: ""
+        name: log_license_information__installationreference
+        nullable: true
+        sourceColumnReferences:
+          - columnReferences: []
+            transform: ""
+        transform: ""
+      - acceptedValues:
+          strictMatch: true
+          values: []
+        appliedColumnTests: {}
+        columnReference:
+          columnCounter: ad56cc13-4794-4540-adce-f525ce50a054
+          stepCounter: 4cecb761-1732-46a8-a30a-0f8458159cdc
+        config: {}
+        dataType: STRING
+        defaultValue: ""
+        description: ""
+        name: log_networkstatus__online
+        nullable: true
+        sourceColumnReferences:
+          - columnReferences: []
+            transform: ""
+        transform: ""
+      - acceptedValues:
+          strictMatch: true
+          values: []
+        appliedColumnTests: {}
+        columnReference:
+          columnCounter: 0ab27afb-0a55-4f45-bc57-af6623765ea9
+          stepCounter: 4cecb761-1732-46a8-a30a-0f8458159cdc
+        config: {}
+        dataType: STRING
+        defaultValue: ""
+        description: ""
+        name: log_nobellicense_call__call
+        nullable: true
+        sourceColumnReferences:
+          - columnReferences: []
+            transform: ""
+        transform: ""
+      - acceptedValues:
+          strictMatch: true
+          values: []
+        appliedColumnTests: {}
+        columnReference:
+          columnCounter: 50bc6f01-316d-4569-aad6-9803bf491422
+          stepCounter: 4cecb761-1732-46a8-a30a-0f8458159cdc
+        config: {}
+        dataType: STRING
+        defaultValue: ""
+        description: ""
+        name: log_nobellicense_call__duration
+        nullable: true
+        sourceColumnReferences:
+          - columnReferences: []
+            transform: ""
+        transform: ""
+      - acceptedValues:
+          strictMatch: true
+          values: []
+        appliedColumnTests: {}
+        columnReference:
+          columnCounter: 272bd32a-0c28-4928-bb24-92f8f74eacd5
+          stepCounter: 4cecb761-1732-46a8-a30a-0f8458159cdc
+        config: {}
+        dataType: STRING
+        defaultValue: ""
+        description: ""
+        name: log_nobellicense_call__succeeded
+        nullable: true
+        sourceColumnReferences:
+          - columnReferences: []
+            transform: ""
+        transform: ""
+      - acceptedValues:
+          strictMatch: true
+          values: []
+        appliedColumnTests: {}
+        columnReference:
+          columnCounter: 905ee5a4-77de-481f-9182-beace0d3a5be
+          stepCounter: 4cecb761-1732-46a8-a30a-0f8458159cdc
+        config: {}
+        dataType: STRING
+        defaultValue: ""
+        description: ""
+        name: log_openscancenter__datetime
+        nullable: true
+        sourceColumnReferences:
+          - columnReferences: []
+            transform: ""
+        transform: ""
+      - acceptedValues:
+          strictMatch: true
+          values: []
+        appliedColumnTests: {}
+        columnReference:
+          columnCounter: 036badca-cea0-45b0-b628-f06ba3cfcc79
+          stepCounter: 4cecb761-1732-46a8-a30a-0f8458159cdc
+        config: {}
+        dataType: STRING
+        defaultValue: ""
+        description: ""
+        name: log_opensoftware__datetime
+        nullable: true
+        sourceColumnReferences:
+          - columnReferences: []
+            transform: ""
+        transform: ""
+      - acceptedValues:
+          strictMatch: true
+          values: []
+        appliedColumnTests: {}
+        columnReference:
+          columnCounter: 91112dde-4b75-40de-9173-535753f0ea5b
+          stepCounter: 4cecb761-1732-46a8-a30a-0f8458159cdc
+        config: {}
+        dataType: STRING
+        defaultValue: ""
+        description: ""
+        name: log_opensoftware__session_id
+        nullable: true
+        sourceColumnReferences:
+          - columnReferences: []
+            transform: ""
+        transform: ""
+      - acceptedValues:
+          strictMatch: true
+          values: []
+        appliedColumnTests: {}
+        columnReference:
+          columnCounter: ad13d5ca-fe90-4864-b8a9-01bb84f04dca
+          stepCounter: 4cecb761-1732-46a8-a30a-0f8458159cdc
+        config: {}
+        dataType: STRING
+        defaultValue: ""
+        description: ""
+        name: log_opensoftware__software_serial
+        nullable: true
+        sourceColumnReferences:
+          - columnReferences: []
+            transform: ""
+        transform: ""
+      - acceptedValues:
+          strictMatch: true
+          values: []
+        appliedColumnTests: {}
+        columnReference:
+          columnCounter: 5ff326a6-6944-41dd-8763-ff3930305c31
+          stepCounter: 4cecb761-1732-46a8-a30a-0f8458159cdc
+        config: {}
+        dataType: STRING
+        defaultValue: ""
+        description: ""
+        name: log_opensoftware__version
+        nullable: true
+        sourceColumnReferences:
+          - columnReferences: []
+            transform: ""
+        transform: ""
+      - acceptedValues:
+          strictMatch: true
+          values: []
+        appliedColumnTests: {}
+        columnReference:
+          columnCounter: 6e0d44af-e2db-4c84-b9ae-626ec14729db
+          stepCounter: 4cecb761-1732-46a8-a30a-0f8458159cdc
+        config: {}
+        dataType: STRING
+        defaultValue: ""
+        description: ""
+        name: log_operatingsystem__architecture
+        nullable: true
+        sourceColumnReferences:
+          - columnReferences: []
+            transform: ""
+        transform: ""
+      - acceptedValues:
+          strictMatch: true
+          values: []
+        appliedColumnTests: {}
+        columnReference:
+          columnCounter: 8a5df13d-89ac-400d-b574-f941be07dbc0
+          stepCounter: 4cecb761-1732-46a8-a30a-0f8458159cdc
+        config: {}
+        dataType: STRING
+        defaultValue: ""
+        description: ""
+        name: log_operatingsystem__language
+        nullable: true
+        sourceColumnReferences:
+          - columnReferences: []
+            transform: ""
+        transform: ""
+      - acceptedValues:
+          strictMatch: true
+          values: []
+        appliedColumnTests: {}
+        columnReference:
+          columnCounter: 190892d7-de0d-4c68-addd-9ad00e3d4358
+          stepCounter: 4cecb761-1732-46a8-a30a-0f8458159cdc
+        config: {}
+        dataType: STRING
+        defaultValue: ""
+        description: ""
+        name: log_operatingsystem__name
+        nullable: true
+        sourceColumnReferences:
+          - columnReferences: []
+            transform: ""
+        transform: ""
+      - acceptedValues:
+          strictMatch: true
+          values: []
+        appliedColumnTests: {}
+        columnReference:
+          columnCounter: 91e55bf5-f340-4edf-9410-dc67b9fe7dcc
+          stepCounter: 4cecb761-1732-46a8-a30a-0f8458159cdc
+        config: {}
+        dataType: STRING
+        defaultValue: ""
+        description: ""
+        name: log_operatingsystem__version
+        nullable: true
+        sourceColumnReferences:
+          - columnReferences: []
+            transform: ""
+        transform: ""
+      - acceptedValues:
+          strictMatch: true
+          values: []
+        appliedColumnTests: {}
+        columnReference:
+          columnCounter: ef30e2cf-c1a0-4af3-9ba0-165d538505da
+          stepCounter: 4cecb761-1732-46a8-a30a-0f8458159cdc
+        config: {}
+        dataType: STRING
+        defaultValue: ""
+        description: ""
+        name: log_patient__datetime
+        nullable: true
+        sourceColumnReferences:
+          - columnReferences: []
+            transform: ""
+        transform: ""
+      - acceptedValues:
+          strictMatch: true
+          values: []
+        appliedColumnTests: {}
+        columnReference:
+          columnCounter: 6e9ca5d9-f849-4fbb-b9a6-a3d2ad927815
+          stepCounter: 4cecb761-1732-46a8-a30a-0f8458159cdc
+        config: {}
+        dataType: STRING
+        defaultValue: ""
+        description: ""
+        name: log_patient__reference
+        nullable: true
+        sourceColumnReferences:
+          - columnReferences: []
+            transform: ""
+        transform: ""
+      - acceptedValues:
+          strictMatch: true
+          values: []
+        appliedColumnTests: {}
+        columnReference:
+          columnCounter: f0d28510-9988-4f4d-85c8-463eee852cfd
+          stepCounter: 4cecb761-1732-46a8-a30a-0f8458159cdc
+        config: {}
+        dataType: STRING
+        defaultValue: ""
+        description: ""
+        name: log_scansetup_diagnostic__calibration_date
+        nullable: true
+        sourceColumnReferences:
+          - columnReferences: []
+            transform: ""
+        transform: ""
+      - acceptedValues:
+          strictMatch: true
+          values: []
+        appliedColumnTests: {}
+        columnReference:
+          columnCounter: 0f30083c-97e0-47fa-9fbb-ad931577cd3f
+          stepCounter: 4cecb761-1732-46a8-a30a-0f8458159cdc
+        config: {}
+        dataType: STRING
+        defaultValue: ""
+        description: ""
+        name: log_scansetup_diagnostic__material
+        nullable: true
+        sourceColumnReferences:
+          - columnReferences: []
+            transform: ""
+        transform: ""
+      - acceptedValues:
+          strictMatch: true
+          values: []
+        appliedColumnTests: {}
+        columnReference:
+          columnCounter: cfb4b403-e67d-457f-8f69-d9a8ff1de4cc
+          stepCounter: 4cecb761-1732-46a8-a30a-0f8458159cdc
+        config: {}
+        dataType: STRING
+        defaultValue: ""
+        description: ""
+        name: log_scansetup_diagnostic__scan_datetime
+        nullable: true
+        sourceColumnReferences:
+          - columnReferences: []
+            transform: ""
+        transform: ""
+      - acceptedValues:
+          strictMatch: true
+          values: []
+        appliedColumnTests: {}
+        columnReference:
+          columnCounter: 43b29f67-0268-4e36-8e74-8cfa3b32b080
+          stepCounter: 4cecb761-1732-46a8-a30a-0f8458159cdc
+        config: {}
+        dataType: STRING
+        defaultValue: ""
+        description: ""
+        name: log_scansetup_diagnostic__tooth_range_end
+        nullable: true
+        sourceColumnReferences:
+          - columnReferences: []
+            transform: ""
+        transform: ""
+      - acceptedValues:
+          strictMatch: true
+          values: []
+        appliedColumnTests: {}
+        columnReference:
+          columnCounter: 3a5de1df-5574-498a-9692-0221e94b5454
+          stepCounter: 4cecb761-1732-46a8-a30a-0f8458159cdc
+        config: {}
+        dataType: STRING
+        defaultValue: ""
+        description: ""
+        name: log_scansetup_diagnostic__tooth_range_start
+        nullable: true
+        sourceColumnReferences:
+          - columnReferences: []
+            transform: ""
+        transform: ""
+      - acceptedValues:
+          strictMatch: true
+          values: []
+        appliedColumnTests: {}
+        columnReference:
+          columnCounter: 0d5318f4-9f18-40d9-a768-f8a146ed9d0d
+          stepCounter: 4cecb761-1732-46a8-a30a-0f8458159cdc
+        config: {}
+        dataType: STRING
+        defaultValue: ""
+        description: ""
+        name: log_scansetup_jawscan__calibration_date
+        nullable: true
+        sourceColumnReferences:
+          - columnReferences: []
+            transform: ""
+        transform: ""
+      - acceptedValues:
+          strictMatch: true
+          values: []
+        appliedColumnTests: {}
+        columnReference:
+          columnCounter: 90d85b7b-b10e-4a59-a01c-70963fe4cc8d
+          stepCounter: 4cecb761-1732-46a8-a30a-0f8458159cdc
+        config: {}
+        dataType: STRING
+        defaultValue: ""
+        description: ""
+        name: log_scansetup_jawscan__material
+        nullable: true
+        sourceColumnReferences:
+          - columnReferences: []
+            transform: ""
+        transform: ""
+      - acceptedValues:
+          strictMatch: true
+          values: []
+        appliedColumnTests: {}
+        columnReference:
+          columnCounter: 81d14cb0-8deb-425c-ad03-ed832b4eeda2
+          stepCounter: 4cecb761-1732-46a8-a30a-0f8458159cdc
+        config: {}
+        dataType: STRING
+        defaultValue: ""
+        description: ""
+        name: log_scansetup_jawscan__scan_datetime
+        nullable: true
+        sourceColumnReferences:
+          - columnReferences: []
+            transform: ""
+        transform: ""
+      - acceptedValues:
+          strictMatch: true
+          values: []
+        appliedColumnTests: {}
+        columnReference:
+          columnCounter: 9aee049d-e44c-40f1-ae91-c136a14cfd57
+          stepCounter: 4cecb761-1732-46a8-a30a-0f8458159cdc
+        config: {}
+        dataType: STRING
+        defaultValue: ""
+        description: ""
+        name: log_scansetup_jawscan__tooth_range_end
+        nullable: true
+        sourceColumnReferences:
+          - columnReferences: []
+            transform: ""
+        transform: ""
+      - acceptedValues:
+          strictMatch: true
+          values: []
+        appliedColumnTests: {}
+        columnReference:
+          columnCounter: d2c70d98-3f4a-469e-ac5c-6564f258a09a
+          stepCounter: 4cecb761-1732-46a8-a30a-0f8458159cdc
+        config: {}
+        dataType: STRING
+        defaultValue: ""
+        description: ""
+        name: log_scansetup_jawscan__tooth_range_start
+        nullable: true
+        sourceColumnReferences:
+          - columnReferences: []
+            transform: ""
+        transform: ""
+      - acceptedValues:
+          strictMatch: true
+          values: []
+        appliedColumnTests: {}
+        columnReference:
+          columnCounter: dd67f1bc-a8d4-4557-b80a-c5c3a84e0197
+          stepCounter: 4cecb761-1732-46a8-a30a-0f8458159cdc
+        config: {}
+        dataType: STRING
+        defaultValue: ""
+        description: ""
+        name: log_scansetup__case
+        nullable: true
+        sourceColumnReferences:
+          - columnReferences: []
+            transform: ""
+        transform: ""
+      - acceptedValues:
+          strictMatch: true
+          values: []
+        appliedColumnTests: {}
+        columnReference:
+          columnCounter: 6ee9519b-b323-471c-a381-638205967bdc
+          stepCounter: 4cecb761-1732-46a8-a30a-0f8458159cdc
+        config: {}
+        dataType: STRING
+        defaultValue: ""
+        description: ""
+        name: log_scansetup__modified_datetime
+        nullable: true
+        sourceColumnReferences:
+          - columnReferences: []
+            transform: ""
+        transform: ""
+      - acceptedValues:
+          strictMatch: true
+          values: []
+        appliedColumnTests: {}
+        columnReference:
+          columnCounter: 10fe8826-c1b2-4c18-aed2-79c8b7d956d8
+          stepCounter: 4cecb761-1732-46a8-a30a-0f8458159cdc
+        config: {}
+        dataType: STRING
+        defaultValue: ""
+        description: ""
+        name: log_scansetup__reference
+        nullable: true
+        sourceColumnReferences:
+          - columnReferences: []
+            transform: ""
+        transform: ""
+      - acceptedValues:
+          strictMatch: true
+          values: []
+        appliedColumnTests: {}
+        columnReference:
+          columnCounter: 3a83d407-580f-44b5-8f7b-a93445cc4196
+          stepCounter: 4cecb761-1732-46a8-a30a-0f8458159cdc
+        config: {}
+        dataType: STRING
+        defaultValue: ""
+        description: ""
+        name: log_scan_parameters__height
+        nullable: true
+        sourceColumnReferences:
+          - columnReferences: []
+            transform: ""
+        transform: ""
+      - acceptedValues:
+          strictMatch: true
+          values: []
+        appliedColumnTests: {}
+        columnReference:
+          columnCounter: 8fd80b5e-2a74-4fe1-be3f-ef09686be4ed
+          stepCounter: 4cecb761-1732-46a8-a30a-0f8458159cdc
+        config: {}
+        dataType: STRING
+        defaultValue: ""
+        description: ""
+        name: log_scan_parameters__width
+        nullable: true
+        sourceColumnReferences:
+          - columnReferences: []
+            transform: ""
+        transform: ""
+      - acceptedValues:
+          strictMatch: true
+          values: []
+        appliedColumnTests: {}
+        columnReference:
+          columnCounter: 7132dd24-bc34-4ba1-86bd-d10afbc15c34
+          stepCounter: 4cecb761-1732-46a8-a30a-0f8458159cdc
+        config: {}
+        dataType: STRING
+        defaultValue: ""
+        description: ""
+        name: log_scan_scanobjects_diagnostic__tooth
+        nullable: true
+        sourceColumnReferences:
+          - columnReferences: []
+            transform: ""
+        transform: ""
+      - acceptedValues:
+          strictMatch: true
+          values: []
+        appliedColumnTests: {}
+        columnReference:
+          columnCounter: 976b3f90-d2a6-4e0e-bc05-e69bcbcd3c3a
+          stepCounter: 4cecb761-1732-46a8-a30a-0f8458159cdc
+        config: {}
+        dataType: STRING
+        defaultValue: ""
+        description: ""
+        name: log_scan_scanobjects_jawscan__tooth
+        nullable: true
+        sourceColumnReferences:
+          - columnReferences: []
+            transform: ""
+        transform: ""
+      - acceptedValues:
+          strictMatch: true
+          values: []
+        appliedColumnTests: {}
+        columnReference:
+          columnCounter: 7f822da2-c200-45c6-a59b-06ae6efd9cd6
+          stepCounter: 4cecb761-1732-46a8-a30a-0f8458159cdc
+        config: {}
+        dataType: STRING
+        defaultValue: ""
+        description: ""
+        name: log_scan_scanstatus__aborted
+        nullable: true
+        sourceColumnReferences:
+          - columnReferences: []
+            transform: ""
+        transform: ""
+      - acceptedValues:
+          strictMatch: true
+          values: []
+        appliedColumnTests: {}
+        columnReference:
+          columnCounter: b277d0a8-ded0-4041-a705-9cae9f35058e
+          stepCounter: 4cecb761-1732-46a8-a30a-0f8458159cdc
+        config: {}
+        dataType: STRING
+        defaultValue: ""
+        description: ""
+        name: log_scan_scanstatus__failed
+        nullable: true
+        sourceColumnReferences:
+          - columnReferences: []
+            transform: ""
+        transform: ""
+      - acceptedValues:
+          strictMatch: true
+          values: []
+        appliedColumnTests: {}
+        columnReference:
+          columnCounter: 674f27b2-2676-44af-872d-3238b6b1db51
+          stepCounter: 4cecb761-1732-46a8-a30a-0f8458159cdc
+        config: {}
+        dataType: STRING
+        defaultValue: ""
+        description: ""
+        name: log_scan_scanstatus__rescan
+        nullable: true
+        sourceColumnReferences:
+          - columnReferences: []
+            transform: ""
+        transform: ""
+      - acceptedValues:
+          strictMatch: true
+          values: []
+        appliedColumnTests: {}
+        columnReference:
+          columnCounter: 08d6ab1c-520b-4181-b577-3c47bcc33589
+          stepCounter: 4cecb761-1732-46a8-a30a-0f8458159cdc
+        config: {}
+        dataType: STRING
+        defaultValue: ""
+        description: ""
+        name: log_scan__case
+        nullable: true
+        sourceColumnReferences:
+          - columnReferences: []
+            transform: ""
+        transform: ""
+      - acceptedValues:
+          strictMatch: true
+          values: []
+        appliedColumnTests: {}
+        columnReference:
+          columnCounter: 79dfa4c4-e63d-4de0-9c0c-771a8651791a
+          stepCounter: 4cecb761-1732-46a8-a30a-0f8458159cdc
+        config: {}
+        dataType: STRING
+        defaultValue: ""
+        description: ""
+        name: log_scan__reference
+        nullable: true
+        sourceColumnReferences:
+          - columnReferences: []
+            transform: ""
+        transform: ""
+      - acceptedValues:
+          strictMatch: true
+          values: []
+        appliedColumnTests: {}
+        columnReference:
+          columnCounter: da2397f7-d360-4934-8445-576497620402
+          stepCounter: 4cecb761-1732-46a8-a30a-0f8458159cdc
+        config: {}
+        dataType: STRING
+        defaultValue: ""
+        description: ""
+        name: log_scan__start_time
+        nullable: true
+        sourceColumnReferences:
+          - columnReferences: []
+            transform: ""
+        transform: ""
+      - acceptedValues:
+          strictMatch: true
+          values: []
+        appliedColumnTests: {}
+        columnReference:
+          columnCounter: 3069eba4-a732-4e7e-a840-0d17338faf75
+          stepCounter: 4cecb761-1732-46a8-a30a-0f8458159cdc
+        config: {}
+        dataType: STRING
+        defaultValue: ""
+        description: ""
+        name: log_scan__stop_time
+        nullable: true
+        sourceColumnReferences:
+          - columnReferences: []
+            transform: ""
+        transform: ""
+      - acceptedValues:
+          strictMatch: true
+          values: []
+        appliedColumnTests: {}
+        columnReference:
+          columnCounter: 330e0091-67c1-482b-ad86-64b7698acbff
+          stepCounter: 4cecb761-1732-46a8-a30a-0f8458159cdc
+        config: {}
+        dataType: STRING
+        defaultValue: ""
+        description: ""
+        name: log_uploadrequest__datetime
+        nullable: true
+        sourceColumnReferences:
+          - columnReferences: []
+            transform: ""
+        transform: ""
+      - acceptedValues:
+          strictMatch: true
+          values: []
+        appliedColumnTests: {}
+        columnReference:
+          columnCounter: d11aec05-630d-4022-ba23-cbc68bd47cc8
+          stepCounter: 4cecb761-1732-46a8-a30a-0f8458159cdc
+        config: {}
+        dataType: STRING
+        defaultValue: ""
+        description: ""
+        name: log_uploadrequest__requesttype
+        nullable: true
+        sourceColumnReferences:
+          - columnReferences: []
+            transform: ""
+        transform: ""
+  name: stg_envista_ex1_json1
+  schema: ""
+  sqlType: Source
+  type: sourceInput
+  version: 1
+type: Node

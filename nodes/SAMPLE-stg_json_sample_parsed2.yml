@@ -1,0 +1,288 @@
+fileVersion: 1
+id: 7f20f843-02d0-483b-a344-27d636b5777d
+name: stg_json_sample_parsed2
+operation:
+  database: ""
+  deployEnabled: true
+  description: ""
+  locationName: SAMPLE
+  metadata:
+    columns:
+      - acceptedValues:
+          strictMatch: true
+          values: []
+        appliedColumnTests: {}
+        columnReference:
+          columnCounter: d7d2e8a8-4863-4175-87c3-57c7dd0328fd
+          stepCounter: 7f20f843-02d0-483b-a344-27d636b5777d
+        config: {}
+        dataType: VARIANT
+        defaultValue: ""
+        description: ""
+        name: SRC
+        nullable: true
+        sourceColumnReferences:
+          - columnReferences: []
+            transform: ""
+        transform: ""
+      - acceptedValues:
+          strictMatch: true
+          values: []
+        appliedColumnTests: {}
+        columnReference:
+          columnCounter: 88aa5a2f-2c32-48b2-ab7c-a79b3ff769da
+          stepCounter: 7f20f843-02d0-483b-a344-27d636b5777d
+        config: {}
+        dataType: STRING
+        defaultValue: ""
+        description: ""
+        name: device_type
+        nullable: true
+        sourceColumnReferences:
+          - columnReferences: []
+            transform: ""
+        transform: ""
+      - acceptedValues:
+          strictMatch: true
+          values: []
+        appliedColumnTests: {}
+        columnReference:
+          columnCounter: f9093656-171d-4f9a-9dff-6fd55579f775
+          stepCounter: 7f20f843-02d0-483b-a344-27d636b5777d
+        config: {}
+        dataType: DOUBLE
+        defaultValue: ""
+        description: ""
+        name: events_f
+        nullable: true
+        sourceColumnReferences:
+          - columnReferences: []
+            transform: ""
+        transform: ""
+      - acceptedValues:
+          strictMatch: true
+          values: []
+        appliedColumnTests: {}
+        columnReference:
+          columnCounter: e78c5285-6b7a-46bc-a03a-4a76bd11e768
+          stepCounter: 7f20f843-02d0-483b-a344-27d636b5777d
+        config: {}
+        dataType: STRING
+        defaultValue: ""
+        description: ""
+        name: events_rv
+        nullable: true
+        sourceColumnReferences:
+          - columnReferences: []
+            transform: ""
+        transform: ""
+      - acceptedValues:
+          strictMatch: true
+          values: []
+        appliedColumnTests: {}
+        columnReference:
+          columnCounter: 57b247ab-f832-4fbd-b5da-3df1edbf0b72
+          stepCounter: 7f20f843-02d0-483b-a344-27d636b5777d
+        config: {}
+        dataType: DOUBLE
+        defaultValue: ""
+        description: ""
+        name: events_t
+        nullable: true
+        sourceColumnReferences:
+          - columnReferences: []
+            transform: ""
+        transform: ""
+      - acceptedValues:
+          strictMatch: true
+          values: []
+        appliedColumnTests: {}
+        columnReference:
+          columnCounter: 18b587d2-d801-4583-a747-d54447b2d3e9
+          stepCounter: 7f20f843-02d0-483b-a344-27d636b5777d
+        config: {}
+        dataType: DOUBLE
+        defaultValue: ""
+        description: ""
+        name: events_vd
+        nullable: true
+        sourceColumnReferences:
+          - columnReferences: []
+            transform: ""
+        transform: ""
+      - acceptedValues:
+          strictMatch: true
+          values: []
+        appliedColumnTests: {}
+        columnReference:
+          columnCounter: 77dfe93d-07cf-4426-bc48-0aa769b91b01
+          stepCounter: 7f20f843-02d0-483b-a344-27d636b5777d
+        config: {}
+        dataType: DOUBLE
+        defaultValue: ""
+        description: ""
+        name: events_v_ACHZ
+        nullable: true
+        sourceColumnReferences:
+          - columnReferences: []
+            transform: ""
+        transform: ""
+      - acceptedValues:
+          strictMatch: true
+          values: []
+        appliedColumnTests: {}
+        columnReference:
+          columnCounter: 8d23eed4-17fa-4a87-b56f-acac37b34dcb
+          stepCounter: 7f20f843-02d0-483b-a344-27d636b5777d
+        config: {}
+        dataType: DOUBLE
+        defaultValue: ""
+        description: ""
+        name: events_v_ACV
+        nullable: true
+        sourceColumnReferences:
+          - columnReferences: []
+            transform: ""
+        transform: ""
+      - acceptedValues:
+          strictMatch: true
+          values: []
+        appliedColumnTests: {}
+        columnReference:
+          columnCounter: 4ce19c1a-128e-4d5c-9ce8-4cca0c58c5d4
+          stepCounter: 7f20f843-02d0-483b-a344-27d636b5777d
+        config: {}
+        dataType: DOUBLE
+        defaultValue: ""
+        description: ""
+        name: events_v_DCA
+        nullable: true
+        sourceColumnReferences:
+          - columnReferences: []
+            transform: ""
+        transform: ""
+      - acceptedValues:
+          strictMatch: true
+          values: []
+        appliedColumnTests: {}
+        columnReference:
+          columnCounter: af15a01f-4c13-46e7-9156-cbf31920b874
+          stepCounter: 7f20f843-02d0-483b-a344-27d636b5777d
+        config: {}
+        dataType: DOUBLE
+        defaultValue: ""
+        description: ""
+        name: events_v_DCV
+        nullable: true
+        sourceColumnReferences:
+          - columnReferences: []
+            transform: ""
+        transform: ""
+      - acceptedValues:
+          strictMatch: true
+          values: []
+        appliedColumnTests: {}
+        columnReference:
+          columnCounter: cdd2d6e7-ea0d-44cc-bd08-6a5d6b3bd3a0
+          stepCounter: 7f20f843-02d0-483b-a344-27d636b5777d
+        config: {}
+        dataType: DOUBLE
+        defaultValue: ""
+        description: ""
+        name: events_v_ENJR
+        nullable: true
+        sourceColumnReferences:
+          - columnReferences: []
+            transform: ""
+        transform: ""
+      - acceptedValues:
+          strictMatch: true
+          values: []
+        appliedColumnTests: {}
+        columnReference:
+          columnCounter: af555faa-123a-484b-90d1-2ce9df711ed0
+          stepCounter: 7f20f843-02d0-483b-a344-27d636b5777d
+        config: {}
+        dataType: DOUBLE
+        defaultValue: ""
+        description: ""
+        name: events_v_ERRS
+        nullable: true
+        sourceColumnReferences:
+          - columnReferences: []
+            transform: ""
+        transform: ""
+      - acceptedValues:
+          strictMatch: true
+          values: []
+        appliedColumnTests: {}
+        columnReference:
+          columnCounter: 338ffaf3-961c-4f50-852d-06d132434f1e
+          stepCounter: 7f20f843-02d0-483b-a344-27d636b5777d
+        config: {}
+        dataType: DOUBLE
+        defaultValue: ""
+        description: ""
+        name: events_v_MXEC
+        nullable: true
+        sourceColumnReferences:
+          - columnReferences: []
+            transform: ""
+        transform: ""
+      - acceptedValues:
+          strictMatch: true
+          values: []
+        appliedColumnTests: {}
+        columnReference:
+          columnCounter: 9d48eee8-22e6-4f44-88bb-4c63c84514e0
+          stepCounter: 7f20f843-02d0-483b-a344-27d636b5777d
+        config: {}
+        dataType: DOUBLE
+        defaultValue: ""
+        description: ""
+        name: events_v_TMPI
+        nullable: true
+        sourceColumnReferences:
+          - columnReferences: []
+            transform: ""
+        transform: ""
+      - acceptedValues:
+          strictMatch: true
+          values: []
+        appliedColumnTests: {}
+        columnReference:
+          columnCounter: 86265d07-87d9-4e4c-a9a8-80c5ea62af8a
+          stepCounter: 7f20f843-02d0-483b-a344-27d636b5777d
+        config: {}
+        dataType: DOUBLE
+        defaultValue: ""
+        description: ""
+        name: events_z
+        nullable: true
+        sourceColumnReferences:
+          - columnReferences: []
+            transform: ""
+        transform: ""
+      - acceptedValues:
+          strictMatch: true
+          values: []
+        appliedColumnTests: {}
+        columnReference:
+          columnCounter: 62660fa0-8c03-416c-83a6-b69e1287c98a
+          stepCounter: 7f20f843-02d0-483b-a344-27d636b5777d
+        config: {}
+        dataType: DOUBLE
+        defaultValue: ""
+        description: ""
+        name: version
+        nullable: true
+        sourceColumnReferences:
+          - columnReferences: []
+            transform: ""
+        transform: ""
+  name: stg_json_sample_parsed2
+  schema: ""
+  sqlType: Source
+  type: sourceInput
+  version: 1
+type: Node
