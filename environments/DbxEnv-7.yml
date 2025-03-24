@@ -1,5 +1,11 @@
 fileVersion: 1
 id: "7"
-mappingDefinitions: {}
+mappingDefinitions:
+  SAMPLE:
+    database: jennb_qa
+    schema: default
+  WORK:
+    database: josh-dev
+    schema: default
 name: Dbx Env
 type: Environment

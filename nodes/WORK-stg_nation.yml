@@ -1,6 +1,6 @@
 fileVersion: 1
-id: 42343e86-1108-407b-ae62-2d07c1366a34
-name: catalog_tags
+id: 239caf5e-4169-49b1-8b26-90cf3aec4341
+name: stg_nation
 operation:
   database: ""
   deployEnabled: true
@@ -13,14 +13,14 @@ operation:
           values: []
         appliedColumnTests: {}
         columnReference:
-          columnCounter: 2f914083-8952-4589-9359-226f0513979a
-          stepCounter: 42343e86-1108-407b-ae62-2d07c1366a34
+          columnCounter: d6c4f7b0-29f5-41c0-9d02-c8f36c4e0805
+          stepCounter: 239caf5e-4169-49b1-8b26-90cf3aec4341
         config: {}
-        dataType: STRING
+        dataType: LONG
         defaultValue: ""
         description: ""
-        name: catalog_name
-        nullable: false
+        name: n_nationkey
+        nullable: true
         sourceColumnReferences:
           - columnReferences: []
             transform: ""
@@ -30,14 +30,14 @@ operation:
           values: []
         appliedColumnTests: {}
         columnReference:
-          columnCounter: 365d5d52-0e44-41c7-9ac5-e18a0cc0d853
-          stepCounter: 42343e86-1108-407b-ae62-2d07c1366a34
+          columnCounter: ccb9af65-7402-4b45-90af-f48ad8d9bff6
+          stepCounter: 239caf5e-4169-49b1-8b26-90cf3aec4341
         config: {}
         dataType: STRING
         defaultValue: ""
         description: ""
-        name: tag_name
-        nullable: false
+        name: n_name
+        nullable: true
         sourceColumnReferences:
           - columnReferences: []
             transform: ""
@@ -47,19 +47,36 @@ operation:
           values: []
         appliedColumnTests: {}
         columnReference:
-          columnCounter: b15eadf7-9904-4f43-874b-914f6f601a6e
-          stepCounter: 42343e86-1108-407b-ae62-2d07c1366a34
+          columnCounter: 9a86b41b-a26c-4633-8269-46ffa66adf74
+          stepCounter: 239caf5e-4169-49b1-8b26-90cf3aec4341
         config: {}
-        dataType: STRING
+        dataType: LONG
         defaultValue: ""
         description: ""
-        name: tag_value
-        nullable: false
+        name: n_regionkey
+        nullable: true
         sourceColumnReferences:
           - columnReferences: []
             transform: ""
         transform: ""
-  name: catalog_tags
+      - acceptedValues:
+          strictMatch: true
+          values: []
+        appliedColumnTests: {}
+        columnReference:
+          columnCounter: 576a6fd7-118a-47d8-8ca2-a051ffeeff35
+          stepCounter: 239caf5e-4169-49b1-8b26-90cf3aec4341
+        config: {}
+        dataType: STRING
+        defaultValue: ""
+        description: ""
+        name: n_comment
+        nullable: true
+        sourceColumnReferences:
+          - columnReferences: []
+            transform: ""
+        transform: ""
+  name: stg_nation
   schema: ""
   sqlType: Source
   type: sourceInput

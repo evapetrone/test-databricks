@@ -1,6 +1,6 @@
 fileVersion: 1
-id: a8df41a0-a638-4605-b8d7-52531616a618
-name: column_tags
+id: c229d61d-d476-4b53-9d90-8269fe61fb16
+name: stg_supplier
 operation:
   database: ""
   deployEnabled: true
@@ -13,14 +13,14 @@ operation:
           values: []
         appliedColumnTests: {}
         columnReference:
-          columnCounter: 5f77e7fd-e269-4682-9d1b-8591bfcb0ef7
-          stepCounter: a8df41a0-a638-4605-b8d7-52531616a618
+          columnCounter: 9315e909-57c8-47f8-af89-944c2217ebde
+          stepCounter: c229d61d-d476-4b53-9d90-8269fe61fb16
         config: {}
-        dataType: STRING
+        dataType: LONG
         defaultValue: ""
         description: ""
-        name: catalog_name
-        nullable: false
+        name: s_suppkey
+        nullable: true
         sourceColumnReferences:
           - columnReferences: []
             transform: ""
@@ -30,14 +30,14 @@ operation:
           values: []
         appliedColumnTests: {}
         columnReference:
-          columnCounter: a90354f4-3954-488a-8b6f-62e048522136
-          stepCounter: a8df41a0-a638-4605-b8d7-52531616a618
+          columnCounter: c261cbbf-bb8b-46b5-94ba-e4c95a41bf84
+          stepCounter: c229d61d-d476-4b53-9d90-8269fe61fb16
         config: {}
         dataType: STRING
         defaultValue: ""
         description: ""
-        name: schema_name
-        nullable: false
+        name: s_name
+        nullable: true
         sourceColumnReferences:
           - columnReferences: []
             transform: ""
@@ -47,14 +47,14 @@ operation:
           values: []
         appliedColumnTests: {}
         columnReference:
-          columnCounter: 52b7ba4b-42d3-4b88-8b76-64153bc5bd10
-          stepCounter: a8df41a0-a638-4605-b8d7-52531616a618
+          columnCounter: bb1c3670-1020-42c1-8aa3-1fa5ecd77d93
+          stepCounter: c229d61d-d476-4b53-9d90-8269fe61fb16
         config: {}
         dataType: STRING
         defaultValue: ""
         description: ""
-        name: table_name
-        nullable: false
+        name: s_address
+        nullable: true
         sourceColumnReferences:
           - columnReferences: []
             transform: ""
@@ -64,14 +64,14 @@ operation:
           values: []
         appliedColumnTests: {}
         columnReference:
-          columnCounter: 55f958bc-ddc2-4ff1-b22b-68715b4112cd
-          stepCounter: a8df41a0-a638-4605-b8d7-52531616a618
+          columnCounter: ef5417d5-59f4-4c0b-b230-07b1b61fae19
+          stepCounter: c229d61d-d476-4b53-9d90-8269fe61fb16
         config: {}
-        dataType: STRING
+        dataType: LONG
         defaultValue: ""
         description: ""
-        name: column_name
-        nullable: false
+        name: s_nationkey
+        nullable: true
         sourceColumnReferences:
           - columnReferences: []
             transform: ""
@@ -81,14 +81,14 @@ operation:
           values: []
         appliedColumnTests: {}
         columnReference:
-          columnCounter: b97c9404-fcaa-40ac-98ce-f1d22fe4561e
-          stepCounter: a8df41a0-a638-4605-b8d7-52531616a618
+          columnCounter: 8df98eab-26a3-4f1d-a700-afc7ed6885ea
+          stepCounter: c229d61d-d476-4b53-9d90-8269fe61fb16
         config: {}
         dataType: STRING
         defaultValue: ""
         description: ""
-        name: tag_name
-        nullable: false
+        name: s_phone
+        nullable: true
         sourceColumnReferences:
           - columnReferences: []
             transform: ""
@@ -98,19 +98,36 @@ operation:
           values: []
         appliedColumnTests: {}
         columnReference:
-          columnCounter: 0e50499e-a6e5-4a11-9363-8bc11f7dff9f
-          stepCounter: a8df41a0-a638-4605-b8d7-52531616a618
+          columnCounter: ca424994-e322-48a3-a070-28e2c1518040
+          stepCounter: c229d61d-d476-4b53-9d90-8269fe61fb16
         config: {}
-        dataType: STRING
+        dataType: DECIMAL
         defaultValue: ""
         description: ""
-        name: tag_value
-        nullable: false
+        name: s_acctbal
+        nullable: true
         sourceColumnReferences:
           - columnReferences: []
             transform: ""
         transform: ""
-  name: column_tags
+      - acceptedValues:
+          strictMatch: true
+          values: []
+        appliedColumnTests: {}
+        columnReference:
+          columnCounter: 32a37516-0bb1-4214-a64c-277db90802a3
+          stepCounter: c229d61d-d476-4b53-9d90-8269fe61fb16
+        config: {}
+        dataType: STRING
+        defaultValue: ""
+        description: ""
+        name: s_comment
+        nullable: true
+        sourceColumnReferences:
+          - columnReferences: []
+            transform: ""
+        transform: ""
+  name: stg_supplier
   schema: ""
   sqlType: Source
   type: sourceInput

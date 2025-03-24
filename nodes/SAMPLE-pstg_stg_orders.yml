@@ -1,6 +1,6 @@
 fileVersion: 1
-id: 4a764fc9-787e-4542-b73f-728d7f9ea0b6
-name: pstg_schemata
+id: e1b82427-810a-4386-a0b8-a8149c563eb9
+name: pstg_stg_orders
 operation:
   config:
     groupByAll: false
@@ -28,151 +28,151 @@ operation:
           values: []
         appliedColumnTests: {}
         columnReference:
-          columnCounter: 8c886847-0e4f-4a5e-bfe6-ef09eada27b9
-          stepCounter: 4a764fc9-787e-4542-b73f-728d7f9ea0b6
+          columnCounter: 46d20f6d-642e-4764-8333-5220b9770389
+          stepCounter: e1b82427-810a-4386-a0b8-a8149c563eb9
         config: {}
         dataType: BIGINT
         defaultValue: ""
         description: ""
         isSurrogateKey: true
-        name: pstg_schemata_KEY
+        name: pstg_stg_orders_KEY
         nullable: true
         sourceColumnReferences:
           - columnReferences: []
             transform: ""
       - appliedColumnTests: {}
         columnReference:
-          columnCounter: b2ca108f-4a80-47a2-bf27-f16405553406
-          stepCounter: 4a764fc9-787e-4542-b73f-728d7f9ea0b6
+          columnCounter: 069ed4d9-8753-472c-b365-62e0dd401216
+          stepCounter: e1b82427-810a-4386-a0b8-a8149c563eb9
         config: {}
-        dataType: STRING
-        description: Catalog containing the schema.
-        name: catalog_name
-        nullable: false
-        sourceColumnReferences:
-          - columnReferences:
-              - columnCounter: 5248fcfe-d3bb-4bc1-9715-f7f5cc5520f1
-                stepCounter: 02a1e43a-b875-450b-b2e0-7c4f5849ad88
-            transform: ""
-      - appliedColumnTests: {}
-        columnReference:
-          columnCounter: dcb67684-cc84-4679-ba7d-96f38ddf123c
-          stepCounter: 4a764fc9-787e-4542-b73f-728d7f9ea0b6
-        config: {}
-        dataType: STRING
-        description: Name of the schema.
-        name: schema_name
-        nullable: false
-        sourceColumnReferences:
-          - columnReferences:
-              - columnCounter: 62ece25d-3deb-460c-b4d6-c83ea9d42521
-                stepCounter: 02a1e43a-b875-450b-b2e0-7c4f5849ad88
-            transform: ""
-      - appliedColumnTests: {}
-        columnReference:
-          columnCounter: 8e31613c-8f58-44a8-aec4-c61d96487d7a
-          stepCounter: 4a764fc9-787e-4542-b73f-728d7f9ea0b6
-        config: {}
-        dataType: STRING
-        description: User or group (principal) that currently owns the schema.
-        name: schema_owner
-        nullable: false
-        sourceColumnReferences:
-          - columnReferences:
-              - columnCounter: 9193122d-4465-404f-95b1-858a7b7eb414
-                stepCounter: 02a1e43a-b875-450b-b2e0-7c4f5849ad88
-            transform: ""
-      - appliedColumnTests: {}
-        columnReference:
-          columnCounter: f48ceb6e-4821-4acb-baf8-3c4e31db5884
-          stepCounter: 4a764fc9-787e-4542-b73f-728d7f9ea0b6
-        config: {}
-        dataType: STRING
-        description: An optional comment that describes the relation.
-        name: comment
+        dataType: LONG
+        description: ""
+        name: o_orderkey
         nullable: true
         sourceColumnReferences:
           - columnReferences:
-              - columnCounter: 115af248-ffbb-405a-99b7-68dcdd78844b
-                stepCounter: 02a1e43a-b875-450b-b2e0-7c4f5849ad88
+              - columnCounter: 37caa76c-aa0f-4544-9709-cce5f64f87ee
+                stepCounter: a1ff4e53-5914-4dcd-88b3-b6fc26a49b7a
             transform: ""
       - appliedColumnTests: {}
         columnReference:
-          columnCounter: fc294823-7d93-49d9-9ffb-0dcc89c595a3
-          stepCounter: 4a764fc9-787e-4542-b73f-728d7f9ea0b6
+          columnCounter: 939ad2fc-f80d-4ff9-bf56-154a23daada5
+          stepCounter: e1b82427-810a-4386-a0b8-a8149c563eb9
         config: {}
-        dataType: TIMESTAMP
-        description: Timestamp when the relation was created.
-        name: created
-        nullable: false
-        sourceColumnReferences:
-          - columnReferences:
-              - columnCounter: 6f5ce6cb-f6ce-4fee-b482-3b59a99f8d22
-                stepCounter: 02a1e43a-b875-450b-b2e0-7c4f5849ad88
-            transform: ""
-      - appliedColumnTests: {}
-        columnReference:
-          columnCounter: bfbbff46-6fd7-4d1d-a969-6924fb558d9b
-          stepCounter: 4a764fc9-787e-4542-b73f-728d7f9ea0b6
-        config: {}
-        dataType: STRING
-        description: Principal which created the relation.
-        name: created_by
-        nullable: false
-        sourceColumnReferences:
-          - columnReferences:
-              - columnCounter: cf7bec87-9411-449b-a08e-f2bede7162fd
-                stepCounter: 02a1e43a-b875-450b-b2e0-7c4f5849ad88
-            transform: ""
-      - appliedColumnTests: {}
-        columnReference:
-          columnCounter: a9597bbf-d47c-44b2-9159-3b9b2b95c53b
-          stepCounter: 4a764fc9-787e-4542-b73f-728d7f9ea0b6
-        config: {}
-        dataType: TIMESTAMP
-        description: Timestamp when the relation definition was last altered in any way.
-        name: last_altered
-        nullable: false
-        sourceColumnReferences:
-          - columnReferences:
-              - columnCounter: c5273469-ff1a-4540-a234-b748948df082
-                stepCounter: 02a1e43a-b875-450b-b2e0-7c4f5849ad88
-            transform: ""
-      - appliedColumnTests: {}
-        columnReference:
-          columnCounter: 044966b1-56fb-4624-947a-594bdf46f8be
-          stepCounter: 4a764fc9-787e-4542-b73f-728d7f9ea0b6
-        config: {}
-        dataType: STRING
-        description: Principal which last altered the relation.
-        name: last_altered_by
-        nullable: false
-        sourceColumnReferences:
-          - columnReferences:
-              - columnCounter: 86a412d0-2205-47e0-b2e5-1135f7b83d88
-                stepCounter: 02a1e43a-b875-450b-b2e0-7c4f5849ad88
-            transform: ""
-      - appliedColumnTests: {}
-        columnReference:
-          columnCounter: b697b4c2-eb8e-4391-bd49-f2a863cf8eab
-          stepCounter: 4a764fc9-787e-4542-b73f-728d7f9ea0b6
-        config: {}
-        dataType: STRING
-        description: The external location where the schema was stored
-        name: url
+        dataType: LONG
+        description: ""
+        name: o_custkey
         nullable: true
         sourceColumnReferences:
           - columnReferences:
-              - columnCounter: 9e2c9431-fb49-4add-8a22-c531a4292ece
-                stepCounter: 02a1e43a-b875-450b-b2e0-7c4f5849ad88
+              - columnCounter: d6418427-db37-47ad-9aff-2b5c6df0b01e
+                stepCounter: a1ff4e53-5914-4dcd-88b3-b6fc26a49b7a
+            transform: ""
+      - appliedColumnTests: {}
+        columnReference:
+          columnCounter: 7018c723-5bc1-4d3e-9346-a960384230ed
+          stepCounter: e1b82427-810a-4386-a0b8-a8149c563eb9
+        config: {}
+        dataType: STRING
+        description: ""
+        name: o_orderstatus
+        nullable: true
+        sourceColumnReferences:
+          - columnReferences:
+              - columnCounter: 68c44375-e899-4dc0-8d36-cebc3f638a7a
+                stepCounter: a1ff4e53-5914-4dcd-88b3-b6fc26a49b7a
+            transform: ""
+      - appliedColumnTests: {}
+        columnReference:
+          columnCounter: d1de22bc-5b14-4415-a1e4-afe0fde62138
+          stepCounter: e1b82427-810a-4386-a0b8-a8149c563eb9
+        config: {}
+        dataType: DECIMAL
+        description: ""
+        name: o_totalprice
+        nullable: true
+        sourceColumnReferences:
+          - columnReferences:
+              - columnCounter: 6527c517-9d57-45a8-ba1f-003ef0a1707a
+                stepCounter: a1ff4e53-5914-4dcd-88b3-b6fc26a49b7a
+            transform: ""
+      - appliedColumnTests: {}
+        columnReference:
+          columnCounter: e4a3e826-c30e-44d9-a7ca-51f09cb88af2
+          stepCounter: e1b82427-810a-4386-a0b8-a8149c563eb9
+        config: {}
+        dataType: DATE
+        description: ""
+        name: o_orderdate
+        nullable: true
+        sourceColumnReferences:
+          - columnReferences:
+              - columnCounter: b52b5370-4cc8-4289-bfc9-9d6b569b9862
+                stepCounter: a1ff4e53-5914-4dcd-88b3-b6fc26a49b7a
+            transform: ""
+      - appliedColumnTests: {}
+        columnReference:
+          columnCounter: 87c549a6-e087-4aca-873e-1ab3f392255b
+          stepCounter: e1b82427-810a-4386-a0b8-a8149c563eb9
+        config: {}
+        dataType: STRING
+        description: ""
+        name: o_orderpriority
+        nullable: true
+        sourceColumnReferences:
+          - columnReferences:
+              - columnCounter: b68ecc00-b130-4d4f-86db-e4fefbea8e87
+                stepCounter: a1ff4e53-5914-4dcd-88b3-b6fc26a49b7a
+            transform: ""
+      - appliedColumnTests: {}
+        columnReference:
+          columnCounter: cd93d23a-1f0c-4a85-b5e6-523a8ed5eb92
+          stepCounter: e1b82427-810a-4386-a0b8-a8149c563eb9
+        config: {}
+        dataType: STRING
+        description: ""
+        name: o_clerk
+        nullable: true
+        sourceColumnReferences:
+          - columnReferences:
+              - columnCounter: 831bc152-b37a-4a7e-95e1-fcb41acdb498
+                stepCounter: a1ff4e53-5914-4dcd-88b3-b6fc26a49b7a
+            transform: ""
+      - appliedColumnTests: {}
+        columnReference:
+          columnCounter: c25911c1-edf5-4f83-b462-166d7b57a231
+          stepCounter: e1b82427-810a-4386-a0b8-a8149c563eb9
+        config: {}
+        dataType: INT
+        description: ""
+        name: o_shippriority
+        nullable: true
+        sourceColumnReferences:
+          - columnReferences:
+              - columnCounter: 3b67c0cc-9453-4a3b-8bf2-ba3e340f40a1
+                stepCounter: a1ff4e53-5914-4dcd-88b3-b6fc26a49b7a
+            transform: ""
+      - appliedColumnTests: {}
+        columnReference:
+          columnCounter: 365fb317-0d29-4f98-b84a-9e3d7990350b
+          stepCounter: e1b82427-810a-4386-a0b8-a8149c563eb9
+        config: {}
+        dataType: STRING
+        description: ""
+        name: o_comment
+        nullable: true
+        sourceColumnReferences:
+          - columnReferences:
+              - columnCounter: 6f7363ca-2c82-4752-959c-2b336b2d9836
+                stepCounter: a1ff4e53-5914-4dcd-88b3-b6fc26a49b7a
             transform: ""
       - acceptedValues:
           strictMatch: true
           values: []
         appliedColumnTests: {}
         columnReference:
-          columnCounter: 3e075ab3-5421-4f62-bb19-6d75cc84b903
-          stepCounter: 4a764fc9-787e-4542-b73f-728d7f9ea0b6
+          columnCounter: d8bf810b-0ef5-4ed3-9f77-da0e67637cbc
+          stepCounter: e1b82427-810a-4386-a0b8-a8149c563eb9
         config: {}
         dataType: NUMERIC
         defaultValue: ""
@@ -188,8 +188,8 @@ operation:
           values: []
         appliedColumnTests: {}
         columnReference:
-          columnCounter: 0631c315-7329-4889-9ab8-2e35e6d98690
-          stepCounter: 4a764fc9-787e-4542-b73f-728d7f9ea0b6
+          columnCounter: 958db56f-d38d-474e-b39e-6930b55bac55
+          stepCounter: e1b82427-810a-4386-a0b8-a8149c563eb9
         config: {}
         dataType: VARCHAR(1)
         defaultValue: ""
@@ -205,8 +205,8 @@ operation:
           values: []
         appliedColumnTests: {}
         columnReference:
-          columnCounter: fb10edb4-77ea-46aa-9a59-e97912a64cdb
-          stepCounter: 4a764fc9-787e-4542-b73f-728d7f9ea0b6
+          columnCounter: 2f2de3b5-eb04-47a8-9709-92fdbdf5a7d3
+          stepCounter: e1b82427-810a-4386-a0b8-a8149c563eb9
         config: {}
         dataType: TIMESTAMP
         defaultValue: ""
@@ -222,8 +222,8 @@ operation:
           values: []
         appliedColumnTests: {}
         columnReference:
-          columnCounter: 7ec61a4a-5b3e-417c-9b43-3a880678b36b
-          stepCounter: 4a764fc9-787e-4542-b73f-728d7f9ea0b6
+          columnCounter: 3e1c5e1a-6b7a-4f73-a0ca-75369e5afffa
+          stepCounter: e1b82427-810a-4386-a0b8-a8149c563eb9
         config: {}
         dataType: TIMESTAMP
         defaultValue: ""
@@ -239,8 +239,8 @@ operation:
           values: []
         appliedColumnTests: {}
         columnReference:
-          columnCounter: 03144fe7-c325-4611-802e-59ddf502f3b9
-          stepCounter: 4a764fc9-787e-4542-b73f-728d7f9ea0b6
+          columnCounter: fdf3393e-9cce-4ffb-9009-bdae9ed04244
+          stepCounter: e1b82427-810a-4386-a0b8-a8149c563eb9
         config: {}
         dataType: TIMESTAMP
         defaultValue: ""
@@ -256,8 +256,8 @@ operation:
           values: []
         appliedColumnTests: {}
         columnReference:
-          columnCounter: 3867605b-e101-4643-b565-6455078b8888
-          stepCounter: 4a764fc9-787e-4542-b73f-728d7f9ea0b6
+          columnCounter: 7364c581-906a-4d46-a355-3487c2e58bc9
+          stepCounter: e1b82427-810a-4386-a0b8-a8149c563eb9
         config: {}
         dataType: TIMESTAMP
         defaultValue: ""
@@ -276,12 +276,12 @@ operation:
           customSQL: ""
         dependencies:
           - locationName: WORK
-            nodeName: schemata
+            nodeName: stg_orders
         join:
-          joinCondition: FROM {{ ref('WORK', 'schemata') }} `schemata`
-        name: pstg_schemata
+          joinCondition: FROM {{ ref('WORK', 'stg_orders') }} `stg_orders`
+        name: pstg_stg_orders
         noLinkRefs: []
-  name: pstg_schemata
+  name: pstg_stg_orders
   overrideSQL: false
   schema: ""
   sqlType: persistentStage

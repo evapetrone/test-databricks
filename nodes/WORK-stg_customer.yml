@@ -1,6 +1,6 @@
 fileVersion: 1
-id: 44fe24f5-1686-4857-9650-6fb4358bfac4
-name: constraint_column_usage
+id: e621c34c-3ef5-42ec-8cb6-76b2803b4ea3
+name: stg_customer
 operation:
   database: ""
   deployEnabled: true
@@ -13,14 +13,14 @@ operation:
           values: []
         appliedColumnTests: {}
         columnReference:
-          columnCounter: e46651e7-c6f8-4355-b65e-9278f0bd82ec
-          stepCounter: 44fe24f5-1686-4857-9650-6fb4358bfac4
+          columnCounter: 0f965cce-7bee-4e39-bbcd-8f98db364ce2
+          stepCounter: e621c34c-3ef5-42ec-8cb6-76b2803b4ea3
         config: {}
-        dataType: STRING
+        dataType: LONG
         defaultValue: ""
-        description: Catalog containing the relation.
-        name: table_catalog
-        nullable: false
+        description: ""
+        name: c_custkey
+        nullable: true
         sourceColumnReferences:
           - columnReferences: []
             transform: ""
@@ -30,14 +30,14 @@ operation:
           values: []
         appliedColumnTests: {}
         columnReference:
-          columnCounter: 86a0b4b8-9bc4-4dc8-bd11-3a0f517d93d9
-          stepCounter: 44fe24f5-1686-4857-9650-6fb4358bfac4
+          columnCounter: 3475ba16-5941-4881-a16d-70f5f0c348e5
+          stepCounter: e621c34c-3ef5-42ec-8cb6-76b2803b4ea3
         config: {}
         dataType: STRING
         defaultValue: ""
-        description: Schema containing the relation.
-        name: table_schema
-        nullable: false
+        description: ""
+        name: c_name
+        nullable: true
         sourceColumnReferences:
           - columnReferences: []
             transform: ""
@@ -47,14 +47,14 @@ operation:
           values: []
         appliedColumnTests: {}
         columnReference:
-          columnCounter: 6c5b458e-4bc2-4e29-a355-c3b8efde9de4
-          stepCounter: 44fe24f5-1686-4857-9650-6fb4358bfac4
+          columnCounter: f1e7fe23-1d17-4c0c-a5c3-df887a8cf010
+          stepCounter: e621c34c-3ef5-42ec-8cb6-76b2803b4ea3
         config: {}
         dataType: STRING
         defaultValue: ""
-        description: Name of the relation.
-        name: table_name
-        nullable: false
+        description: ""
+        name: c_address
+        nullable: true
         sourceColumnReferences:
           - columnReferences: []
             transform: ""
@@ -64,14 +64,14 @@ operation:
           values: []
         appliedColumnTests: {}
         columnReference:
-          columnCounter: 332c4aef-2c66-4a94-967d-dbedc6417d52
-          stepCounter: 44fe24f5-1686-4857-9650-6fb4358bfac4
+          columnCounter: bf72b282-f578-43fb-8cc4-33cdde1b7a5e
+          stepCounter: e621c34c-3ef5-42ec-8cb6-76b2803b4ea3
         config: {}
-        dataType: STRING
+        dataType: LONG
         defaultValue: ""
-        description: Name of the column.
-        name: column_name
-        nullable: false
+        description: ""
+        name: c_nationkey
+        nullable: true
         sourceColumnReferences:
           - columnReferences: []
             transform: ""
@@ -81,14 +81,14 @@ operation:
           values: []
         appliedColumnTests: {}
         columnReference:
-          columnCounter: 5156d160-29b0-4d57-8945-a748360b1162
-          stepCounter: 44fe24f5-1686-4857-9650-6fb4358bfac4
+          columnCounter: a79bd72e-9ea1-4c14-9dc0-c5ad52e9cda7
+          stepCounter: e621c34c-3ef5-42ec-8cb6-76b2803b4ea3
         config: {}
         dataType: STRING
         defaultValue: ""
-        description: Catalog containing the constraint.
-        name: constraint_catalog
-        nullable: false
+        description: ""
+        name: c_phone
+        nullable: true
         sourceColumnReferences:
           - columnReferences: []
             transform: ""
@@ -98,14 +98,14 @@ operation:
           values: []
         appliedColumnTests: {}
         columnReference:
-          columnCounter: ac87ba4e-8586-4099-a7a4-6a1137272cd8
-          stepCounter: 44fe24f5-1686-4857-9650-6fb4358bfac4
+          columnCounter: fcbc40ab-1b3f-42db-9cd8-e6284dfbbe71
+          stepCounter: e621c34c-3ef5-42ec-8cb6-76b2803b4ea3
         config: {}
-        dataType: STRING
+        dataType: DECIMAL
         defaultValue: ""
-        description: Schema containing the constraint.
-        name: constraint_schema
-        nullable: false
+        description: ""
+        name: c_acctbal
+        nullable: true
         sourceColumnReferences:
           - columnReferences: []
             transform: ""
@@ -115,19 +115,36 @@ operation:
           values: []
         appliedColumnTests: {}
         columnReference:
-          columnCounter: 57b74c5c-5a8f-4410-8983-bf99806a9ec6
-          stepCounter: 44fe24f5-1686-4857-9650-6fb4358bfac4
+          columnCounter: e283323e-8531-4765-be49-bc42b8ab6861
+          stepCounter: e621c34c-3ef5-42ec-8cb6-76b2803b4ea3
         config: {}
         dataType: STRING
         defaultValue: ""
-        description: Name of the constraint.
-        name: constraint_name
-        nullable: false
+        description: ""
+        name: c_mktsegment
+        nullable: true
         sourceColumnReferences:
           - columnReferences: []
             transform: ""
         transform: ""
-  name: constraint_column_usage
+      - acceptedValues:
+          strictMatch: true
+          values: []
+        appliedColumnTests: {}
+        columnReference:
+          columnCounter: 18bdd6cc-eb3b-4cd6-9c14-6212ef9a7ecd
+          stepCounter: e621c34c-3ef5-42ec-8cb6-76b2803b4ea3
+        config: {}
+        dataType: STRING
+        defaultValue: ""
+        description: ""
+        name: c_comment
+        nullable: true
+        sourceColumnReferences:
+          - columnReferences: []
+            transform: ""
+        transform: ""
+  name: stg_customer
   schema: ""
   sqlType: Source
   type: sourceInput

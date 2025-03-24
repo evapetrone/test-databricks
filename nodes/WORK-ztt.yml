@@ -1,6 +1,6 @@
 fileVersion: 1
-id: d1546dad-4278-4da4-9c07-7b7fba29909e
-name: table_constraints
+id: 63643f62-3e8a-4212-9276-9b52c41f3b92
+name: ztt
 operation:
   database: ""
   deployEnabled: true
@@ -13,14 +13,14 @@ operation:
           values: []
         appliedColumnTests: {}
         columnReference:
-          columnCounter: 46e7532c-dfdf-4e52-81c6-506ab562cd78
-          stepCounter: d1546dad-4278-4da4-9c07-7b7fba29909e
+          columnCounter: 83fb3c82-401e-468c-a734-c15e595d911b
+          stepCounter: 63643f62-3e8a-4212-9276-9b52c41f3b92
         config: {}
-        dataType: STRING
+        dataType: LONG
         defaultValue: ""
-        description: Catalog containing the constraint.
-        name: constraint_catalog
-        nullable: false
+        description: ""
+        name: Zipcode
+        nullable: true
         sourceColumnReferences:
           - columnReferences: []
             transform: ""
@@ -30,14 +30,14 @@ operation:
           values: []
         appliedColumnTests: {}
         columnReference:
-          columnCounter: 8904524f-2230-46f1-8300-74e2974014e7
-          stepCounter: d1546dad-4278-4da4-9c07-7b7fba29909e
+          columnCounter: 3dc56891-5917-4205-b4e0-e2768a569b7e
+          stepCounter: 63643f62-3e8a-4212-9276-9b52c41f3b92
         config: {}
         dataType: STRING
         defaultValue: ""
-        description: Schema containing the constraint.
-        name: constraint_schema
-        nullable: false
+        description: ""
+        name: City
+        nullable: true
         sourceColumnReferences:
           - columnReferences: []
             transform: ""
@@ -47,14 +47,14 @@ operation:
           values: []
         appliedColumnTests: {}
         columnReference:
-          columnCounter: 9ffc7d98-5b90-4283-81f7-84e42fbbb477
-          stepCounter: d1546dad-4278-4da4-9c07-7b7fba29909e
+          columnCounter: caaa3e18-2ff6-4441-8db8-3d58b670754f
+          stepCounter: 63643f62-3e8a-4212-9276-9b52c41f3b92
         config: {}
         dataType: STRING
         defaultValue: ""
-        description: Name of the constraint.
-        name: constraint_name
-        nullable: false
+        description: ""
+        name: State
+        nullable: true
         sourceColumnReferences:
           - columnReferences: []
             transform: ""
@@ -64,14 +64,14 @@ operation:
           values: []
         appliedColumnTests: {}
         columnReference:
-          columnCounter: 1d5fce57-8ed3-44a3-b1b3-3798d5138b58
-          stepCounter: d1546dad-4278-4da4-9c07-7b7fba29909e
+          columnCounter: aa2bb52b-a049-4e93-bfb0-080fd21cebac
+          stepCounter: 63643f62-3e8a-4212-9276-9b52c41f3b92
         config: {}
         dataType: STRING
         defaultValue: ""
-        description: Catalog containing the table.
-        name: table_catalog
-        nullable: false
+        description: ""
+        name: Country
+        nullable: true
         sourceColumnReferences:
           - columnReferences: []
             transform: ""
@@ -81,14 +81,14 @@ operation:
           values: []
         appliedColumnTests: {}
         columnReference:
-          columnCounter: bc6e1799-3c6e-4ef4-86bd-05ae3bddfeea
-          stepCounter: d1546dad-4278-4da4-9c07-7b7fba29909e
+          columnCounter: a59f5e7c-fced-4cca-8d93-b9ca3838b99a
+          stepCounter: 63643f62-3e8a-4212-9276-9b52c41f3b92
         config: {}
         dataType: STRING
         defaultValue: ""
-        description: Schema containing the table.
-        name: table_schema
-        nullable: false
+        description: ""
+        name: Territory
+        nullable: true
         sourceColumnReferences:
           - columnReferences: []
             transform: ""
@@ -98,14 +98,14 @@ operation:
           values: []
         appliedColumnTests: {}
         columnReference:
-          columnCounter: ade1dfdc-a3bf-4501-a724-bfd6032f912a
-          stepCounter: d1546dad-4278-4da4-9c07-7b7fba29909e
+          columnCounter: ec71e74f-d370-4dbb-9785-2409370b1a31
+          stepCounter: 63643f62-3e8a-4212-9276-9b52c41f3b92
         config: {}
         dataType: STRING
         defaultValue: ""
-        description: Name of the table in which the constraint is defined.
-        name: table_name
-        nullable: false
+        description: ""
+        name: Area
+        nullable: true
         sourceColumnReferences:
           - columnReferences: []
             transform: ""
@@ -115,14 +115,14 @@ operation:
           values: []
         appliedColumnTests: {}
         columnReference:
-          columnCounter: 43c40c10-a836-46bc-a22a-730ac2e501aa
-          stepCounter: d1546dad-4278-4da4-9c07-7b7fba29909e
+          columnCounter: d0531b64-cee9-473b-8e00-e5d417631558
+          stepCounter: 63643f62-3e8a-4212-9276-9b52c41f3b92
         config: {}
         dataType: STRING
         defaultValue: ""
-        description: One of 'CHECK', 'PRIMARY KEY', 'FOREIGN KEY'
-        name: constraint_type
-        nullable: false
+        description: ""
+        name: Region
+        nullable: true
         sourceColumnReferences:
           - columnReferences: []
             transform: ""
@@ -132,14 +132,14 @@ operation:
           values: []
         appliedColumnTests: {}
         columnReference:
-          columnCounter: 04d46122-2caf-4efb-a500-bec53e454927
-          stepCounter: d1546dad-4278-4da4-9c07-7b7fba29909e
+          columnCounter: a609378f-e983-44c1-8bb7-e1f70d4d8539
+          stepCounter: 63643f62-3e8a-4212-9276-9b52c41f3b92
         config: {}
         dataType: STRING
         defaultValue: ""
-        description: Always`’YES’`. Reserved for future use.
-        name: is_deferrable
-        nullable: false
+        description: ""
+        name: Territory Manager Name
+        nullable: true
         sourceColumnReferences:
           - columnReferences: []
             transform: ""
@@ -149,36 +149,19 @@ operation:
           values: []
         appliedColumnTests: {}
         columnReference:
-          columnCounter: 886ba17b-2eb2-43e2-af57-886ddce07b1d
-          stepCounter: d1546dad-4278-4da4-9c07-7b7fba29909e
+          columnCounter: 2bc7ace9-2a78-435b-afaa-27a8bc70472e
+          stepCounter: 63643f62-3e8a-4212-9276-9b52c41f3b92
         config: {}
         dataType: STRING
         defaultValue: ""
-        description: Always 'YES'. Reserved for future use.
-        name: initially_deferred
-        nullable: false
+        description: ""
+        name: Region Manager Name
+        nullable: true
         sourceColumnReferences:
           - columnReferences: []
             transform: ""
         transform: ""
-      - acceptedValues:
-          strictMatch: true
-          values: []
-        appliedColumnTests: {}
-        columnReference:
-          columnCounter: e91e96e4-a8fb-4a7d-bcd7-0f432299f5ab
-          stepCounter: d1546dad-4278-4da4-9c07-7b7fba29909e
-        config: {}
-        dataType: STRING
-        defaultValue: ""
-        description: "'YES' if constraint is enforced, 'NO' otherwise."
-        name: enforced
-        nullable: false
-        sourceColumnReferences:
-          - columnReferences: []
-            transform: ""
-        transform: ""
-  name: table_constraints
+  name: ztt
   schema: ""
   sqlType: Source
   type: sourceInput

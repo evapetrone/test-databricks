@@ -1,6 +1,6 @@
 fileVersion: 1
-id: 728f1423-4195-4f01-bc60-9f9828dd7509
-name: catalogs
+id: a1ff4e53-5914-4dcd-88b3-b6fc26a49b7a
+name: stg_orders
 operation:
   database: ""
   deployEnabled: true
@@ -13,47 +13,13 @@ operation:
           values: []
         appliedColumnTests: {}
         columnReference:
-          columnCounter: 16b9e993-da63-416e-8c9c-8ef44d8dde3d
-          stepCounter: 728f1423-4195-4f01-bc60-9f9828dd7509
+          columnCounter: 37caa76c-aa0f-4544-9709-cce5f64f87ee
+          stepCounter: a1ff4e53-5914-4dcd-88b3-b6fc26a49b7a
         config: {}
-        dataType: STRING
+        dataType: LONG
         defaultValue: ""
-        description: Name of the catalog.
-        name: catalog_name
-        nullable: false
-        sourceColumnReferences:
-          - columnReferences: []
-            transform: ""
-        transform: ""
-      - acceptedValues:
-          strictMatch: true
-          values: []
-        appliedColumnTests: {}
-        columnReference:
-          columnCounter: 76c4a80b-f671-43d5-b19a-8e5251357319
-          stepCounter: 728f1423-4195-4f01-bc60-9f9828dd7509
-        config: {}
-        dataType: STRING
-        defaultValue: ""
-        description: Owner of the catalog.
-        name: catalog_owner
-        nullable: false
-        sourceColumnReferences:
-          - columnReferences: []
-            transform: ""
-        transform: ""
-      - acceptedValues:
-          strictMatch: true
-          values: []
-        appliedColumnTests: {}
-        columnReference:
-          columnCounter: e180972e-eaa9-44e3-af66-edd96889d2d5
-          stepCounter: 728f1423-4195-4f01-bc60-9f9828dd7509
-        config: {}
-        dataType: STRING
-        defaultValue: ""
-        description: An optional comment that describes the catalog.
-        name: comment
+        description: ""
+        name: o_orderkey
         nullable: true
         sourceColumnReferences:
           - columnReferences: []
@@ -64,87 +30,138 @@ operation:
           values: []
         appliedColumnTests: {}
         columnReference:
-          columnCounter: e77c3d1b-c21a-486e-ab99-62a3819235f0
-          stepCounter: 728f1423-4195-4f01-bc60-9f9828dd7509
+          columnCounter: d6418427-db37-47ad-9aff-2b5c6df0b01e
+          stepCounter: a1ff4e53-5914-4dcd-88b3-b6fc26a49b7a
         config: {}
-        dataType: TIMESTAMP
+        dataType: LONG
         defaultValue: ""
-        description: Timestamp when the catalog was created.
-        name: created
-        nullable: false
-        sourceColumnReferences:
-          - columnReferences: []
-            transform: ""
-        transform: ""
-      - acceptedValues:
-          strictMatch: true
-          values: []
-        appliedColumnTests: {}
-        columnReference:
-          columnCounter: 8227d15e-66d1-4ff3-b924-da4dbc682112
-          stepCounter: 728f1423-4195-4f01-bc60-9f9828dd7509
-        config: {}
-        dataType: STRING
-        defaultValue: ""
-        description: Principal who created the catalog.
-        name: created_by
-        nullable: false
-        sourceColumnReferences:
-          - columnReferences: []
-            transform: ""
-        transform: ""
-      - acceptedValues:
-          strictMatch: true
-          values: []
-        appliedColumnTests: {}
-        columnReference:
-          columnCounter: 633fa2cc-e1d3-4e5b-a99e-41b4fa8a2ac6
-          stepCounter: 728f1423-4195-4f01-bc60-9f9828dd7509
-        config: {}
-        dataType: TIMESTAMP
-        defaultValue: ""
-        description: Timestamp when the catalog was last altered in any way.
-        name: last_altered
-        nullable: false
-        sourceColumnReferences:
-          - columnReferences: []
-            transform: ""
-        transform: ""
-      - acceptedValues:
-          strictMatch: true
-          values: []
-        appliedColumnTests: {}
-        columnReference:
-          columnCounter: 2b8f52a7-f12d-48cf-9297-0f1c223a4d1a
-          stepCounter: 728f1423-4195-4f01-bc60-9f9828dd7509
-        config: {}
-        dataType: STRING
-        defaultValue: ""
-        description: Principal who last altered the catalog.
-        name: last_altered_by
-        nullable: false
-        sourceColumnReferences:
-          - columnReferences: []
-            transform: ""
-        transform: ""
-      - acceptedValues:
-          strictMatch: true
-          values: []
-        appliedColumnTests: {}
-        columnReference:
-          columnCounter: 3cf1d6bb-cb8a-48f6-998f-fd328b4306d5
-          stepCounter: 728f1423-4195-4f01-bc60-9f9828dd7509
-        config: {}
-        dataType: STRING
-        defaultValue: ""
-        description: The external location where the catalog was stored
-        name: url
+        description: ""
+        name: o_custkey
         nullable: true
         sourceColumnReferences:
           - columnReferences: []
             transform: ""
         transform: ""
-  name: catalogs
+      - acceptedValues:
+          strictMatch: true
+          values: []
+        appliedColumnTests: {}
+        columnReference:
+          columnCounter: 68c44375-e899-4dc0-8d36-cebc3f638a7a
+          stepCounter: a1ff4e53-5914-4dcd-88b3-b6fc26a49b7a
+        config: {}
+        dataType: STRING
+        defaultValue: ""
+        description: ""
+        name: o_orderstatus
+        nullable: true
+        sourceColumnReferences:
+          - columnReferences: []
+            transform: ""
+        transform: ""
+      - acceptedValues:
+          strictMatch: true
+          values: []
+        appliedColumnTests: {}
+        columnReference:
+          columnCounter: 6527c517-9d57-45a8-ba1f-003ef0a1707a
+          stepCounter: a1ff4e53-5914-4dcd-88b3-b6fc26a49b7a
+        config: {}
+        dataType: DECIMAL
+        defaultValue: ""
+        description: ""
+        name: o_totalprice
+        nullable: true
+        sourceColumnReferences:
+          - columnReferences: []
+            transform: ""
+        transform: ""
+      - acceptedValues:
+          strictMatch: true
+          values: []
+        appliedColumnTests: {}
+        columnReference:
+          columnCounter: b52b5370-4cc8-4289-bfc9-9d6b569b9862
+          stepCounter: a1ff4e53-5914-4dcd-88b3-b6fc26a49b7a
+        config: {}
+        dataType: DATE
+        defaultValue: ""
+        description: ""
+        name: o_orderdate
+        nullable: true
+        sourceColumnReferences:
+          - columnReferences: []
+            transform: ""
+        transform: ""
+      - acceptedValues:
+          strictMatch: true
+          values: []
+        appliedColumnTests: {}
+        columnReference:
+          columnCounter: b68ecc00-b130-4d4f-86db-e4fefbea8e87
+          stepCounter: a1ff4e53-5914-4dcd-88b3-b6fc26a49b7a
+        config: {}
+        dataType: STRING
+        defaultValue: ""
+        description: ""
+        name: o_orderpriority
+        nullable: true
+        sourceColumnReferences:
+          - columnReferences: []
+            transform: ""
+        transform: ""
+      - acceptedValues:
+          strictMatch: true
+          values: []
+        appliedColumnTests: {}
+        columnReference:
+          columnCounter: 831bc152-b37a-4a7e-95e1-fcb41acdb498
+          stepCounter: a1ff4e53-5914-4dcd-88b3-b6fc26a49b7a
+        config: {}
+        dataType: STRING
+        defaultValue: ""
+        description: ""
+        name: o_clerk
+        nullable: true
+        sourceColumnReferences:
+          - columnReferences: []
+            transform: ""
+        transform: ""
+      - acceptedValues:
+          strictMatch: true
+          values: []
+        appliedColumnTests: {}
+        columnReference:
+          columnCounter: 3b67c0cc-9453-4a3b-8bf2-ba3e340f40a1
+          stepCounter: a1ff4e53-5914-4dcd-88b3-b6fc26a49b7a
+        config: {}
+        dataType: INT
+        defaultValue: ""
+        description: ""
+        name: o_shippriority
+        nullable: true
+        sourceColumnReferences:
+          - columnReferences: []
+            transform: ""
+        transform: ""
+      - acceptedValues:
+          strictMatch: true
+          values: []
+        appliedColumnTests: {}
+        columnReference:
+          columnCounter: 6f7363ca-2c82-4752-959c-2b336b2d9836
+          stepCounter: a1ff4e53-5914-4dcd-88b3-b6fc26a49b7a
+        config: {}
+        dataType: STRING
+        defaultValue: ""
+        description: ""
+        name: o_comment
+        nullable: true
+        sourceColumnReferences:
+          - columnReferences: []
+            transform: ""
+        transform: ""
+  name: stg_orders
   schema: ""
   sqlType: Source
   type: sourceInput

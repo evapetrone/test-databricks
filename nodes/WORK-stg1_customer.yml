@@ -1,6 +1,6 @@
 fileVersion: 1
-id: c349db07-6470-4b60-9d62-0de2f83da616
-name: schema_privileges
+id: 7d20ee6f-a997-4a97-856b-f7cce6334634
+name: stg1_customer
 operation:
   database: ""
   deployEnabled: true
@@ -13,14 +13,14 @@ operation:
           values: []
         appliedColumnTests: {}
         columnReference:
-          columnCounter: 660f7260-18be-4d95-aba8-41512ea80c6d
-          stepCounter: c349db07-6470-4b60-9d62-0de2f83da616
+          columnCounter: 465411d1-dc32-423c-9160-e1067a2a9e18
+          stepCounter: 7d20ee6f-a997-4a97-856b-f7cce6334634
         config: {}
-        dataType: STRING
+        dataType: LONG
         defaultValue: ""
-        description: Principal that granted the privilege.
-        name: grantor
-        nullable: false
+        description: ""
+        name: c_custkey
+        nullable: true
         sourceColumnReferences:
           - columnReferences: []
             transform: ""
@@ -30,14 +30,14 @@ operation:
           values: []
         appliedColumnTests: {}
         columnReference:
-          columnCounter: 1ea06a61-1502-43c0-badd-0d3aff746bdf
-          stepCounter: c349db07-6470-4b60-9d62-0de2f83da616
+          columnCounter: 27ba4f3c-29f2-4555-ab37-8662a01f9782
+          stepCounter: 7d20ee6f-a997-4a97-856b-f7cce6334634
         config: {}
         dataType: STRING
         defaultValue: ""
-        description: Principal to which the privilege is granted.
-        name: grantee
-        nullable: false
+        description: ""
+        name: c_name
+        nullable: true
         sourceColumnReferences:
           - columnReferences: []
             transform: ""
@@ -47,14 +47,14 @@ operation:
           values: []
         appliedColumnTests: {}
         columnReference:
-          columnCounter: b2b8f2a3-f027-428d-8a7f-6a493bb27cbb
-          stepCounter: c349db07-6470-4b60-9d62-0de2f83da616
+          columnCounter: 95e78c15-c791-474a-9bff-d8124de03ceb
+          stepCounter: 7d20ee6f-a997-4a97-856b-f7cce6334634
         config: {}
         dataType: STRING
         defaultValue: ""
-        description: Catalog of schema on which the privilege is granted.
-        name: catalog_name
-        nullable: false
+        description: ""
+        name: c_address
+        nullable: true
         sourceColumnReferences:
           - columnReferences: []
             transform: ""
@@ -64,14 +64,14 @@ operation:
           values: []
         appliedColumnTests: {}
         columnReference:
-          columnCounter: a671cd13-e7da-4924-b44f-6785f3b7d44a
-          stepCounter: c349db07-6470-4b60-9d62-0de2f83da616
+          columnCounter: 4ca4338f-53a4-4df0-abfd-00a712fe6dcc
+          stepCounter: 7d20ee6f-a997-4a97-856b-f7cce6334634
         config: {}
-        dataType: STRING
+        dataType: LONG
         defaultValue: ""
-        description: Schema on which the privilege is granted.
-        name: schema_name
-        nullable: false
+        description: ""
+        name: c_nationkey
+        nullable: true
         sourceColumnReferences:
           - columnReferences: []
             transform: ""
@@ -81,14 +81,14 @@ operation:
           values: []
         appliedColumnTests: {}
         columnReference:
-          columnCounter: decf6ca3-a2c3-4c4f-8629-85037f2c9a4e
-          stepCounter: c349db07-6470-4b60-9d62-0de2f83da616
+          columnCounter: 1ef7eadd-6512-40cf-b7f6-561ac7931e53
+          stepCounter: 7d20ee6f-a997-4a97-856b-f7cce6334634
         config: {}
         dataType: STRING
         defaultValue: ""
-        description: Privilege being granted.
-        name: privilege_type
-        nullable: false
+        description: ""
+        name: c_phone
+        nullable: true
         sourceColumnReferences:
           - columnReferences: []
             transform: ""
@@ -98,14 +98,14 @@ operation:
           values: []
         appliedColumnTests: {}
         columnReference:
-          columnCounter: 1d3c6598-529d-4dd6-94f6-f9a446ef6413
-          stepCounter: c349db07-6470-4b60-9d62-0de2f83da616
+          columnCounter: e789aee1-d278-4744-92e3-2dcb57af4f5a
+          stepCounter: 7d20ee6f-a997-4a97-856b-f7cce6334634
         config: {}
-        dataType: STRING
+        dataType: DECIMAL
         defaultValue: ""
-        description: Always NO. Reserved for future use.
-        name: is_grantable
-        nullable: false
+        description: ""
+        name: c_acctbal
+        nullable: true
         sourceColumnReferences:
           - columnReferences: []
             transform: ""
@@ -115,19 +115,36 @@ operation:
           values: []
         appliedColumnTests: {}
         columnReference:
-          columnCounter: 7ff11e44-ba75-4fae-98e2-3e1aef0a9168
-          stepCounter: c349db07-6470-4b60-9d62-0de2f83da616
+          columnCounter: b16cbdc8-951a-4753-8365-e6334c67a0a2
+          stepCounter: 7d20ee6f-a997-4a97-856b-f7cce6334634
         config: {}
         dataType: STRING
         defaultValue: ""
-        description: The ancestor relation that the privilege is inherited from.
-        name: inherited_from
-        nullable: false
+        description: ""
+        name: c_mktsegment
+        nullable: true
         sourceColumnReferences:
           - columnReferences: []
             transform: ""
         transform: ""
-  name: schema_privileges
+      - acceptedValues:
+          strictMatch: true
+          values: []
+        appliedColumnTests: {}
+        columnReference:
+          columnCounter: 9064ebd3-9981-49a9-8e20-5c496cf9db35
+          stepCounter: 7d20ee6f-a997-4a97-856b-f7cce6334634
+        config: {}
+        dataType: STRING
+        defaultValue: ""
+        description: ""
+        name: c_comment
+        nullable: true
+        sourceColumnReferences:
+          - columnReferences: []
+            transform: ""
+        transform: ""
+  name: stg1_customer
   schema: ""
   sqlType: Source
   type: sourceInput
