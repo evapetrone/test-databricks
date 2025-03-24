@@ -1,0 +1,152 @@
+fileVersion: 1
+id: 728f1423-4195-4f01-bc60-9f9828dd7509
+name: catalogs
+operation:
+  database: ""
+  deployEnabled: true
+  description: ""
+  locationName: WORK
+  metadata:
+    columns:
+      - acceptedValues:
+          strictMatch: true
+          values: []
+        appliedColumnTests: {}
+        columnReference:
+          columnCounter: 16b9e993-da63-416e-8c9c-8ef44d8dde3d
+          stepCounter: 728f1423-4195-4f01-bc60-9f9828dd7509
+        config: {}
+        dataType: STRING
+        defaultValue: ""
+        description: Name of the catalog.
+        name: catalog_name
+        nullable: false
+        sourceColumnReferences:
+          - columnReferences: []
+            transform: ""
+        transform: ""
+      - acceptedValues:
+          strictMatch: true
+          values: []
+        appliedColumnTests: {}
+        columnReference:
+          columnCounter: 76c4a80b-f671-43d5-b19a-8e5251357319
+          stepCounter: 728f1423-4195-4f01-bc60-9f9828dd7509
+        config: {}
+        dataType: STRING
+        defaultValue: ""
+        description: Owner of the catalog.
+        name: catalog_owner
+        nullable: false
+        sourceColumnReferences:
+          - columnReferences: []
+            transform: ""
+        transform: ""
+      - acceptedValues:
+          strictMatch: true
+          values: []
+        appliedColumnTests: {}
+        columnReference:
+          columnCounter: e180972e-eaa9-44e3-af66-edd96889d2d5
+          stepCounter: 728f1423-4195-4f01-bc60-9f9828dd7509
+        config: {}
+        dataType: STRING
+        defaultValue: ""
+        description: An optional comment that describes the catalog.
+        name: comment
+        nullable: true
+        sourceColumnReferences:
+          - columnReferences: []
+            transform: ""
+        transform: ""
+      - acceptedValues:
+          strictMatch: true
+          values: []
+        appliedColumnTests: {}
+        columnReference:
+          columnCounter: e77c3d1b-c21a-486e-ab99-62a3819235f0
+          stepCounter: 728f1423-4195-4f01-bc60-9f9828dd7509
+        config: {}
+        dataType: TIMESTAMP
+        defaultValue: ""
+        description: Timestamp when the catalog was created.
+        name: created
+        nullable: false
+        sourceColumnReferences:
+          - columnReferences: []
+            transform: ""
+        transform: ""
+      - acceptedValues:
+          strictMatch: true
+          values: []
+        appliedColumnTests: {}
+        columnReference:
+          columnCounter: 8227d15e-66d1-4ff3-b924-da4dbc682112
+          stepCounter: 728f1423-4195-4f01-bc60-9f9828dd7509
+        config: {}
+        dataType: STRING
+        defaultValue: ""
+        description: Principal who created the catalog.
+        name: created_by
+        nullable: false
+        sourceColumnReferences:
+          - columnReferences: []
+            transform: ""
+        transform: ""
+      - acceptedValues:
+          strictMatch: true
+          values: []
+        appliedColumnTests: {}
+        columnReference:
+          columnCounter: 633fa2cc-e1d3-4e5b-a99e-41b4fa8a2ac6
+          stepCounter: 728f1423-4195-4f01-bc60-9f9828dd7509
+        config: {}
+        dataType: TIMESTAMP
+        defaultValue: ""
+        description: Timestamp when the catalog was last altered in any way.
+        name: last_altered
+        nullable: false
+        sourceColumnReferences:
+          - columnReferences: []
+            transform: ""
+        transform: ""
+      - acceptedValues:
+          strictMatch: true
+          values: []
+        appliedColumnTests: {}
+        columnReference:
+          columnCounter: 2b8f52a7-f12d-48cf-9297-0f1c223a4d1a
+          stepCounter: 728f1423-4195-4f01-bc60-9f9828dd7509
+        config: {}
+        dataType: STRING
+        defaultValue: ""
+        description: Principal who last altered the catalog.
+        name: last_altered_by
+        nullable: false
+        sourceColumnReferences:
+          - columnReferences: []
+            transform: ""
+        transform: ""
+      - acceptedValues:
+          strictMatch: true
+          values: []
+        appliedColumnTests: {}
+        columnReference:
+          columnCounter: 3cf1d6bb-cb8a-48f6-998f-fd328b4306d5
+          stepCounter: 728f1423-4195-4f01-bc60-9f9828dd7509
+        config: {}
+        dataType: STRING
+        defaultValue: ""
+        description: The external location where the catalog was stored
+        name: url
+        nullable: true
+        sourceColumnReferences:
+          - columnReferences: []
+            transform: ""
+        transform: ""
+  name: catalogs
+  schema: ""
+  sqlType: Source
+  type: sourceInput
+  version: 1
+type: Node

@@ -1,0 +1,118 @@
+fileVersion: 1
+id: 3eabe662-4cdf-4784-8d46-403586a2abee
+name: trips
+operation:
+  database: ""
+  deployEnabled: true
+  description: ""
+  locationName: SAMPLE
+  metadata:
+    columns:
+      - acceptedValues:
+          strictMatch: true
+          values: []
+        appliedColumnTests: {}
+        columnReference:
+          columnCounter: bd5702b5-7c2d-4961-877f-82d0e2aa01cd
+          stepCounter: 3eabe662-4cdf-4784-8d46-403586a2abee
+        config: {}
+        dataType: TIMESTAMP
+        defaultValue: ""
+        description: ""
+        name: tpep_pickup_datetime
+        nullable: true
+        sourceColumnReferences:
+          - columnReferences: []
+            transform: ""
+        transform: ""
+      - acceptedValues:
+          strictMatch: true
+          values: []
+        appliedColumnTests: {}
+        columnReference:
+          columnCounter: 331f196e-7ab9-48ff-bb8b-114a5510aebe
+          stepCounter: 3eabe662-4cdf-4784-8d46-403586a2abee
+        config: {}
+        dataType: TIMESTAMP
+        defaultValue: ""
+        description: ""
+        name: tpep_dropoff_datetime
+        nullable: true
+        sourceColumnReferences:
+          - columnReferences: []
+            transform: ""
+        transform: ""
+      - acceptedValues:
+          strictMatch: true
+          values: []
+        appliedColumnTests: {}
+        columnReference:
+          columnCounter: 43b19bd4-e56d-411c-b0b6-7b9c5fb54bd7
+          stepCounter: 3eabe662-4cdf-4784-8d46-403586a2abee
+        config: {}
+        dataType: DOUBLE
+        defaultValue: ""
+        description: ""
+        name: trip_distance
+        nullable: true
+        sourceColumnReferences:
+          - columnReferences: []
+            transform: ""
+        transform: ""
+      - acceptedValues:
+          strictMatch: true
+          values: []
+        appliedColumnTests: {}
+        columnReference:
+          columnCounter: c358182f-d603-4da4-8b0a-9af27c922649
+          stepCounter: 3eabe662-4cdf-4784-8d46-403586a2abee
+        config: {}
+        dataType: DOUBLE
+        defaultValue: ""
+        description: ""
+        name: fare_amount
+        nullable: true
+        sourceColumnReferences:
+          - columnReferences: []
+            transform: ""
+        transform: ""
+      - acceptedValues:
+          strictMatch: true
+          values: []
+        appliedColumnTests: {}
+        columnReference:
+          columnCounter: 2669338d-db19-482c-92da-9f08347e85a5
+          stepCounter: 3eabe662-4cdf-4784-8d46-403586a2abee
+        config: {}
+        dataType: INT
+        defaultValue: ""
+        description: ""
+        name: pickup_zip
+        nullable: true
+        sourceColumnReferences:
+          - columnReferences: []
+            transform: ""
+        transform: ""
+      - acceptedValues:
+          strictMatch: true
+          values: []
+        appliedColumnTests: {}
+        columnReference:
+          columnCounter: 27d1bbdc-34c7-4959-9fdc-f24140ff5e65
+          stepCounter: 3eabe662-4cdf-4784-8d46-403586a2abee
+        config: {}
+        dataType: INT
+        defaultValue: ""
+        description: ""
+        name: dropoff_zip
+        nullable: true
+        sourceColumnReferences:
+          - columnReferences: []
+            transform: ""
+        transform: ""
+  name: trips
+  schema: ""
+  sqlType: Source
+  type: sourceInput
+  version: 1
+type: Node

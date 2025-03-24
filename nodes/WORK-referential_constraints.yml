@@ -1,0 +1,169 @@
+fileVersion: 1
+id: 2a59728e-5976-4921-b83b-7223af679bef
+name: referential_constraints
+operation:
+  database: ""
+  deployEnabled: true
+  description: ""
+  locationName: WORK
+  metadata:
+    columns:
+      - acceptedValues:
+          strictMatch: true
+          values: []
+        appliedColumnTests: {}
+        columnReference:
+          columnCounter: 5a502c0c-c149-4298-96cf-50796b846840
+          stepCounter: 2a59728e-5976-4921-b83b-7223af679bef
+        config: {}
+        dataType: STRING
+        defaultValue: ""
+        description: Catalog containing the foreign key constraint.
+        name: constraint_catalog
+        nullable: false
+        sourceColumnReferences:
+          - columnReferences: []
+            transform: ""
+        transform: ""
+      - acceptedValues:
+          strictMatch: true
+          values: []
+        appliedColumnTests: {}
+        columnReference:
+          columnCounter: 73500e75-d944-494d-8e82-1e3fb869349d
+          stepCounter: 2a59728e-5976-4921-b83b-7223af679bef
+        config: {}
+        dataType: STRING
+        defaultValue: ""
+        description: Schema containing the foreign key constraints.
+        name: constraint_schema
+        nullable: false
+        sourceColumnReferences:
+          - columnReferences: []
+            transform: ""
+        transform: ""
+      - acceptedValues:
+          strictMatch: true
+          values: []
+        appliedColumnTests: {}
+        columnReference:
+          columnCounter: 554976f7-79fd-49b2-a6c4-27f248fe17f5
+          stepCounter: 2a59728e-5976-4921-b83b-7223af679bef
+        config: {}
+        dataType: STRING
+        defaultValue: ""
+        description: Name of the check constraint.
+        name: constraint_name
+        nullable: false
+        sourceColumnReferences:
+          - columnReferences: []
+            transform: ""
+        transform: ""
+      - acceptedValues:
+          strictMatch: true
+          values: []
+        appliedColumnTests: {}
+        columnReference:
+          columnCounter: f4c94971-07d3-4b30-b1c4-1dc0c9257b7d
+          stepCounter: 2a59728e-5976-4921-b83b-7223af679bef
+        config: {}
+        dataType: STRING
+        defaultValue: ""
+        description: Catalog containing the referenced constraint.
+        name: unique_constraint_catalog
+        nullable: false
+        sourceColumnReferences:
+          - columnReferences: []
+            transform: ""
+        transform: ""
+      - acceptedValues:
+          strictMatch: true
+          values: []
+        appliedColumnTests: {}
+        columnReference:
+          columnCounter: de733818-b4e5-463e-b748-660666ace231
+          stepCounter: 2a59728e-5976-4921-b83b-7223af679bef
+        config: {}
+        dataType: STRING
+        defaultValue: ""
+        description: Schema containing the referenced constraint.
+        name: unique_constraint_schema
+        nullable: false
+        sourceColumnReferences:
+          - columnReferences: []
+            transform: ""
+        transform: ""
+      - acceptedValues:
+          strictMatch: true
+          values: []
+        appliedColumnTests: {}
+        columnReference:
+          columnCounter: ac073c94-9395-4cab-83b0-bd6c966cdd66
+          stepCounter: 2a59728e-5976-4921-b83b-7223af679bef
+        config: {}
+        dataType: STRING
+        defaultValue: ""
+        description: Name of the referenced constraint.
+        name: unique_constraint_name
+        nullable: false
+        sourceColumnReferences:
+          - columnReferences: []
+            transform: ""
+        transform: ""
+      - acceptedValues:
+          strictMatch: true
+          values: []
+        appliedColumnTests: {}
+        columnReference:
+          columnCounter: 46a61e9f-2ae5-4375-889f-8c3e85c58126
+          stepCounter: 2a59728e-5976-4921-b83b-7223af679bef
+        config: {}
+        dataType: STRING
+        defaultValue: ""
+        description: Always FULL, reserved for future use..
+        name: match_option
+        nullable: false
+        sourceColumnReferences:
+          - columnReferences: []
+            transform: ""
+        transform: ""
+      - acceptedValues:
+          strictMatch: true
+          values: []
+        appliedColumnTests: {}
+        columnReference:
+          columnCounter: ca7b2398-68cb-4cbb-898d-f4e46278495d
+          stepCounter: 2a59728e-5976-4921-b83b-7223af679bef
+        config: {}
+        dataType: STRING
+        defaultValue: ""
+        description: Always NO ACTION, reserved for future use.
+        name: update_rule
+        nullable: false
+        sourceColumnReferences:
+          - columnReferences: []
+            transform: ""
+        transform: ""
+      - acceptedValues:
+          strictMatch: true
+          values: []
+        appliedColumnTests: {}
+        columnReference:
+          columnCounter: 4b15f323-a4f8-4b61-a5f2-bfe49cecf492
+          stepCounter: 2a59728e-5976-4921-b83b-7223af679bef
+        config: {}
+        dataType: STRING
+        defaultValue: ""
+        description: Always NO ACTION, reserved for future use.
+        name: delete_rule
+        nullable: false
+        sourceColumnReferences:
+          - columnReferences: []
+            transform: ""
+        transform: ""
+  name: referential_constraints
+  schema: ""
+  sqlType: Source
+  type: sourceInput
+  version: 1
+type: Node

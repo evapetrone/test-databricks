@@ -1,0 +1,271 @@
+fileVersion: 1
+id: f94bf934-306e-4b25-88d5-b0f661f65f96
+name: tables
+operation:
+  database: ""
+  deployEnabled: true
+  description: ""
+  locationName: WORK
+  metadata:
+    columns:
+      - acceptedValues:
+          strictMatch: true
+          values: []
+        appliedColumnTests: {}
+        columnReference:
+          columnCounter: 0df0b6bd-4aab-4337-a3ac-b32f1a12122a
+          stepCounter: f94bf934-306e-4b25-88d5-b0f661f65f96
+        config: {}
+        dataType: STRING
+        defaultValue: ""
+        description: Catalog that contains the relation.
+        name: table_catalog
+        nullable: false
+        sourceColumnReferences:
+          - columnReferences: []
+            transform: ""
+        transform: ""
+      - acceptedValues:
+          strictMatch: true
+          values: []
+        appliedColumnTests: {}
+        columnReference:
+          columnCounter: bc782d62-c597-44b7-a7a7-db31ae8cc618
+          stepCounter: f94bf934-306e-4b25-88d5-b0f661f65f96
+        config: {}
+        dataType: STRING
+        defaultValue: ""
+        description: Schema that contains the relation.
+        name: table_schema
+        nullable: false
+        sourceColumnReferences:
+          - columnReferences: []
+            transform: ""
+        transform: ""
+      - acceptedValues:
+          strictMatch: true
+          values: []
+        appliedColumnTests: {}
+        columnReference:
+          columnCounter: 39774136-b9f2-405c-ad0a-dd682431d951
+          stepCounter: f94bf934-306e-4b25-88d5-b0f661f65f96
+        config: {}
+        dataType: STRING
+        defaultValue: ""
+        description: Name of the relation.
+        name: table_name
+        nullable: false
+        sourceColumnReferences:
+          - columnReferences: []
+            transform: ""
+        transform: ""
+      - acceptedValues:
+          strictMatch: true
+          values: []
+        appliedColumnTests: {}
+        columnReference:
+          columnCounter: 2a0ec923-bf6f-4786-9fe2-fddf4fe0ddb9
+          stepCounter: f94bf934-306e-4b25-88d5-b0f661f65f96
+        config: {}
+        dataType: STRING
+        defaultValue: ""
+        description: One of 'BASE TABLE', 'VIEW'.
+        name: table_type
+        nullable: false
+        sourceColumnReferences:
+          - columnReferences: []
+            transform: ""
+        transform: ""
+      - acceptedValues:
+          strictMatch: true
+          values: []
+        appliedColumnTests: {}
+        columnReference:
+          columnCounter: 7a216229-b288-4797-a6ae-6094632cf4f6
+          stepCounter: f94bf934-306e-4b25-88d5-b0f661f65f96
+        config: {}
+        dataType: STRING
+        defaultValue: ""
+        description: "'YES' if the relation can be inserted into, 'NO' otherwise."
+        name: is_insertable_into
+        nullable: false
+        sourceColumnReferences:
+          - columnReferences: []
+            transform: ""
+        transform: ""
+      - acceptedValues:
+          strictMatch: true
+          values: []
+        appliedColumnTests: {}
+        columnReference:
+          columnCounter: 3ff27fc4-1215-4924-bd8b-f4be235e9ce5
+          stepCounter: f94bf934-306e-4b25-88d5-b0f661f65f96
+        config: {}
+        dataType: STRING
+        defaultValue: ""
+        description: Always 'PRESERVE'. Reserved for future use.
+        name: commit_action
+        nullable: false
+        sourceColumnReferences:
+          - columnReferences: []
+            transform: ""
+        transform: ""
+      - acceptedValues:
+          strictMatch: true
+          values: []
+        appliedColumnTests: {}
+        columnReference:
+          columnCounter: 5a89eb05-9bc4-4f56-b999-9d02a9bc0b46
+          stepCounter: f94bf934-306e-4b25-88d5-b0f661f65f96
+        config: {}
+        dataType: STRING
+        defaultValue: ""
+        description: User or group (principal) currently owning the relation.
+        name: table_owner
+        nullable: false
+        sourceColumnReferences:
+          - columnReferences: []
+            transform: ""
+        transform: ""
+      - acceptedValues:
+          strictMatch: true
+          values: []
+        appliedColumnTests: {}
+        columnReference:
+          columnCounter: 3aad9bb8-4cfb-4ecb-a059-039ddc7252ac
+          stepCounter: f94bf934-306e-4b25-88d5-b0f661f65f96
+        config: {}
+        dataType: STRING
+        defaultValue: ""
+        description: An optional comment that describes the relation.
+        name: comment
+        nullable: true
+        sourceColumnReferences:
+          - columnReferences: []
+            transform: ""
+        transform: ""
+      - acceptedValues:
+          strictMatch: true
+          values: []
+        appliedColumnTests: {}
+        columnReference:
+          columnCounter: c39b5c4b-d897-4769-bb3f-b72b898b56af
+          stepCounter: f94bf934-306e-4b25-88d5-b0f661f65f96
+        config: {}
+        dataType: TIMESTAMP
+        defaultValue: ""
+        description: Timestamp when the relation was created.
+        name: created
+        nullable: false
+        sourceColumnReferences:
+          - columnReferences: []
+            transform: ""
+        transform: ""
+      - acceptedValues:
+          strictMatch: true
+          values: []
+        appliedColumnTests: {}
+        columnReference:
+          columnCounter: 51403283-5c4f-43ea-b878-9f2f3c937da1
+          stepCounter: f94bf934-306e-4b25-88d5-b0f661f65f96
+        config: {}
+        dataType: STRING
+        defaultValue: ""
+        description: Principal which created the relation.
+        name: created_by
+        nullable: false
+        sourceColumnReferences:
+          - columnReferences: []
+            transform: ""
+        transform: ""
+      - acceptedValues:
+          strictMatch: true
+          values: []
+        appliedColumnTests: {}
+        columnReference:
+          columnCounter: 2bd81be3-b936-4f00-9e7f-44e3734682b9
+          stepCounter: f94bf934-306e-4b25-88d5-b0f661f65f96
+        config: {}
+        dataType: TIMESTAMP
+        defaultValue: ""
+        description: Timestamp when the relation definition was last altered in any way.
+        name: last_altered
+        nullable: false
+        sourceColumnReferences:
+          - columnReferences: []
+            transform: ""
+        transform: ""
+      - acceptedValues:
+          strictMatch: true
+          values: []
+        appliedColumnTests: {}
+        columnReference:
+          columnCounter: 0f9d5ec5-faee-43ac-a9f9-2e09834154c0
+          stepCounter: f94bf934-306e-4b25-88d5-b0f661f65f96
+        config: {}
+        dataType: STRING
+        defaultValue: ""
+        description: Principal which last altered the relation.
+        name: last_altered_by
+        nullable: false
+        sourceColumnReferences:
+          - columnReferences: []
+            transform: ""
+        transform: ""
+      - acceptedValues:
+          strictMatch: true
+          values: []
+        appliedColumnTests: {}
+        columnReference:
+          columnCounter: 1a7678e2-bda5-40fd-92aa-20a04053c4cd
+          stepCounter: f94bf934-306e-4b25-88d5-b0f661f65f96
+        config: {}
+        dataType: STRING
+        defaultValue: ""
+        description: Format of the data source such as PARQUET, or CSV.
+        name: data_source_format
+        nullable: false
+        sourceColumnReferences:
+          - columnReferences: []
+            transform: ""
+        transform: ""
+      - acceptedValues:
+          strictMatch: true
+          values: []
+        appliedColumnTests: {}
+        columnReference:
+          columnCounter: 019713db-4d59-4314-b88a-573e3cd3538a
+          stepCounter: f94bf934-306e-4b25-88d5-b0f661f65f96
+        config: {}
+        dataType: STRING
+        defaultValue: ""
+        description: Path to the storage of an external table, NULL otherwise.
+        name: storage_sub_directory
+        nullable: true
+        sourceColumnReferences:
+          - columnReferences: []
+            transform: ""
+        transform: ""
+      - acceptedValues:
+          strictMatch: true
+          values: []
+        appliedColumnTests: {}
+        columnReference:
+          columnCounter: 9e3560cd-8f32-4476-8cea-744056e3a800
+          stepCounter: f94bf934-306e-4b25-88d5-b0f661f65f96
+        config: {}
+        dataType: STRING
+        defaultValue: ""
+        description: ""
+        name: storage_path
+        nullable: true
+        sourceColumnReferences:
+          - columnReferences: []
+            transform: ""
+        transform: ""
+  name: tables
+  schema: ""
+  sqlType: Source
+  type: sourceInput
+  version: 1
+type: Node

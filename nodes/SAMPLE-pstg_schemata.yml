@@ -1,0 +1,290 @@
+fileVersion: 1
+id: 4a764fc9-787e-4542-b73f-728d7f9ea0b6
+name: pstg_schemata
+operation:
+  config:
+    groupByAll: false
+    insertStrategy: UNION ALL
+    orderby: false
+    orderbycolumn:
+      items:
+        - {}
+    postSQL: ""
+    preSQL: ""
+    selectDistinct: false
+    testsEnabled: false
+    truncateBefore: false
+  database: ""
+  deployEnabled: true
+  description: ""
+  isMultisource: false
+  locationName: SAMPLE
+  materializationType: table
+  metadata:
+    appliedNodeTests: []
+    columns:
+      - acceptedValues:
+          strictMatch: true
+          values: []
+        appliedColumnTests: {}
+        columnReference:
+          columnCounter: 8c886847-0e4f-4a5e-bfe6-ef09eada27b9
+          stepCounter: 4a764fc9-787e-4542-b73f-728d7f9ea0b6
+        config: {}
+        dataType: BIGINT
+        defaultValue: ""
+        description: ""
+        isSurrogateKey: true
+        name: pstg_schemata_KEY
+        nullable: true
+        sourceColumnReferences:
+          - columnReferences: []
+            transform: ""
+      - appliedColumnTests: {}
+        columnReference:
+          columnCounter: b2ca108f-4a80-47a2-bf27-f16405553406
+          stepCounter: 4a764fc9-787e-4542-b73f-728d7f9ea0b6
+        config: {}
+        dataType: STRING
+        description: Catalog containing the schema.
+        name: catalog_name
+        nullable: false
+        sourceColumnReferences:
+          - columnReferences:
+              - columnCounter: 5248fcfe-d3bb-4bc1-9715-f7f5cc5520f1
+                stepCounter: 02a1e43a-b875-450b-b2e0-7c4f5849ad88
+            transform: ""
+      - appliedColumnTests: {}
+        columnReference:
+          columnCounter: dcb67684-cc84-4679-ba7d-96f38ddf123c
+          stepCounter: 4a764fc9-787e-4542-b73f-728d7f9ea0b6
+        config: {}
+        dataType: STRING
+        description: Name of the schema.
+        name: schema_name
+        nullable: false
+        sourceColumnReferences:
+          - columnReferences:
+              - columnCounter: 62ece25d-3deb-460c-b4d6-c83ea9d42521
+                stepCounter: 02a1e43a-b875-450b-b2e0-7c4f5849ad88
+            transform: ""
+      - appliedColumnTests: {}
+        columnReference:
+          columnCounter: 8e31613c-8f58-44a8-aec4-c61d96487d7a
+          stepCounter: 4a764fc9-787e-4542-b73f-728d7f9ea0b6
+        config: {}
+        dataType: STRING
+        description: User or group (principal) that currently owns the schema.
+        name: schema_owner
+        nullable: false
+        sourceColumnReferences:
+          - columnReferences:
+              - columnCounter: 9193122d-4465-404f-95b1-858a7b7eb414
+                stepCounter: 02a1e43a-b875-450b-b2e0-7c4f5849ad88
+            transform: ""
+      - appliedColumnTests: {}
+        columnReference:
+          columnCounter: f48ceb6e-4821-4acb-baf8-3c4e31db5884
+          stepCounter: 4a764fc9-787e-4542-b73f-728d7f9ea0b6
+        config: {}
+        dataType: STRING
+        description: An optional comment that describes the relation.
+        name: comment
+        nullable: true
+        sourceColumnReferences:
+          - columnReferences:
+              - columnCounter: 115af248-ffbb-405a-99b7-68dcdd78844b
+                stepCounter: 02a1e43a-b875-450b-b2e0-7c4f5849ad88
+            transform: ""
+      - appliedColumnTests: {}
+        columnReference:
+          columnCounter: fc294823-7d93-49d9-9ffb-0dcc89c595a3
+          stepCounter: 4a764fc9-787e-4542-b73f-728d7f9ea0b6
+        config: {}
+        dataType: TIMESTAMP
+        description: Timestamp when the relation was created.
+        name: created
+        nullable: false
+        sourceColumnReferences:
+          - columnReferences:
+              - columnCounter: 6f5ce6cb-f6ce-4fee-b482-3b59a99f8d22
+                stepCounter: 02a1e43a-b875-450b-b2e0-7c4f5849ad88
+            transform: ""
+      - appliedColumnTests: {}
+        columnReference:
+          columnCounter: bfbbff46-6fd7-4d1d-a969-6924fb558d9b
+          stepCounter: 4a764fc9-787e-4542-b73f-728d7f9ea0b6
+        config: {}
+        dataType: STRING
+        description: Principal which created the relation.
+        name: created_by
+        nullable: false
+        sourceColumnReferences:
+          - columnReferences:
+              - columnCounter: cf7bec87-9411-449b-a08e-f2bede7162fd
+                stepCounter: 02a1e43a-b875-450b-b2e0-7c4f5849ad88
+            transform: ""
+      - appliedColumnTests: {}
+        columnReference:
+          columnCounter: a9597bbf-d47c-44b2-9159-3b9b2b95c53b
+          stepCounter: 4a764fc9-787e-4542-b73f-728d7f9ea0b6
+        config: {}
+        dataType: TIMESTAMP
+        description: Timestamp when the relation definition was last altered in any way.
+        name: last_altered
+        nullable: false
+        sourceColumnReferences:
+          - columnReferences:
+              - columnCounter: c5273469-ff1a-4540-a234-b748948df082
+                stepCounter: 02a1e43a-b875-450b-b2e0-7c4f5849ad88
+            transform: ""
+      - appliedColumnTests: {}
+        columnReference:
+          columnCounter: 044966b1-56fb-4624-947a-594bdf46f8be
+          stepCounter: 4a764fc9-787e-4542-b73f-728d7f9ea0b6
+        config: {}
+        dataType: STRING
+        description: Principal which last altered the relation.
+        name: last_altered_by
+        nullable: false
+        sourceColumnReferences:
+          - columnReferences:
+              - columnCounter: 86a412d0-2205-47e0-b2e5-1135f7b83d88
+                stepCounter: 02a1e43a-b875-450b-b2e0-7c4f5849ad88
+            transform: ""
+      - appliedColumnTests: {}
+        columnReference:
+          columnCounter: b697b4c2-eb8e-4391-bd49-f2a863cf8eab
+          stepCounter: 4a764fc9-787e-4542-b73f-728d7f9ea0b6
+        config: {}
+        dataType: STRING
+        description: The external location where the schema was stored
+        name: url
+        nullable: true
+        sourceColumnReferences:
+          - columnReferences:
+              - columnCounter: 9e2c9431-fb49-4add-8a22-c531a4292ece
+                stepCounter: 02a1e43a-b875-450b-b2e0-7c4f5849ad88
+            transform: ""
+      - acceptedValues:
+          strictMatch: true
+          values: []
+        appliedColumnTests: {}
+        columnReference:
+          columnCounter: 3e075ab3-5421-4f62-bb19-6d75cc84b903
+          stepCounter: 4a764fc9-787e-4542-b73f-728d7f9ea0b6
+        config: {}
+        dataType: NUMERIC
+        defaultValue: ""
+        description: ""
+        isSystemVersion: true
+        name: SYSTEM_VERSION
+        nullable: true
+        sourceColumnReferences:
+          - columnReferences: []
+            transform: ""
+      - acceptedValues:
+          strictMatch: true
+          values: []
+        appliedColumnTests: {}
+        columnReference:
+          columnCounter: 0631c315-7329-4889-9ab8-2e35e6d98690
+          stepCounter: 4a764fc9-787e-4542-b73f-728d7f9ea0b6
+        config: {}
+        dataType: VARCHAR(1)
+        defaultValue: ""
+        description: ""
+        isSystemCurrentFlag: true
+        name: SYSTEM_CURRENT_FLAG
+        nullable: true
+        sourceColumnReferences:
+          - columnReferences: []
+            transform: ""
+      - acceptedValues:
+          strictMatch: true
+          values: []
+        appliedColumnTests: {}
+        columnReference:
+          columnCounter: fb10edb4-77ea-46aa-9a59-e97912a64cdb
+          stepCounter: 4a764fc9-787e-4542-b73f-728d7f9ea0b6
+        config: {}
+        dataType: TIMESTAMP
+        defaultValue: ""
+        description: ""
+        isSystemStartDate: true
+        name: SYSTEM_START_DATE
+        nullable: true
+        sourceColumnReferences:
+          - columnReferences: []
+            transform: CAST(CURRENT_TIMESTAMP AS TIMESTAMP)
+      - acceptedValues:
+          strictMatch: true
+          values: []
+        appliedColumnTests: {}
+        columnReference:
+          columnCounter: 7ec61a4a-5b3e-417c-9b43-3a880678b36b
+          stepCounter: 4a764fc9-787e-4542-b73f-728d7f9ea0b6
+        config: {}
+        dataType: TIMESTAMP
+        defaultValue: ""
+        description: ""
+        isSystemEndDate: true
+        name: SYSTEM_END_DATE
+        nullable: true
+        sourceColumnReferences:
+          - columnReferences: []
+            transform: CAST('2999-12-31 00:00:00' AS TIMESTAMP)
+      - acceptedValues:
+          strictMatch: true
+          values: []
+        appliedColumnTests: {}
+        columnReference:
+          columnCounter: 03144fe7-c325-4611-802e-59ddf502f3b9
+          stepCounter: 4a764fc9-787e-4542-b73f-728d7f9ea0b6
+        config: {}
+        dataType: TIMESTAMP
+        defaultValue: ""
+        description: ""
+        isSystemCreateDate: true
+        name: SYSTEM_CREATE_DATE
+        nullable: true
+        sourceColumnReferences:
+          - columnReferences: []
+            transform: CAST(CURRENT_TIMESTAMP AS TIMESTAMP)
+      - acceptedValues:
+          strictMatch: true
+          values: []
+        appliedColumnTests: {}
+        columnReference:
+          columnCounter: 3867605b-e101-4643-b565-6455078b8888
+          stepCounter: 4a764fc9-787e-4542-b73f-728d7f9ea0b6
+        config: {}
+        dataType: TIMESTAMP
+        defaultValue: ""
+        description: ""
+        isSystemUpdateDate: true
+        name: SYSTEM_UPDATE_DATE
+        nullable: true
+        sourceColumnReferences:
+          - columnReferences: []
+            transform: CAST(CURRENT_TIMESTAMP AS TIMESTAMP)
+    cteString: ""
+    enabledColumnTestIDs: []
+    sourceMapping:
+      - aliases: {}
+        customSQL:
+          customSQL: ""
+        dependencies:
+          - locationName: WORK
+            nodeName: schemata
+        join:
+          joinCondition: FROM {{ ref('WORK', 'schemata') }} `schemata`
+        name: pstg_schemata
+        noLinkRefs: []
+  name: pstg_schemata
+  overrideSQL: false
+  schema: ""
+  sqlType: persistentStage
+  type: sql
+  version: 1
+type: Node
