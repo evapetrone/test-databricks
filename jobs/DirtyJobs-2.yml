@@ -1,0 +1,6 @@
+excludeSelector: ""
+fileVersion: 1
+id: "2"
+includeSelector: "{stg_orders}"
+name: Dirty Jobs
+type: Job
