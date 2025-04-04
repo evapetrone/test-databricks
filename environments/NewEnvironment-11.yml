@@ -1,0 +1,11 @@
+fileVersion: 1
+id: "11"
+mappingDefinitions:
+  SAMPLE:
+    database: ben-dev
+    schema: default
+  WORK:
+    database: ash_dev
+    schema: default
+name: New Environment
+type: Environment
